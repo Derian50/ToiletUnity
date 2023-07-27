@@ -1,0 +1,14 @@
+ToiletGift.png
+size:512,512
+filter:Linear,Linear
+pma:true
+close
+bounds:113,30,128,53
+offsets:1,1,130,55
+open
+bounds:0,0,83,111
+offsets:1,1,85,113
+rotate:90
+toilet
+bounds:0,85,203,208
+offsets:1,1,205,210

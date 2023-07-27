@@ -1,0 +1,6 @@
+hand.png
+size:256,128
+filter:Linear,Linear
+pma:true
+hand1
+bounds:2,2,128,119

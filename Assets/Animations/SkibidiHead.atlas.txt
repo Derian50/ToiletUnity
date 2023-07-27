@@ -1,0 +1,776 @@
+SkibidiHead.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+1/head
+bounds:0,802,249,319
+offsets:1,1,251,321
+rotate:90
+1/leye
+bounds:819,1700,80,76
+offsets:1,1,82,78
+1/leye2
+bounds:1151,1688,80,77
+offsets:1,1,82,79
+1/liris
+bounds:25,1999,12,11
+offsets:1,1,14,13
+1/mouth
+bounds:691,1508,145,103
+offsets:1,1,147,106
+1/mouth2
+bounds:1078,1494,129,106
+offsets:1,1,141,109
+1/mouth3
+bounds:1445,1586,148,87
+offsets:2,1,151,89
+1/mouth4
+bounds:673,1705,144,71
+offsets:2,3,147,76
+1/mouth5
+bounds:1151,1889,121,47
+offsets:1,2,123,50
+1/mouth6
+bounds:1209,1483,141,110
+offsets:1,1,146,112
+1/neck
+bounds:1019,1228,128,193
+offsets:0,7,130,200
+rotate:90
+1/nose
+bounds:271,1948,78,36
+offsets:1,1,80,38
+1/reye
+bounds:901,1696,76,82
+offsets:1,1,78,84
+rotate:90
+1/reye2
+bounds:985,1694,76,82
+offsets:1,1,78,84
+rotate:90
+1/riris
+bounds:39,1999,13,11
+offsets:1,1,16,13
+1/toilet
+bounds:0,462,297,529
+offsets:1,1,299,531
+rotate:90
+2/head
+bounds:1601,595,269,321
+offsets:1,2,271,324
+rotate:90
+2/leye
+bounds:355,1788,68,59
+offsets:1,1,70,61
+2/leye2
+bounds:788,1894,46,53
+offsets:1,1,48,55
+rotate:90
+2/mouth
+bounds:476,1899,91,45
+offsets:1,1,93,48
+2/mouth4
+bounds:476,1899,91,45
+offsets:1,1,93,48
+2/mouth2
+bounds:1284,1830,100,55
+offsets:1,1,102,57
+2/mouth3
+bounds:1367,1936,130,40
+offsets:1,1,132,42
+2/mouth5
+bounds:332,1986,93,24
+offsets:1,1,95,26
+2/mouth6
+bounds:785,1839,53,66
+offsets:1,1,55,68
+rotate:90
+2/neck
+bounds:0,1280,124,194
+offsets:0,0,130,194
+rotate:90
+2/nose
+bounds:1314,1763,69,65
+offsets:1,1,71,67
+2/reye
+bounds:492,1783,68,60
+offsets:1,1,70,62
+2/reye2
+bounds:843,1894,46,53
+offsets:1,1,48,55
+rotate:90
+2/toilet
+bounds:531,411,297,529
+offsets:1,1,299,531
+rotate:90
+3/head
+bounds:1010,960,238,349
+offsets:1,1,240,351
+rotate:90
+3/leye
+bounds:1967,1928,44,46
+offsets:2,1,48,48
+rotate:90
+3/leye2
+bounds:974,1940,40,41
+offsets:1,2,42,44
+rotate:90
+3/mouth
+bounds:1822,1748,124,67
+offsets:1,2,126,70
+3/mouth2
+bounds:739,1613,114,85
+offsets:1,1,117,87
+3/mouth3
+bounds:1487,1760,136,66
+offsets:1,1,139,68
+3/mouth4
+bounds:927,1837,121,53
+offsets:3,2,125,56
+3/mouth5
+bounds:700,1984,115,26
+offsets:1,1,117,28
+3/mouth6
+bounds:924,1774,61,80
+offsets:2,3,65,84
+rotate:90
+3/neck
+bounds:351,1401,122,190
+offsets:0,0,128,190
+rotate:90
+3/nose
+bounds:425,1785,65,59
+offsets:1,1,67,61
+3/reye
+bounds:641,1897,50,46
+offsets:2,1,53,48
+3/reye2
+bounds:1971,1974,36,40
+offsets:1,1,38,42
+rotate:90
+4/head
+bounds:897,710,248,426
+offsets:1,1,251,428
+rotate:90
+4/leye
+bounds:0,1721,81,75
+offsets:2,1,86,77
+4/leye2
+bounds:724,1841,54,59
+offsets:1,2,56,62
+rotate:90
+4/liris
+bounds:1065,1981,31,29
+offsets:1,1,33,31
+4/mouth
+bounds:1559,1934,74,41
+offsets:1,1,78,43
+4/mouth4
+bounds:1559,1934,74,41
+offsets:1,1,78,43
+4/mouth2
+bounds:543,1845,83,52
+offsets:1,1,85,54
+4/mouth3
+bounds:693,1897,93,45
+offsets:1,1,95,48
+4/mouth5
+bounds:1274,1888,84,47
+offsets:1,1,87,50
+4/mouth6
+bounds:1006,1772,63,83
+offsets:1,1,65,85
+rotate:90
+4/neck
+bounds:196,1275,124,195
+offsets:0,0,130,195
+rotate:90
+4/nose
+bounds:339,1849,51,59
+offsets:1,2,54,63
+rotate:90
+4/reye
+bounds:1948,1742,73,74
+offsets:2,2,76,77
+rotate:90
+4/reye2
+bounds:1645,1827,57,58
+offsets:1,3,59,62
+rotate:90
+4/riris
+bounds:1425,1978,32,32
+offsets:1,1,34,34
+5/head
+bounds:340,1013,237,345
+offsets:1,1,239,347
+rotate:90
+5/leye
+bounds:0,1909,62,44
+offsets:2,3,65,48
+5/leye2
+bounds:1574,1977,33,36
+offsets:1,1,37,38
+rotate:90
+5/liris
+bounds:0,2000,10,11
+offsets:1,1,14,13
+rotate:90
+5/mouth
+bounds:1830,1976,67,34
+offsets:1,1,69,36
+5/mouth4
+bounds:1830,1976,67,34
+offsets:1,1,69,36
+5/mouth2
+bounds:569,1899,70,45
+offsets:1,1,72,47
+5/mouth3
+bounds:1899,1976,70,34
+offsets:1,1,72,36
+5/mouth5
+bounds:427,1985,61,25
+offsets:1,1,63,27
+5/mouth6
+bounds:1499,1935,41,58
+offsets:1,1,43,60
+rotate:90
+5/neck
+bounds:1116,1358,123,193
+offsets:0,0,130,193
+rotate:90
+5/nose
+bounds:1713,1883,49,64
+offsets:1,1,53,66
+rotate:90
+5/reye
+bounds:232,1902,61,44
+offsets:1,3,63,48
+5/reye2
+bounds:1459,1978,32,37
+offsets:1,1,34,39
+rotate:90
+5/riris
+bounds:13,2000,10,10
+offsets:1,3,14,14
+5/toilet
+bounds:1062,299,297,529
+offsets:1,1,299,531
+rotate:90
+6/head
+bounds:687,997,242,321
+offsets:1,1,244,323
+rotate:90
+6/leye
+bounds:958,1495,105,118
+offsets:1,1,107,120
+rotate:90
+6/leye2
+bounds:1385,1762,66,100
+offsets:1,1,68,102
+rotate:90
+6/mouth
+bounds:351,1946,100,37
+offsets:1,2,102,41
+6/mouth2
+bounds:1117,1834,103,53
+offsets:1,2,106,56
+6/mouth3
+bounds:1612,1977,103,33
+offsets:1,1,106,35
+6/mouth4
+bounds:453,1946,100,37
+offsets:1,3,102,41
+6/mouth5
+bounds:817,1982,75,28
+offsets:1,1,77,30
+6/mouth6
+bounds:853,1839,53,72
+offsets:1,3,55,76
+rotate:90
+6/neck
+bounds:1311,1346,123,190
+offsets:0,0,130,190
+rotate:90
+6/reye
+bounds:838,1502,104,118
+offsets:1,1,106,120
+rotate:90
+6/reye2
+bounds:1625,1756,66,100
+offsets:1,1,68,102
+rotate:90
+6/toilet
+bounds:0,163,297,529
+offsets:1,1,299,531
+rotate:90
+7/leye
+bounds:295,1902,47,44
+offsets:1,1,50,46
+7/leye2
+bounds:651,1945,38,42
+offsets:1,1,40,44
+rotate:90
+7/liris
+bounds:92,1993,18,17
+offsets:1,1,20,19
+7/mouth
+bounds:1650,1672,169,80
+offsets:1,2,171,83
+7/mouth2
+bounds:1915,1394,172,123
+offsets:1,1,174,125
+rotate:90
+7/mouth3
+bounds:402,1525,172,100
+offsets:1,1,174,102
+7/mouth4
+bounds:1779,1881,169,48
+offsets:1,1,171,50
+7/mouth5
+bounds:562,1781,144,60
+offsets:1,1,146,62
+7/mouth6
+bounds:1360,1887,47,65
+offsets:1,2,50,69
+rotate:90
+7/neck
+bounds:543,1384,122,193
+offsets:0,0,130,193
+rotate:90
+7/nose
+bounds:1727,1754,93,66
+offsets:1,1,95,68
+7/reye
+bounds:898,1894,52,46
+offsets:1,1,54,49
+7/reye2
+bounds:0,1960,37,42
+offsets:1,2,39,45
+rotate:90
+7/riris
+bounds:112,1991,19,21
+offsets:1,1,21,23
+rotate:90
+7/toilet
+bounds:531,112,297,529
+offsets:1,1,299,531
+rotate:90
+8/head
+bounds:0,1053,220,338
+offsets:1,1,225,340
+rotate:90
+8/leye
+bounds:400,1849,72,51
+offsets:1,2,74,54
+8/leye2
+bounds:695,1944,38,52
+offsets:1,1,40,55
+rotate:90
+8/mouth
+bounds:808,1942,74,38
+offsets:2,2,77,41
+8/mouth2
+bounds:1069,1691,76,80
+offsets:1,1,78,82
+rotate:90
+8/mouth3
+bounds:1950,1877,76,49
+offsets:1,1,78,51
+8/mouth4
+bounds:1498,1978,74,32
+offsets:2,2,77,35
+8/mouth5
+bounds:1848,1931,71,43
+offsets:1,1,73,46
+8/mouth6
+bounds:1427,1887,47,65
+offsets:1,2,50,69
+rotate:90
+8/neck
+bounds:1503,1336,123,192
+offsets:0,0,131,192
+rotate:90
+8/nose
+bounds:1798,1932,48,42
+offsets:1,1,53,44
+8/reye
+bounds:202,1850,68,50
+offsets:1,3,70,54
+8/reye2
+bounds:749,1944,38,57
+offsets:1,1,40,59
+rotate:90
+9/head
+bounds:1361,868,241,334
+offsets:1,1,245,336
+rotate:90
+9/leye
+bounds:1494,1886,51,47
+offsets:1,1,53,49
+9/leye2
+bounds:1921,1931,44,43
+offsets:1,1,46,45
+9/liris
+bounds:54,1996,16,14
+offsets:1,2,18,19
+9/mouth
+bounds:628,1843,94,52
+offsets:1,1,96,54
+9/mouth2
+bounds:1776,1822,95,57
+offsets:1,1,97,59
+9/mouth3
+bounds:1017,1939,95,39
+offsets:1,1,97,41
+9/mouth4
+bounds:555,1946,94,37
+offsets:1,1,96,39
+9/mouth5
+bounds:884,1942,88,38
+offsets:1,2,90,41
+9/mouth6
+bounds:1635,1934,41,59
+offsets:1,1,43,61
+rotate:90
+9/neck
+bounds:393,1258,124,190
+offsets:0,0,131,190
+rotate:90
+9/nose
+bounds:44,1955,59,36
+offsets:1,1,63,38
+9/reye
+bounds:289,1988,41,22
+offsets:1,1,43,24
+9/reye2
+bounds:1230,1979,31,37
+offsets:1,1,33,39
+rotate:90
+9/riris
+bounds:72,1994,18,16
+offsets:1,1,20,18
+9/toilet
+bounds:1062,0,297,529
+offsets:1,1,299,531
+rotate:90
+skin 10/head
+bounds:321,761,309,250
+offsets:1,1,311,252
+skin 10/leye
+bounds:1873,1821,58,69
+offsets:1,1,60,71
+rotate:90
+skin 10/leye2
+bounds:1944,1817,58,69
+offsets:1,1,60,71
+rotate:90
+skin 11/leye2
+bounds:1944,1817,58,69
+offsets:1,1,60,71
+rotate:90
+skin 11/reye2
+bounds:1944,1817,58,69
+offsets:1,1,60,71
+rotate:90
+skin 10/liris
+bounds:490,1985,25,28
+offsets:1,1,27,30
+rotate:90
+skin 10/mouth
+bounds:1697,1445,216,121
+offsets:1,1,219,123
+skin 10/mouth2
+bounds:1214,1200,231,144
+offsets:1,1,233,146
+skin 10/mouth3
+bounds:1807,1568,231,90
+offsets:1,1,233,92
+skin 10/mouth4
+bounds:83,1719,216,69
+offsets:1,1,219,71
+skin 10/mouth5
+bounds:1595,1582,210,88
+offsets:2,1,213,90
+skin 10/mouth6
+bounds:1447,1173,163,161
+offsets:1,2,165,164
+skin 10/neck
+bounds:738,1378,122,186
+offsets:0,0,128,186
+rotate:90
+skin 10/reye
+bounds:0,1798,58,69
+offsets:1,1,60,71
+rotate:90
+skin 10/reye2
+bounds:71,1798,58,69
+offsets:1,1,60,71
+rotate:90
+skin 10/riris
+bounds:520,1985,25,28
+offsets:1,1,27,30
+rotate:90
+skin 11/head
+bounds:1325,598,268,274
+offsets:1,1,270,276
+rotate:90
+skin 11/leye
+bounds:1091,1769,63,74
+offsets:1,1,65,76
+rotate:90
+skin 11/liris
+bounds:1696,1934,41,49
+offsets:1,1,43,51
+rotate:90
+skin 11/mouth
+bounds:159,1529,241,96
+offsets:1,1,243,99
+skin 11/mouth2
+bounds:779,1241,238,127
+offsets:1,1,241,129
+skin 11/mouth3
+bounds:399,1627,238,80
+offsets:1,1,241,82
+skin 11/mouth4
+bounds:301,1714,171,69
+offsets:1,1,173,71
+skin 11/mouth5
+bounds:894,1982,169,28
+offsets:1,1,171,30
+skin 11/mouth6
+bounds:1283,1595,160,86
+offsets:1,1,162,89
+skin 11/neck
+bounds:585,1252,124,192
+offsets:0,0,128,192
+rotate:90
+skin 11/reye
+bounds:1167,1767,63,74
+offsets:1,1,65,76
+rotate:90
+skin 11/riris
+bounds:1747,1934,41,49
+offsets:1,1,43,51
+rotate:90
+skin 12/head
+bounds:1697,866,243,326
+offsets:1,1,245,328
+rotate:90
+skin 12/liris
+bounds:299,1628,84,98
+offsets:1,1,86,100
+rotate:90
+skin 12/liris2
+bounds:299,1628,84,98
+offsets:1,1,86,100
+rotate:90
+skin 12/mouth
+bounds:0,1858,200,48
+offsets:1,1,203,59
+skin 12/mouth2
+bounds:1352,1471,211,113
+offsets:1,1,213,115
+skin 12/mouth3
+bounds:142,1790,211,57
+offsets:1,1,213,59
+skin 12/mouth4
+bounds:1114,1938,200,39
+offsets:1,1,203,49
+skin 12/mouth5
+bounds:64,1908,166,42
+offsets:1,1,168,44
+skin 12/mouth6
+bounds:1059,1602,222,83
+offsets:1,1,224,85
+skin 12/neck
+bounds:1697,1320,123,193
+offsets:0,0,128,193
+rotate:90
+skin 12/riris
+bounds:639,1619,84,98
+offsets:1,1,86,100
+rotate:90
+skin 12/riris2
+bounds:639,1619,84,98
+offsets:1,1,86,100
+rotate:90
+skin 13/head
+bounds:1612,1111,207,350
+offsets:1,1,209,353
+rotate:90
+skin 13/leye
+bounds:1222,1832,54,60
+offsets:1,2,56,63
+rotate:90
+skin 13/leye2
+bounds:1243,1764,64,69
+offsets:1,3,66,73
+rotate:90
+skin 13/mouth
+bounds:1489,1828,56,154
+offsets:2,1,59,156
+rotate:90
+skin 13/mouth2
+bounds:0,1418,121,157
+offsets:1,1,123,159
+rotate:90
+skin 13/mouth3
+bounds:0,1541,96,157
+offsets:1,1,98,159
+rotate:90
+skin 13/mouth4
+bounds:1269,1979,31,154
+offsets:1,1,33,156
+rotate:90
+skin 13/mouth5
+bounds:156,1989,21,131
+offsets:1,1,23,133
+rotate:90
+skin 13/mouth6
+bounds:1233,1687,74,142
+offsets:1,1,76,144
+rotate:90
+skin 13/neck
+bounds:926,1370,122,188
+offsets:0,0,128,188
+rotate:90
+skin 13/reye
+bounds:272,1850,50,65
+offsets:2,2,53,68
+rotate:90
+skin 13/reye2
+bounds:1705,1824,57,69
+offsets:1,3,59,74
+rotate:90
+skin 13/ueye
+bounds:1050,1837,53,65
+offsets:1,1,55,67
+rotate:90
+skin 13/ueye2
+bounds:474,1846,51,67
+offsets:1,1,53,69
+rotate:90
+skin 14/head
+bounds:632,733,263,262
+offsets:1,1,265,264
+skin 14/mouth
+bounds:474,1709,197,70
+offsets:1,1,199,73
+skin 14/mouth2
+bounds:0,1639,215,78
+offsets:1,3,217,83
+skin 14/mouth3
+bounds:708,1778,214,59
+offsets:1,2,217,63
+skin 14/mouth4
+bounds:952,1892,197,44
+offsets:1,1,199,46
+skin 14/mouth5
+bounds:550,1985,148,25
+offsets:1,1,150,27
+skin 14/mouth6
+bounds:1821,1666,102,80
+offsets:1,1,104,83
+skin 14/neck
+bounds:159,1406,121,190
+offsets:0,0,128,190
+rotate:90
+skin 14/ueye
+bounds:576,1515,113,102
+offsets:1,1,117,104
+skin 14/ueye2
+bounds:1565,1461,130,119
+offsets:1,1,132,122
+skin 14/uiris
+bounds:1316,1937,40,49
+offsets:1,1,42,51
+rotate:90
+skin 14/uiris2
+bounds:135,1991,19,19
+offsets:1,1,21,21
+skin 15/head
+bounds:1593,275,367,318
+offsets:1,1,369,320
+skin 15/leye
+bounds:1925,1660,80,84
+offsets:1,1,82,86
+rotate:90
+skin 15/leye2
+bounds:855,1608,202,84
+offsets:1,1,204,86
+skin 15/mouth
+bounds:344,1902,130,42
+offsets:1,1,132,44
+skin 15/mouth2
+bounds:1547,1886,164,46
+offsets:1,1,166,48
+skin 15/mouth3
+bounds:105,1952,164,35
+offsets:1,1,166,37
+skin 15/mouth4
+bounds:1098,1980,130,30
+offsets:1,1,132,32
+skin 15/mouth5
+bounds:1717,1977,111,33
+offsets:1,1,114,35
+skin 15/mouth6
+bounds:1386,1830,55,101
+offsets:1,1,57,103
+rotate:90
+skin 15/neck
+bounds:1377,1683,75,188
+rotate:90
+skin 15/reye
+bounds:217,1633,80,84
+offsets:1,1,82,86
+skin 15/reye2
+bounds:1567,1675,79,81
+offsets:1,1,81,83
+rotate:90
+
+SkibidiHead_2.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+3/toilet
+bounds:547,433,656,506
+offsets:1,1,658,508
+4/toilet
+bounds:0,1384,297,552
+offsets:1,1,299,554
+rotate:90
+7/head
+bounds:1622,1343,338,344
+offsets:1,1,340,346
+rotate:90
+8/toilet
+bounds:553,992,378,529
+offsets:1,1,380,531
+rotate:90
+rocket
+bounds:1084,941,403,528
+offsets:1,1,405,530
+rotate:90
+skin 10/toilet
+bounds:554,1372,309,529
+offsets:1,1,311,531
+rotate:90
+skin 11/toilet
+bounds:0,1039,343,551
+offsets:1,2,345,554
+rotate:90
+skin 12/toilet
+bounds:0,0,545,563
+offsets:1,1,547,565
+skin 13/toilet
+bounds:0,565,472,545
+offsets:1,1,474,547
+rotate:90
+skin 14/toilet
+bounds:1085,1346,335,535
+offsets:1,1,338,537
+rotate:90
+skin 15/toilet
+bounds:1205,401,538,542
+offsets:1,1,540,544
+rotate:90

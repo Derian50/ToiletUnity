@@ -24,12 +24,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342803191415974606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6337152, y: -0.21430844, z: -0.10760839}
+  m_LocalPosition: {x: 0, y: -0.097, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1469311982184044457}
-  - {fileID: 266044495538775908}
+  - {fileID: 380634852076115657}
   - {fileID: 8553446757401935761}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -59,7 +59,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648928452969350569}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5904374, y: -1.8676827, z: 0.10760839}
+  m_LocalPosition: {x: 0.004, y: -0.26, z: 0.10760839}
   m_LocalScale: {x: 0.44743508, y: 0.4307103, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 6167663940651429477}
   - component: {fileID: 3656359680266069343}
   m_Layer: 0
-  m_Name: Spine GameObject (SkibidiHead)
+  m_Name: ScibidiSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,11 +145,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2281844458948510466}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5959263, y: -1.915802, z: 0.10760839}
-  m_LocalScale: {x: 0.2294347, y: 0.19384418, z: 1}
+  m_LocalPosition: {x: 0, y: -1.74, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9002708462254903708}
+  m_Father: {fileID: 380634852076115657}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &830114971867044528
@@ -241,6 +241,38 @@ MonoBehaviour:
   _animationName: 
   loop: 1
   timeScale: 1
+--- !u!1 &8528428805330187862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380634852076115657}
+  m_Layer: 0
+  m_Name: ScibidiHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &380634852076115657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8528428805330187862}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.004, y: 0.043, z: 0}
+  m_LocalScale: {x: 0.2294347, y: 0.19384418, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 266044495538775908}
+  m_Father: {fileID: 9002708462254903708}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9101276462595124014
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9101276462595124014}
   m_LocalRotation: {x: -0, y: -0, z: 0.7115243, w: 0.7026616}
-  m_LocalPosition: {x: -4.587167, y: -1.7711871, z: 0.10760839}
+  m_LocalPosition: {x: 0.004, y: -0.155, z: 0.10760839}
   m_LocalScale: {x: 0.30579185, y: 0.31406993, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

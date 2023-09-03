@@ -5,6 +5,30 @@ TagManager:
   serializedVersion: 2
   tags:
   - spikes
+  - TNT
+  - EnemyDead
+  - Enemy
+  - WoodBar
+  - Ground
+  - Shield
+  - Unbreakable
+  - Teleport
+  - FxTemporaire
+  - EnemyMega
+  - Laser
+  - KillCharacter
+  - Item_Drill
+  - IceBar
+  - WoodBarPinned
+  - PinWoodBar
+  - RealDrill
+  - Rock
+  - ReflectLaser
+  - Rope
+  - Confetti
+  - Explosion
+  - Sparks
+  - EnemyHead
   layers:
   - Default
   - TransparentFX

@@ -11,26 +11,34 @@ using Spine.Unity;
 
 [RequireComponent(typeof(LineRenderer))]
 
-public class LineRenderScript : MonoBehaviour
+public class LineRenderScript : Sounds
 {
     //childObject.transform.parent.gameObject
     UnityEngine.LineRenderer lr;
+    GameObject Confetti;
+    [SerializeField] GameObject UI;
+    UIScript uiScript;
     [SerializeField] Material mat;
     [SerializeField] int minDistance = 2;
     [SerializeField] GameObject ScibidiHead;
-    private bool lose = false;
+    public bool lose = false;
+    public bool win = false;
     private bool pause = false;
+    private SkeletonAnimation ScibidiAnimation;
     private float shX;
     private float shY;
     private float counter = 0;
     private bool isNeckReverse = false;
     List<Vector3> positions = new List<Vector3>();
+    private GameObject Sparks;
 
     List<float> rotatesZ = new List<float>();
 
     void Start()
     {
-
+        PlaySound(sounds[0]);
+        uiScript = UI.GetComponent<UIScript>();
+        ScibidiAnimation = ScibidiHead.GetComponent<Player>().skeletonAnimation;
         shX = ScibidiHead.transform.position.x;
         shY = ScibidiHead.transform.position.y;
         lr = GetComponent<LineRenderer>();
@@ -38,12 +46,21 @@ public class LineRenderScript : MonoBehaviour
         lr.material = mat;
         lr.numCornerVertices = 1;
         positions.Add(new Vector3(shX, shY - 0.4f, 0));
-        positions.Add(new Vector3(shX, shY, 0));
+        positions.Add(new Vector3(shX, shY - 0.2f, 0));
         positions.Add(new Vector3(shX, shY, 0));
         rotatesZ.Add(360);
         rotatesZ.Add(360);
         rotatesZ.Add(360);
         lr.SetPositions(positions.ToArray());
+
+        Sparks = transform.Find("Sparks").gameObject;
+        Sparks.SetActive(false);
+
+        ScibidiAnimation.AnimationName = "idle";
+    }
+    private void winUIScript()
+    {
+        uiScript.win();
     }
     private void restartLevel()
     {
@@ -55,19 +72,45 @@ public class LineRenderScript : MonoBehaviour
         var SceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(SceneIndex + 1);
     }
+
+    private void Dying()
+    {
+        PlaySound(sounds[2]);
+        ScibidiHead.SetActive(false);
+        ScibidiAnimation.enabled = false;
+    }
     private void Losing()
     {
-        ScibidiHead.SetActive(false);
-        ScibidiHead.GetComponent<Player>().skeletonAnimation.enabled = false;
-        Invoke("restartLevel", 1);
+        PlaySound(sounds[1]);
+        PlaySound(sounds[6]);
+        PlaySound(sounds[7]);
+        pause = true;
+        isNeckReverse = false;
+        ScibidiAnimation.AnimationName = "lose";
+        lr.enabled = false;
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach (var enemy in enemies)
+        {
+            enemy.GetComponent<EnemyCamera>().playerLose();
+        }
+        uiScript.lose();
+        Invoke("Dying", 0.9f);
 
     }
-    private void FixedUpdate()
+    private void Winning()
     {
-        if (pause) return;
-        //«десь что-то и SceneManager забыл, во странный, надо бы его позже отсюда убрать
-        //ƒа и голове именно тут двигаетс€ назад, нехорошо это как-то...
-        if (isNeckReverse)
+        PlaySound(sounds[4]);
+        PlaySound(sounds[5]);
+        pause = true;
+        isNeckReverse = false;
+        ScibidiAnimation.AnimationName = "win_loop";
+        Confetti = GameObject.FindGameObjectWithTag("Confetti");
+        Confetti.GetComponent<ParticleSystem>().Play();
+        Sparks.SetActive(true);
+        Invoke("winUIScript", 1);
+    }
+    private void reverseNeck()
+    {
         {
             if (positions.Count > 2 && rotatesZ.Count > 2)
             {
@@ -81,51 +124,93 @@ public class LineRenderScript : MonoBehaviour
             }
             else if (lose)
             {
-                pause = true;
-                isNeckReverse = false;
-                ScibidiHead.GetComponent<Player>().skeletonAnimation.AnimationName = "lose";
-                lr.enabled = false;
-                Invoke("Losing", 1);
+                Losing();
+            }
+            else if (win)
+            {
+                Winning();
             }
             else
             {
-                Invoke("nextLevel", 1);
+                isNeckReverse = false;
+                GameObject.Find("ScibidiHeadPivot").GetComponent<Player>().inNeckReverse = false;
             }
-            
+
+        }
+    }
+    private void moveHead()
+    {
+        shX = ScibidiHead.transform.position.x;
+        shY = ScibidiHead.transform.position.y;
+        counter++;
+        if(positions.Last().x == shX && positions.Last().y == shY)
+        {
+            return;
+        }
+        if (counter < minDistance)
+        {
+            // Debug.Log("return");
+            return;
+        }
+        counter = 0;
+        /* if ((Math.Abs(positions.Last().x) - Math.Abs(shX)) < minDistance && (Math.Abs(shX)) - (Math.Abs(positions.Last().x)) > minDistance)
+         {
+             return;
+         }
+         if ((Math.Abs(positions.Last().y) - Math.Abs(shY)) < minDistance && (Math.Abs(shY)) - (Math.Abs(positions.Last().y)) > minDistance)
+         {
+             return;
+         }*/
+        rotatesZ.Add(ScibidiHead.transform.rotation.eulerAngles.z);
+
+        positions.Add(new Vector3(shX, shY, 0));
+        lr.positionCount++;
+        lr.SetPositions(positions.ToArray());
+
+        ScibidiAnimation.AnimationName = "fly";
+    }
+    private void FixedUpdate()
+    {
+        if (pause) return;
+        if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 0 && !win)
+        {
+            startReverseNeck("win");
+        }
+        //«десь что-то и SceneManager забыл, во странный, надо бы его позже отсюда убрать
+        //ƒа и голове именно тут двигаетс€ назад, нехорошо это как-то...
+        if (isNeckReverse)
+        {
+            reverseNeck();
         }
         else
         {
-            
-            shX = ScibidiHead.transform.position.x;
-            shY = ScibidiHead.transform.position.y;
-            counter++;
-            if (counter < minDistance)
-            {
-                // Debug.Log("return");
-                return;
-            }
-            counter = 0;
-            /* if ((Math.Abs(positions.Last().x) - Math.Abs(shX)) < minDistance && (Math.Abs(shX)) - (Math.Abs(positions.Last().x)) > minDistance)
-             {
-                 return;
-             }
-             if ((Math.Abs(positions.Last().y) - Math.Abs(shY)) < minDistance && (Math.Abs(shY)) - (Math.Abs(positions.Last().y)) > minDistance)
-             {
-                 return;
-             }*/
-            rotatesZ.Add(ScibidiHead.transform.rotation.eulerAngles.z);
-
-            positions.Add(new Vector3(shX, shY, 0));
-            lr.positionCount++;
-            lr.SetPositions(positions.ToArray());
+            moveHead();
         }
         
     }
   
-    public void reverseNeck(bool lose)
+    public void startReverseNeck(string gameEnd)
     {
-        this.lose = lose;
-        isNeckReverse = true;
+        Debug.Log("STARTREVERSENECK");
+        PlaySound(sounds[3]);
+        if(gameEnd == "lose")
+        {
+            lose = true;
+            isNeckReverse = true;
+
+        }
+        else if (gameEnd == "win")
+        {
+            GameObject.Find("ScibidiHeadPivot").GetComponent<Player>().inNeckReverse = true;
+            win = true;
+            isNeckReverse = true;
+        }
+        else if (gameEnd == "nothing")
+        {
+            
+            isNeckReverse = true;
+        }
+
     }
 
 }

@@ -16,7 +16,9 @@ public class Player : MonoBehaviour
     private bool lose = false;
     private LineRenderScript lrScript;
     public bool inNeckReverse = false;
-
+    //private GameObject Explosion;
+    private GameObject Firework;
+    private Vector3 boomVector3 = Vector3.zero;
 
 
     private void Awake()
@@ -25,10 +27,22 @@ public class Player : MonoBehaviour
     }
     void Start()
     {
+        //Explosion = transform.Find("Explosion").gameObject;
+        //Explosion.SetActive(false);
+        Firework = transform.Find("Firework").gameObject;
+        Firework.SetActive(false);
         lrScript = lr.GetComponent<LineRenderScript>();
         rb = GetComponent<Rigidbody2D>();  
     }
     void FixedUpdate(){
+        
+        
+        if (boomVector3 != Vector3.zero)
+        {
+            //Explosion.transform.position = boomVector3;
+            Firework.transform.position = boomVector3;
+            Firework.transform.rotation = Quaternion.identity;
+        }
         if (inNeckReverse)
         {
             rb.velocity = Vector2.zero;
@@ -55,20 +69,43 @@ public class Player : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
 
-        Debug.Log("Someone collision");
-        if (other.gameObject.name == "enemyCamera")
+        Debug.Log("Someone collision " + other.gameObject.tag);
+        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "EnemyDead")
         {
+            //boomVector3 = transform.position;
+           // Explosion.SetActive(true);
             inNeckReverse = true;
-            lrScript.reverseNeck(lose);
+            lrScript.startReverseNeck("nothing");
+            //lrScript.startReverseNeck("win");
         }
         if (other.gameObject.tag == "spikes")
         {
             Debug.Log("Someone died");
             inNeckReverse = true;
             lose = true;
-            lrScript.reverseNeck(lose);
+            lrScript.startReverseNeck("lose");
 
             skeletonAnimation.AnimationName = "touchspikeloop";
+        }
+        if (other.gameObject.tag == "Rope")
+        {
+
+            if(GameObject.Find("Rope") != null)
+            {
+                boomVector3 = transform.position;
+                Firework.SetActive(true);
+                inNeckReverse = true;
+                lrScript.startReverseNeck("win");
+                GameObject.Find("Rope").SetActive(false);
+            }
+            
+        }
+        if (other.gameObject.tag == "TNT")
+        {
+            boomVector3 = transform.position;
+            inNeckReverse = true;
+            lose = true;
+            lrScript.startReverseNeck("lose");
         }
 
     }

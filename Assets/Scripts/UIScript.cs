@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using Button = UnityEngine.UI.Button;
 
 public class UIScript : Sounds
 {
@@ -14,16 +16,38 @@ public class UIScript : Sounds
     private GameObject failPanel;
     private bool isSoundOn = true;
 
+    public TextMeshProUGUI levelNumber;
+    public TextMeshProUGUI levelNumberFail;
+    public TextMeshProUGUI levelNumberVictory;
+
+    public Button skipButton;
+    public Button nextButton;
+    public Button skipFailButton;
+
     private void Start()
     {
         isSoundOn = !AudioListener.pause;
         soundButton();
         soundButton();
+        //Find лучше не юзать, очень производительно затратная 
         mainPanel = transform.Find("MainPanel").gameObject;
         victoryPanel = transform.Find("FinishPanel").Find("VictoryPanel").gameObject;
         failPanel = transform.Find("FinishPanel").Find("FailPanel").gameObject;
         mainPanel.SetActive(true);
         
+        skipButton.onClick.AddListener(SkipLevelButton);
+        skipFailButton.onClick.AddListener(SkipLevelButton);
+
+        nextButton.onClick.AddListener(NextLevelButton);
+
+
+        levelNumber.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
+        levelNumberFail.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
+        levelNumberVictory.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
+        
+        
+
+
     }
     public void soundButton()
     {
@@ -46,17 +70,32 @@ public class UIScript : Sounds
         var SceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(SceneIndex);
     }
-    public void nextLevel()
+
+    public void NextLevelButton()
     {
-        var SceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if(SceneManager.sceneCountInBuildSettings - 1 == SceneIndex)
+        var sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (sceneIndex % 4 == 0)
+            YaSDK.ShowFullscreenAdv(onClose: NextLevel);
+        else
+        {
+            NextLevel();
+        }
+
+    }
+
+    private void NextLevel()
+    {
+        SaveManager.SaveState();
+        var sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if(SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)
         {
             SceneManager.LoadScene(0);
         }
         else
         {
-            SceneManager.LoadScene(SceneIndex + 1);
+            SceneManager.LoadScene(sceneIndex + 1);
         }
+
     }
     private void hideMainPanel()
     {
@@ -72,4 +111,11 @@ public class UIScript : Sounds
         hideMainPanel();
         failPanel.SetActive(true);
     }
+
+    public void SkipLevelButton()
+    {
+        YaSDK.ShowRewardedVideo( onRewarded: NextLevel);
+    }
+    
+        
 }

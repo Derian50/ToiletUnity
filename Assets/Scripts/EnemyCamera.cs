@@ -46,13 +46,17 @@ public class EnemyCamera : Sounds
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!die)
-        {
-            enemy_Rigidbody.isKinematic = true;
-        }
-        else
-        {
-            enemy_Rigidbody.isKinematic = false;
+        if(typeOfCamera == "Jetpuck")
+            {
+                if (!die)
+            {
+               enemy_Rigidbody.isKinematic = true;
+            }
+            else
+            {
+                enemy_Rigidbody.isKinematic = false;
+            }
+        
         }
         if (Vector3.Distance(this.transform.position, ScibidiHead.transform.position) < 2.3f && !die)
         {
@@ -78,7 +82,7 @@ public class EnemyCamera : Sounds
     }
     private void bodyHide()
     {
-        //GetComponent<PolygonCollider2D>().enabled = false;
+        GetComponent<PolygonCollider2D>().enabled = false;
 
     }
     void OnCollisionEnter2D(Collision2D other)
@@ -95,7 +99,7 @@ public class EnemyCamera : Sounds
         {
             skeletonAnimation.AnimationName = "dieloop";
         }
-            Invoke("bodyHide", 2f);
+            Invoke("bodyHide", 0.3f);
             transform.Find("EnemyCameraHead").gameObject.SetActive(true);
             die = true;
             

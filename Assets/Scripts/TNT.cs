@@ -24,13 +24,17 @@ public class TNT : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         if (boom) return;
-        if (other.gameObject.tag == "Rope") return;
-        boom = true;
-        boomVector3 = transform.position;
-        
-        Debug.Log("TNT Collision detected");
-        ExplosionSmoke.SetActive(true);
-        transform.Find("TNTSprite").gameObject.SetActive(false);
+        //if (other.gameObject.tag == "Rope") return;
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyHead")
+        {
+            boom = true;
+            boomVector3 = transform.position;
+
+            Debug.Log("TNT Collision detected");
+            transform.Find("TNTSprite").gameObject.SetActive(false);
+            ExplosionSmoke.SetActive(true);
+        }
+            
 
 
     }

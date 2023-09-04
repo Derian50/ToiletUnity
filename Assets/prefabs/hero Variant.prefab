@@ -149,9 +149,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670fdaa6a826b814c89c0125d5837d89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds: []
+  UI: {fileID: 0}
   mat: {fileID: 2100000, guid: 4ad4f7167d4983147ad870f93ebc9416, type: 2}
   minDistance: 5
   ScibidiHead: {fileID: 117655748177384570}
+  lose: 0
+  win: 0
 --- !u!1001 &8645485868826452524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -230,12 +234,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -392,10 +396,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94449b042230e1045a1fb7c1a8b84684, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skeletonAnimation: {fileID: 0}
   movementJoystick: {fileID: 0}
   playerSpeed: 2
   canvas: {fileID: 0}
   lr: {fileID: 6998067119061535285}
+  inNeckReverse: 0
 --- !u!70 &6851461982008690094
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -453,10 +459,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94449b042230e1045a1fb7c1a8b84684, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skeletonAnimation: {fileID: 0}
   movementJoystick: {fileID: 0}
   playerSpeed: 2
   canvas: {fileID: 0}
   lr: {fileID: 0}
+  inNeckReverse: 0
 --- !u!70 &2901892836049304688
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

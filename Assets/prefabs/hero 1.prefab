@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670fdaa6a826b814c89c0125d5837d89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds: []
   UI: {fileID: 0}
   mat: {fileID: 2100000, guid: 4ad4f7167d4983147ad870f93ebc9416, type: 2}
   minDistance: 5
@@ -233,12 +234,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 

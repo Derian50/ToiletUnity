@@ -624,12 +624,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6167663940651429477, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -734,7 +734,7 @@ PrefabInstance:
       addedObject: {fileID: 4563063699376552512}
     - targetCorrespondingSourceObject: {fileID: 380634852076115657, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8936214239431114034}
+      addedObject: {fileID: 6391789544768237541}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8528428805330187862, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       insertIndex: -1
@@ -978,7 +978,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a5bc5c7ff91804ba17e4584519a3d8, type: 3}
---- !u!4 &8936214239431114034 stripped
+--- !u!4 &6391789544768237541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4261932965991326644, guid: d0a5bc5c7ff91804ba17e4584519a3d8, type: 3}
   m_PrefabInstance: {fileID: 7174621004185455697}

@@ -9,6 +9,7 @@ using Spine;
 
 public class EnemyCamera : Sounds
     {
+        [SerializeField] string typeOfCamera;
         private SkeletonAnimation skeletonAnimation;
         private Transform go;
         private Animator an;
@@ -16,8 +17,8 @@ public class EnemyCamera : Sounds
         private GameObject ScibidiHead;
         private AnimatorClipInfo[] clipInfo;
         private bool isPlayerLose = false;
-
-        private GameObject Explosion;
+    Rigidbody2D enemy_Rigidbody;
+    private GameObject Explosion;
 
     void Awake()
     {
@@ -27,6 +28,11 @@ public class EnemyCamera : Sounds
     }
     void Start()
     {
+        if(typeOfCamera == "Jetpuck")
+        {
+            Debug.Log("JUTPUCK");
+            enemy_Rigidbody = GetComponent<Rigidbody2D>();
+        }
         Explosion = transform.Find("Explosion").gameObject;
         Explosion.SetActive(false);
         ScibidiHead = GameObject.Find("ScibidiHeadPivot");
@@ -40,15 +46,23 @@ public class EnemyCamera : Sounds
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (!die)
+        {
+            enemy_Rigidbody.isKinematic = true;
+        }
+        else
+        {
+            enemy_Rigidbody.isKinematic = false;
+        }
         if (Vector3.Distance(this.transform.position, ScibidiHead.transform.position) < 2.3f && !die)
         {
             if(!(skeletonAnimation.AnimationName == "scare"))
             {
-                PlaySound(sounds[0]);
+                //PlaySound(sounds[0]);
                 skeletonAnimation.AnimationName = "scare";
             }
         }
-        else if(skeletonAnimation.AnimationName == "dieloop")
+        else if(skeletonAnimation.AnimationName == "dieloop" || skeletonAnimation.AnimationName == "die_loop")
         {
             
         }
@@ -64,7 +78,7 @@ public class EnemyCamera : Sounds
     }
     private void bodyHide()
     {
-        GetComponent<PolygonCollider2D>().enabled = false;
+        //GetComponent<PolygonCollider2D>().enabled = false;
 
     }
     void OnCollisionEnter2D(Collision2D other)
@@ -72,10 +86,19 @@ public class EnemyCamera : Sounds
         Debug.Log("Collision detected");
             Explosion.SetActive(true);
             gameObject.tag = "EnemyDead";
+        Debug.Log(typeOfCamera + " Jetpuck");
+            if(typeOfCamera == "Jetpuck")
+        {
+            skeletonAnimation.AnimationName = "die_loop";
+        }
+        else
+        {
+            skeletonAnimation.AnimationName = "dieloop";
+        }
             Invoke("bodyHide", 2f);
             transform.Find("EnemyCameraHead").gameObject.SetActive(true);
             die = true;
-            skeletonAnimation.AnimationName = "dieloop";
+            
             an.enabled = true;
         
         

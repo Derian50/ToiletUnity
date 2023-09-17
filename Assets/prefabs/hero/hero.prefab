@@ -161,7 +161,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 32e828734a0644cd690869289692610c, type: 3}
   - {fileID: 8300000, guid: 25e87755737304f8b8b0f6686cc6d879, type: 3}
   UI: {fileID: 0}
-  mat: {fileID: 2100000, guid: 4ad4f7167d4983147ad870f93ebc9416, type: 2}
+  mat: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
   minDistance: 5
   ScibidiHead: {fileID: 3566202341286652112}
   lose: 0
@@ -668,7 +668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9002708462254903708, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9002708462254903708, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_LocalScale.x
@@ -802,6 +802,7 @@ MonoBehaviour:
   canvas: {fileID: 0}
   lr: {fileID: 6870116697890309199}
   inNeckReverse: 0
+  lastHeadVelocity: {x: 0, y: 0}
 --- !u!70 &7067525595394916098
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -870,6 +871,7 @@ MonoBehaviour:
   canvas: {fileID: 0}
   lr: {fileID: 0}
   inNeckReverse: 0
+  lastHeadVelocity: {x: 0, y: 0}
 --- !u!70 &250181262449538034
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

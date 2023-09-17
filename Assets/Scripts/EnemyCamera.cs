@@ -46,29 +46,30 @@ public class EnemyCamera : Sounds
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(typeOfCamera == "Jetpuck")
+       // Debug.Log(ScibidiHead.GetComponent<Rigidbody2D>().velocity);
+        if (typeOfCamera == "Jetpuck")
             {
-                if (!die)
+            if (!die)
             {
                enemy_Rigidbody.isKinematic = true;
             }
             else
             {
-                enemy_Rigidbody.isKinematic = false;
+                enemy_Rigidbody.bodyType = RigidbodyType2D.Dynamic;
             }
         
         }
-        if (Vector3.Distance(this.transform.position, ScibidiHead.transform.position) < 2.3f && !die)
+        if (skeletonAnimation.AnimationName == "dieloop" || skeletonAnimation.AnimationName == "die_loop")
+        {
+
+        }
+        else if (Vector3.Distance(this.transform.position, ScibidiHead.transform.position) < 2.3f && !die)
         {
             if(!(skeletonAnimation.AnimationName == "scare"))
             {
                 //PlaySound(sounds[0]);
                 skeletonAnimation.AnimationName = "scare";
             }
-        }
-        else if(skeletonAnimation.AnimationName == "dieloop" || skeletonAnimation.AnimationName == "die_loop")
-        {
-            
         }
         else if (isPlayerLose)
         {
@@ -82,16 +83,26 @@ public class EnemyCamera : Sounds
     }
     private void bodyHide()
     {
-        GetComponent<PolygonCollider2D>().enabled = false;
+        GetComponent<BoxCollider2D>().enabled = false;
 
+    }
+    private void DestroyBody()
+    {
+        gameObject.SetActive(false);
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Collision detected");
-            Explosion.SetActive(true);
-            gameObject.tag = "EnemyDead";
-        Debug.Log(typeOfCamera + " Jetpuck");
-            if(typeOfCamera == "Jetpuck")
+        if (other.gameObject.tag == "Ray")
+        {
+            Invoke("DestroyBody", 1);
+        }
+        Debug.Log("ENEMY COLLISION " + other.gameObject.tag);
+        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Untagged" || other.gameObject.tag == "Platform") return;
+        Debug.Log("VELOCITY " + ScibidiHead.GetComponent<Player>().lastHeadVelocity);
+        
+        Explosion.SetActive(true);
+        gameObject.tag = "EnemyDead";
+        if(typeOfCamera == "Jetpuck")
         {
             skeletonAnimation.AnimationName = "die_loop";
         }
@@ -99,8 +110,10 @@ public class EnemyCamera : Sounds
         {
             skeletonAnimation.AnimationName = "dieloop";
         }
-            Invoke("bodyHide", 0.3f);
             transform.Find("EnemyCameraHead").gameObject.SetActive(true);
+            transform.Find("EnemyCameraHead").GetComponent<Rigidbody2D>().velocity = ScibidiHead.GetComponent<Player>().lastHeadVelocity*2;
+            GetComponent<PolygonCollider2D>().enabled = true;
+            GetComponent<BoxCollider2D>().enabled = false;
             die = true;
             
             an.enabled = true;

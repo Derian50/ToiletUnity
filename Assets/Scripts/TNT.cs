@@ -21,18 +21,30 @@ public class TNT : MonoBehaviour
             ExplosionSmoke.transform.rotation = Quaternion.identity;
         }
     }
+   
     void OnCollisionEnter2D(Collision2D other)
     {
         if (boom) return;
         //if (other.gameObject.tag == "Rope") return;
-        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyHead")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "Explosion" || other.gameObject.tag == "EnemyDead")
         {
+            Debug.Log(Vector3.Distance(this.transform.position, GameObject.Find("toilet").transform.position));
+            if (Vector3.Distance(this.transform.position, GameObject.Find("toilet").transform.position) < 2.4f)
+            {
+                Debug.Log("PLAYER MUST DIE");
+                GameObject.Find("ScibidiHeadPivot").GetComponent<Player>().TNTLose();
+            }
+            {
+
+            }
+            transform.Find("coal").gameObject.SetActive(true);
+            transform.Find("TNTSprite").gameObject.SetActive(false);
+            GetComponent<BoxCollider2D>().enabled = false;
+            ExplosionSmoke.SetActive(true);
             boom = true;
             boomVector3 = transform.position;
 
             Debug.Log("TNT Collision detected");
-            transform.Find("TNTSprite").gameObject.SetActive(false);
-            ExplosionSmoke.SetActive(true);
         }
             
 

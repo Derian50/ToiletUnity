@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -40,7 +40,6 @@ public class UIScript : Sounds
 
         nextButton.onClick.AddListener(NextLevelButton);
 
-
         levelNumber.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
         levelNumberFail.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
         levelNumberVictory.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
@@ -51,15 +50,17 @@ public class UIScript : Sounds
     }
     public void soundButton()
     {
-        AudioListener.pause = !AudioListener.pause;
         UnityEngine.UI.Image btn = GameObject.Find("SoundButton").GetComponent<UnityEngine.UI.Image>();
         isSoundOn = !isSoundOn;
         if (isSoundOn)
         {
+            AudioListener.volume = 1.0f;
             btn.sprite = soundOn;
         }
         else
+
         {
+            AudioListener.volume = 0;
             btn.sprite = soundOff;
         }
             
@@ -75,7 +76,10 @@ public class UIScript : Sounds
     {
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if (sceneIndex % 4 == 0)
+        {
             YaSDK.ShowFullscreenAdv(onClose: NextLevel);
+        }
+            
         else
         {
             NextLevel();

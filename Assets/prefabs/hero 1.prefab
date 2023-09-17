@@ -405,6 +405,7 @@ MonoBehaviour:
   canvas: {fileID: 0}
   lr: {fileID: 7652564629692540582}
   inNeckReverse: 0
+  lastHeadVelocity: {x: 0, y: 0}
 --- !u!70 &2561481856165297579
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -468,6 +469,7 @@ MonoBehaviour:
   canvas: {fileID: 0}
   lr: {fileID: 0}
   inNeckReverse: 0
+  lastHeadVelocity: {x: 0, y: 0}
 --- !u!70 &3913477900405893122
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

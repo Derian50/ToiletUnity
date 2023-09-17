@@ -29,6 +29,8 @@ TagManager:
   - Explosion
   - Sparks
   - EnemyHead
+  - Ray
+  - Platform
   layers:
   - Default
   - TransparentFX

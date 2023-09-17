@@ -111,7 +111,7 @@ public class LineRenderScript : Sounds
     }
     private void reverseNeck()
     {
-        {
+        
             if (positions.Count > 2 && rotatesZ.Count > 2)
             {
                 ScibidiHead.transform.transform.eulerAngles = new Vector3(0, 0, rotatesZ[rotatesZ.Count - 1]);
@@ -122,12 +122,15 @@ public class LineRenderScript : Sounds
                 lr.positionCount--;
                 lr.SetPositions(positions.ToArray());
             }
+            
             else if (lose)
             {
+                ScibidiHead.transform.transform.eulerAngles = new Vector3(0, 0, rotatesZ[rotatesZ.Count - 1]);
                 Losing();
             }
             else if (win)
             {
+                ScibidiHead.transform.transform.eulerAngles = new Vector3(0, 0, rotatesZ[rotatesZ.Count - 1]);
                 Winning();
             }
             else
@@ -136,7 +139,8 @@ public class LineRenderScript : Sounds
                 GameObject.Find("ScibidiHeadPivot").GetComponent<Player>().inNeckReverse = false;
             }
 
-        }
+
+        
     }
     private void moveHead()
     {
@@ -176,8 +180,7 @@ public class LineRenderScript : Sounds
         {
             startReverseNeck("win");
         }
-        //«десь что-то и SceneManager забыл, во странный, надо бы его позже отсюда убрать
-        //ƒа и голове именно тут двигаетс€ назад, нехорошо это как-то...
+       
         if (isNeckReverse)
         {
             reverseNeck();
@@ -207,7 +210,6 @@ public class LineRenderScript : Sounds
         }
         else if (gameEnd == "nothing")
         {
-            
             isNeckReverse = true;
         }
 

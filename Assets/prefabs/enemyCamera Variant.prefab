@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds: []
+  typeOfCamera: 
 --- !u!60 &2096773921447596814
 PolygonCollider2D:
   m_ObjectHideFlags: 0

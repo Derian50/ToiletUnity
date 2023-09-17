@@ -1,6 +1,7 @@
 using Spine.Unity;
 using System.Collections;
 using System.Collections.Generic;
+//using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
@@ -10,15 +11,16 @@ public class Player : MonoBehaviour
     public SkeletonAnimation skeletonAnimation;
     public MovementJoystick movementJoystick;
     public float playerSpeed;
-    private Rigidbody2D rb;
+    private Rigidbody2D _rb;
     public Canvas canvas;
     public GameObject lr;
-    private bool lose = false;
-    private LineRenderScript lrScript;
+    private bool _lose = false;
+    private LineRenderScript _lrScript;
     public bool inNeckReverse = false;
     //private GameObject Explosion;
     private GameObject Firework;
     private Vector3 boomVector3 = Vector3.zero;
+    public Vector2 lastHeadVelocity = Vector2.zero;
 
 
     private void Awake()
@@ -31,12 +33,13 @@ public class Player : MonoBehaviour
         //Explosion.SetActive(false);
         Firework = transform.Find("Firework").gameObject;
         Firework.SetActive(false);
-        lrScript = lr.GetComponent<LineRenderScript>();
-        rb = GetComponent<Rigidbody2D>();  
+        _lrScript = lr.GetComponent<LineRenderScript>();
+        _rb = GetComponent<Rigidbody2D>();  
     }
     void FixedUpdate(){
-        
-        
+
+
+       if(_rb.velocity.x != 0 && _rb.velocity.y != 0) lastHeadVelocity = _rb.velocity;
         if (boomVector3 != Vector3.zero)
         {
             //Explosion.transform.position = boomVector3;
@@ -45,7 +48,7 @@ public class Player : MonoBehaviour
         }
         if (inNeckReverse)
         {
-            rb.velocity = Vector2.zero;
+            _rb.velocity = Vector2.zero;
 
         }
         else
@@ -57,33 +60,33 @@ public class Player : MonoBehaviour
                 Vector2 moveVector = new Vector2(movementJoystick.joystickVec.x * playerSpeed, movementJoystick.joystickVec.y * playerSpeed);
                 // transform.up = new Vector2(movementJoystick.joystickVec.x * playerSpeed, movementJoystick.joystickVec.y * playerSpeed); 
                 transform.up = Vector2.MoveTowards(transform.up, moveVector, Time.deltaTime * 10); //10 is velocity rotation
-                rb.velocity = moveVector.normalized * playerSpeed;
+                _rb.velocity = moveVector.normalized * playerSpeed;
             }
             else
             {
-                rb.velocity = Vector2.zero;
+                _rb.velocity = Vector2.zero;
             }
         }
         
     }
+    
     void OnCollisionEnter2D(Collision2D other)
     {
 
-        Debug.Log("Someone collision " + other.gameObject.tag);
         if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "EnemyDead")
         {
             //boomVector3 = transform.position;
-           // Explosion.SetActive(true);
+            // Explosion.SetActive(true);
+            _lrScript.startReverseNeck("nothing"); 
             inNeckReverse = true;
-            lrScript.startReverseNeck("nothing");
-            //lrScript.startReverseNeck("win");
+
+            //_lrScript.startReverseNeck("win");
         }
-        if (other.gameObject.tag == "spikes")
+        if (other.gameObject.tag == "spikes" || other.gameObject.tag == "Ray")
         {
-            Debug.Log("Someone died");
             inNeckReverse = true;
-            lose = true;
-            lrScript.startReverseNeck("lose");
+            _lose = true;
+            _lrScript.startReverseNeck("lose");
 
             skeletonAnimation.AnimationName = "touchspikeloop";
         }
@@ -94,19 +97,24 @@ public class Player : MonoBehaviour
             {
                 boomVector3 = transform.position;
                 Firework.SetActive(true);
-                inNeckReverse = true;
-                lrScript.startReverseNeck("win");
+                _lrScript.startReverseNeck("nothing");
                 GameObject.Find("Rope").SetActive(false);
             }
             
         }
         if (other.gameObject.tag == "TNT")
         {
-            boomVector3 = transform.position;
-            inNeckReverse = true;
-            lose = true;
-            lrScript.startReverseNeck("lose");
+            TNTLose();
         }
 
     }
+    public void TNTLose()
+    {
+        Debug.Log("LOSEEEEEEEEEEEEEEEEEEEEe");
+        boomVector3 = transform.position;
+        inNeckReverse = true;
+        _lose = true;
+        _lrScript.startReverseNeck("lose");
+    }
+
 }

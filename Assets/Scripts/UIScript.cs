@@ -50,8 +50,17 @@ public class UIScript : Sounds
     }
     public void soundButton()
     {
+        if (AudioListener.volume == 0)
+        {
+            isSoundOn = false;
+        }
+        else if (AudioListener.volume == 1f)
+        {
+            isSoundOn = true;
+        }
         UnityEngine.UI.Image btn = GameObject.Find("SoundButton").GetComponent<UnityEngine.UI.Image>();
         isSoundOn = !isSoundOn;
+        
         if (isSoundOn)
         {
             AudioListener.volume = 1.0f;

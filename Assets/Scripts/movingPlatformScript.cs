@@ -19,16 +19,16 @@ public class movingPlatformScript : MonoBehaviour
         switch (_rotationPlatform)
         {
             case 0:
-                _vector3MovingPlatform = new Vector3(0.01f, 0, 0);
+                _vector3MovingPlatform = new Vector3(0.015f, 0, 0);
                 break;
             case 90:
-                _vector3MovingPlatform = new Vector3(0, 0.01f, 0);
+                _vector3MovingPlatform = new Vector3(0, 0.015f, 0);
                 break;
             case 180:
-                _vector3MovingPlatform = new Vector3(-0.01f, 0, 0);
+                _vector3MovingPlatform = new Vector3(-0.015f, 0, 0);
                 break;
             case 270:
-                _vector3MovingPlatform = new Vector3(0, -0.01f, 0);
+                _vector3MovingPlatform = new Vector3(0, -0.015f, 0);
                 break;
 
         }
@@ -53,7 +53,7 @@ public class movingPlatformScript : MonoBehaviour
         {
             Sr.sprite = _btnOffSprite;
             StartMoving();
-            Invoke("StopMoving", 3);
+            Invoke("StopMoving", 5);
         }
        
     }

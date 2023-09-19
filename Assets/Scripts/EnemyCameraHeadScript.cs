@@ -8,7 +8,7 @@ public class EnemyCameraHeadScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Collision with " + collision.gameObject.tag);
-        if(collision.gameObject.tag == "Ray")
+        if(collision.gameObject.tag == "Ray" || collision.gameObject.tag == "border")
         {
             gameObject.SetActive(false);
         }

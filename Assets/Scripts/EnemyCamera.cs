@@ -92,7 +92,7 @@ public class EnemyCamera : Sounds
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Ray")
+        if (other.gameObject.tag == "Ray" || other.gameObject.tag == "border")
         {
             Invoke("DestroyBody", 1);
         }

@@ -27,6 +27,8 @@ public class LineRenderScript : Sounds
     private SkeletonAnimation ScibidiAnimation;
     private float shX;
     private float shY;
+    private float _startShX;
+    private float _startShY;
     private float counter = 0;
     private bool isNeckReverse = false;
     List<Vector3> positions = new List<Vector3>();
@@ -41,6 +43,8 @@ public class LineRenderScript : Sounds
         ScibidiAnimation = ScibidiHead.GetComponent<Player>().skeletonAnimation;
         shX = ScibidiHead.transform.position.x;
         shY = ScibidiHead.transform.position.y;
+        _startShX = shX;
+        _startShY = shY;    
         lr = GetComponent<LineRenderer>();
         lr.positionCount = 3;
         lr.material = mat;
@@ -48,10 +52,10 @@ public class LineRenderScript : Sounds
         positions.Add(new Vector3(shX, shY - 0.4f, 0));
         positions.Add(new Vector3(shX, shY - 0.2f, 0));
         positions.Add(new Vector3(shX, shY, 0));
-        rotatesZ.Add(360);
-        rotatesZ.Add(360);
-        rotatesZ.Add(360);
         lr.SetPositions(positions.ToArray());
+        rotatesZ.Add(360);
+        rotatesZ.Add(360);
+        rotatesZ.Add(360);
 
         Sparks = transform.Find("Sparks").gameObject;
         Sparks.SetActive(false);
@@ -126,11 +130,23 @@ public class LineRenderScript : Sounds
             else if (lose)
             {
                 ScibidiHead.transform.transform.eulerAngles = new Vector3(0, 0, rotatesZ[rotatesZ.Count - 1]);
+                ScibidiHead.transform.position = new Vector2(_startShX, _startShY);
+                positions.Clear();
+                positions.Add(new Vector3(_startShX, _startShY - 0.4f, 0));
+                positions.Add(new Vector3(_startShX, _startShY - 0.2f, 0));
+                positions.Add(new Vector3(_startShX, _startShY, 0));
+                lr.SetPositions(positions.ToArray());
                 Losing();
             }
             else if (win)
             {
                 ScibidiHead.transform.transform.eulerAngles = new Vector3(0, 0, rotatesZ[rotatesZ.Count - 1]);
+                ScibidiHead.transform.position = new Vector2(_startShX, _startShY);
+                positions.Clear();
+                positions.Add(new Vector3(_startShX, _startShY - 0.4f, 0));
+                positions.Add(new Vector3(_startShX, _startShY - 0.2f, 0));
+                positions.Add(new Vector3(_startShX, _startShY, 0));
+                lr.SetPositions(positions.ToArray());
                 Winning();
             }
             else

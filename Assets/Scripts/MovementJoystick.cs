@@ -13,12 +13,14 @@ public class MovementJoystick : MonoBehaviour
     private Vector2 joystickOriginalPos;
     private float joystickRadius;
     Vector2 tmp = new Vector2();
-    
+    //0, -3.5
     void Start()
     {
         
         joystickOriginalPos = joystickBG.transform.position;
         joystickRadius = joystickBG.GetComponent<RectTransform>().sizeDelta.y / 4;
+        joystick.transform.position = joystickOriginalPos;
+        joystickBG.transform.position = joystickOriginalPos;
     }
 
     public void Update(){

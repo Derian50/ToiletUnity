@@ -23,12 +23,13 @@ public class UIScript : Sounds
     public Button skipButton;
     public Button nextButton;
     public Button skipFailButton;
+    public Button soundButton;
 
     private void Start()
     {
         isSoundOn = !AudioListener.pause;
-        soundButton();
-        soundButton();
+        SoundButton();
+        SoundButton();
         //Find лучше не юзать, очень производительно затратная 
         mainPanel = transform.Find("MainPanel").gameObject;
         victoryPanel = transform.Find("FinishPanel").Find("VictoryPanel").gameObject;
@@ -37,8 +38,8 @@ public class UIScript : Sounds
         
         skipButton.onClick.AddListener(SkipLevelButton);
         skipFailButton.onClick.AddListener(SkipLevelButton);
-
         nextButton.onClick.AddListener(NextLevelButton);
+        soundButton.onClick.AddListener(SoundButton);
 
         levelNumber.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
         levelNumberFail.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
@@ -49,8 +50,10 @@ public class UIScript : Sounds
 
 
     }
-    public void soundButton()
+    public void SoundButton()
     {
+       // Debug.Log(AudioListener.volume);
+       // Debug.Log(isSoundOn);
         if (AudioListener.volume == 0)
         {
             isSoundOn = false;

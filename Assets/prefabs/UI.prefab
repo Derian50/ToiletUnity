@@ -356,7 +356,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -422,6 +424,7 @@ MonoBehaviour:
   skipButton: {fileID: 4710055610428351687}
   nextButton: {fileID: 4987646951177688998}
   skipFailButton: {fileID: 835796123958800942}
+  soundButton: {fileID: 8949506285876876579}
 --- !u!1 &1099832205260496664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,6 +2902,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3867978698028089268}
     m_Modifications:
     - target: {fileID: 2377728998751766235, guid: baceb9f4de5c4034587e56c9961fdb98, type: 3}
@@ -3094,6 +3098,12 @@ PrefabInstance:
       value: -97.27759
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4392016335367340958, guid: baceb9f4de5c4034587e56c9961fdb98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4572920663939394235}
   m_SourcePrefab: {fileID: 100100000, guid: baceb9f4de5c4034587e56c9961fdb98, type: 3}
 --- !u!1 &3532147804463765562 stripped
 GameObject:
@@ -3120,6 +3130,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &4987646951177688998 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5242339883979377666, guid: baceb9f4de5c4034587e56c9961fdb98, type: 3}

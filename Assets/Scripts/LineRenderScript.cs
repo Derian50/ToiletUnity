@@ -220,6 +220,7 @@ public class LineRenderScript : Sounds
         }
         else if (gameEnd == "win")
         {
+            SaveManager.SaveState();
             GameObject.Find("ScibidiHeadPivot").GetComponent<Player>().inNeckReverse = true;
             win = true;
             isNeckReverse = true;

@@ -53,7 +53,7 @@ public class SaveManager: MonoBehaviour
         Debug.Log("SaveManager: request to save state has been sent");
 
         // string jsonString = JsonUtility.ToJson(PlayerInfo);
-        CurrentState.CurrentLevelNumber = SceneManager.GetActiveScene().buildIndex;
+        CurrentState.CurrentLevelNumber = SceneManager.GetActiveScene().buildIndex + 1;
         
         YaSDK.SetData(CurrentState);
         // YaSDK.SetToLeaderboard(PlayerInfo.score);

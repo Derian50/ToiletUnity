@@ -88,7 +88,6 @@ public class UIScript : Sounds
         {
             YaSDK.ShowFullscreenAdv(onClose: NextLevel);
         }
-            
         else
         {
             NextLevel();

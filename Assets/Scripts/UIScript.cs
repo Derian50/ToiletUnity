@@ -45,6 +45,7 @@ public class UIScript : Sounds
         levelNumberVictory.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
         
         
+        
 
 
     }
@@ -83,16 +84,10 @@ public class UIScript : Sounds
 
     public void NextLevelButton()
     {
-        var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if (sceneIndex % 4 == 0)
-        {
-            YaSDK.ShowFullscreenAdv(onClose: NextLevel);
-        }
-        else
-        {
-            NextLevel();
-        }
+        // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
 
+            NextLevel();
+            
     }
 
     private void NextLevel()
@@ -107,6 +102,8 @@ public class UIScript : Sounds
         {
             SceneManager.LoadScene(sceneIndex + 1);
         }
+        
+
 
     }
     private void hideMainPanel()

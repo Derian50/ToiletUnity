@@ -61,6 +61,13 @@ public class LineRenderScript : Sounds
         Sparks.SetActive(false);
 
         ScibidiAnimation.AnimationName = "idle";
+        
+        var sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if ((sceneIndex + 1) % 4 == 0)
+        {
+            YaSDK.ShowFullscreenAdv();
+        }
+
     }
     private void winUIScript()
     {

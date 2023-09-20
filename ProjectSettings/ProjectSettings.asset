@@ -508,8 +508,8 @@ PlayerSettings:
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
   m_TemplateCustomTags:
-    LOADING_COLOR_EMPTY: FFFFFF
-    LOADING_COLOR_FULL: FF5DB8
+    LOADING_COLOR_EMPTY: '#EFDBC0'
+    LOADING_COLOR_FULL: '#FF5DB8'
     WORKER_FILENAME: 
   mobileMTRendering:
     Android: 1

@@ -27,7 +27,7 @@ public class YaSDK : MonoBehaviour
     {
         isOn &= !_isAd;
         AudioListener.pause = !isOn;
-        AudioListener.volume = isOn ? 1 : 0;
+        // AudioListener.volume = isOn ? 1 : 0;
     }
 
     private void OnApplicationFocus(bool hasFocus) =>
@@ -184,7 +184,7 @@ public class YaSDK : MonoBehaviour
     {
         if (string.IsNullOrEmpty(_language))
 #if UNITY_EDITOR || !UNITY_WEBGL
-            _language = "ru";
+            _language = "tr";
 #else
             _language = GetLang();
 #endif

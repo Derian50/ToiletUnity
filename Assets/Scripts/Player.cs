@@ -22,11 +22,13 @@ public class Player : MonoBehaviour
     private Vector3 boomVector3 = Vector3.zero;
     public Vector2 lastHeadVelocity = Vector2.zero;
 
+    
 
     private void Awake()
     {
         skeletonAnimation = GetComponentInChildren<SkeletonAnimation>();
     }
+    
     void Start()
     {
         //Explosion = transform.Find("Explosion").gameObject;

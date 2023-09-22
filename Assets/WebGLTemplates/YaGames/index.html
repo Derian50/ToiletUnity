@@ -72,6 +72,8 @@
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
           myGameInstance = unityInstance;
+          ysdk.features.LoadingAPI?.ready();
+
         }).catch((message) => {
           alert(message);
         });

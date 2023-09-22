@@ -67,11 +67,10 @@ public class UIScript : Sounds
         
         if (isSoundOn)
         {
-            AudioListener.volume = 1.0f;
+            AudioListener.volume = 1f;
             btn.sprite = soundOn;
         }
         else
-
         {
             AudioListener.volume = 0;
             btn.sprite = soundOff;

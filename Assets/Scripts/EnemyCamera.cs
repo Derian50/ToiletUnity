@@ -90,9 +90,9 @@ public class EnemyCamera : Sounds
     {
         gameObject.SetActive(false);
     }
-    void OnCollisionEnter2D(Collision2D other)
+    public void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Ray" || other.gameObject.tag == "border")
+        if (other.gameObject.tag == "border")
         {
             Invoke("DestroyBody", 1);
         }
@@ -124,5 +124,25 @@ public class EnemyCamera : Sounds
     public void playerLose()
     {
         isPlayerLose = true;
+    }
+    public void TNTLose()
+    {
+        if (typeOfCamera == "Jetpuck")
+        {
+            skeletonAnimation.AnimationName = "die_loop";
+        }
+        else
+        {
+            skeletonAnimation.AnimationName = "dieloop";
+        }
+        Explosion.SetActive(true);
+        gameObject.tag = "EnemyDead";
+        transform.Find("EnemyCameraHead").gameObject.SetActive(true);
+        transform.Find("EnemyCameraHead").GetComponent<Rigidbody2D>().velocity = ScibidiHead.GetComponent<Player>().lastHeadVelocity * 2;
+        GetComponent<PolygonCollider2D>().enabled = true;
+        GetComponent<BoxCollider2D>().enabled = false;
+        die = true;
+
+        an.enabled = true;
     }
 }

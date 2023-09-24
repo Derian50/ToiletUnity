@@ -33,8 +33,12 @@ public class LineRenderScript : Sounds
     private bool isNeckReverse = false;
     List<Vector3> positions = new List<Vector3>();
     private GameObject Sparks;
-
+    private int countAttempts;
     List<float> rotatesZ = new List<float>();
+    private GameObject _attempts;
+    private int _attemptsCount = -1;
+    private bool _isMoveForward = false;
+    private bool wait = false;
 
     void Start()
     {
@@ -56,6 +60,12 @@ public class LineRenderScript : Sounds
         rotatesZ.Add(360);
         rotatesZ.Add(360);
         rotatesZ.Add(360);
+
+        _attempts = GameObject.FindGameObjectWithTag("attempts");
+        if (_attempts != null && _attempts.GetComponent<attemptsScript>().isEnabled) 
+        {
+            _attemptsCount = _attempts.GetComponent<attemptsScript>().countAttempts;
+        }
 
         Sparks = transform.Find("Sparks").gameObject;
         Sparks.SetActive(false);
@@ -156,10 +166,21 @@ public class LineRenderScript : Sounds
                 lr.SetPositions(positions.ToArray());
                 Winning();
             }
+            else if (wait)
+            {
+                ScibidiHead.transform.transform.eulerAngles = new Vector3(0, 0, rotatesZ[rotatesZ.Count - 1]);
+                ScibidiHead.transform.position = new Vector2(_startShX, _startShY);
+                positions.Clear();
+                positions.Add(new Vector3(_startShX, _startShY - 0.4f, 0));
+                positions.Add(new Vector3(_startShX, _startShY - 0.2f, 0));
+                positions.Add(new Vector3(_startShX, _startShY, 0));
+                lr.SetPositions(positions.ToArray());
+            }
             else
             {
                 isNeckReverse = false;
                 GameObject.Find("ScibidiHeadPivot").GetComponent<Player>().inNeckReverse = false;
+                
             }
 
 
@@ -195,6 +216,23 @@ public class LineRenderScript : Sounds
         lr.SetPositions(positions.ToArray());
 
         ScibidiAnimation.AnimationName = "fly";
+        if (!_isMoveForward && _attempts != null)
+        {
+            _isMoveForward = true;
+            _attemptsCount--;
+            _attempts.GetComponent<attemptsScript>().newAttempts();
+        }
+    }
+    private void areYouWinning()
+    {
+        if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 0 && !win)
+        {
+            startReverseNeck("win");
+        }
+        else
+        {
+            startReverseNeck("lose");
+        }
     }
     private void FixedUpdate()
     {
@@ -202,10 +240,19 @@ public class LineRenderScript : Sounds
         if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 0 && !win)
         {
             startReverseNeck("win");
+            
         }
        
         if (isNeckReverse)
         {
+            _isMoveForward = false;
+            if(_attemptsCount == 0)
+            {
+                wait = true;
+                //pause = true;
+                Invoke("areYouWinning", 2);
+                _attemptsCount = -1;
+            }
             reverseNeck();
         }
         else

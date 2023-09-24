@@ -117,7 +117,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.010141939, y: 0.015040636}
+  m_Offset: {x: -0.03673941, y: 0.0032854974}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -128,7 +128,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0302839, y: 1.1900811}
+  m_Size: {x: 0.9365212, y: 1.0606441}
   m_EdgeRadius: 0
 --- !u!1 &7455893264817476649
 GameObject:
@@ -158,10 +158,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8370470518042194609}
+  - {fileID: 7114926594378128055}
   - {fileID: 6913577986589360910}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5496512451584577675
 PrefabInstance:
@@ -225,18 +225,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5180916482040372259, guid: a081aa0cf031ce64b809f40b48257ac8, type: 3}
       propertyPath: m_Size.x
-      value: 1.0383363
+      value: 0.9334144
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180916482040372259, guid: a081aa0cf031ce64b809f40b48257ac8, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0798895
       objectReference: {fileID: 0}
     - target: {fileID: 5180916482040372259, guid: a081aa0cf031ce64b809f40b48257ac8, type: 3}
       propertyPath: m_Offset.x
-      value: 0.014168143
+      value: -0.03824702
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180916482040372259, guid: a081aa0cf031ce64b809f40b48257ac8, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0069979727
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a081aa0cf031ce64b809f40b48257ac8, type: 3}
---- !u!4 &8370470518042194609 stripped
+--- !u!4 &7114926594378128055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3385234645541358140, guid: a081aa0cf031ce64b809f40b48257ac8, type: 3}
   m_PrefabInstance: {fileID: 5496512451584577675}

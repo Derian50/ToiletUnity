@@ -115,3 +115,22 @@ MonoBehaviour:
       - key: tr
         value: "T\xFCm seviyeler tamamland\u0131  Yenileri yak\u0131nda gelecek 
           Oyunu de\u011Ferlendirin!!!!!!!!!!!"
+  - LocalizeKey: Gameoverlay\HoldAndMove
+    Locales:
+      Dict:
+      - key: en
+        value: Hold and move the scibidi head
+      - key: ru
+        value: "\u0423\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0439 \u0438 \u0434\u0432\u0438\u0433\u0430\u0439
+          \u0433\u043E\u043B\u043E\u0432\u0443 \u0441\u043A\u0438\u0431\u0438\u0434\u0438"
+      - key: tr
+        value: "Scibidi kafas\u0131n\u0131 tut ve hareket ettir"
+  - LocalizeKey: Gameoverlay\HitTheRope
+    Locales:
+      Dict:
+      - key: en
+        value: Hit the rope
+      - key: ru
+        value: "\u0423\u0434\u0430\u0440\u044C \u0432\u0435\u0440\u0451\u0432\u043A\u0443"
+      - key: tr
+        value: "\u0130pe vur "

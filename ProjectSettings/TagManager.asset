@@ -32,6 +32,7 @@ TagManager:
   - Ray
   - Platform
   - border
+  - attempts
   layers:
   - Default
   - TransparentFX

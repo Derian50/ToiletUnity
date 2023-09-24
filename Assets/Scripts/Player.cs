@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     private GameObject Firework;
     private Vector3 boomVector3 = Vector3.zero;
     public Vector2 lastHeadVelocity = Vector2.zero;
+    private bool _isMove = false;
 
     
 
@@ -59,6 +60,7 @@ public class Player : MonoBehaviour
             
             if (movementJoystick.joystickVec.y != 0 || movementJoystick.joystickVec.x != 0)
             {
+                
                 Vector2 moveVector = new Vector2(movementJoystick.joystickVec.x * playerSpeed, movementJoystick.joystickVec.y * playerSpeed);
                 // transform.up = new Vector2(movementJoystick.joystickVec.x * playerSpeed, movementJoystick.joystickVec.y * playerSpeed); 
                 transform.up = Vector2.MoveTowards(transform.up, moveVector, Time.deltaTime * 10); //10 is velocity rotation
@@ -74,7 +76,6 @@ public class Player : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D other)
     {
-
         if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "EnemyDead")
         {
             //boomVector3 = transform.position;

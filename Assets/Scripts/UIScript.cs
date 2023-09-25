@@ -125,7 +125,11 @@ public class UIScript : Sounds
 
     public void SkipLevelButton()
     {
-        YaSDK.ShowRewardedVideo( onRewarded: NextLevel);
+        YaSDK.ShowRewardedVideo(onClose: () =>
+        {
+            if (YaSDK._isRewarded) 
+                NextLevel();
+        });
     }
     
         

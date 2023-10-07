@@ -20,21 +20,35 @@ public class YaSDK : MonoBehaviour
     private static extern string GetLang();
 
     private static bool _isAd;
+    
+    private static bool _adOpened = false;
+
 
     #region AUDIO
 
     private static void SetAudioOn(bool isOn)
     {
-        isOn &= !_isAd;
+        // isOn &= !_isAd;
         AudioListener.pause = !isOn;
         // AudioListener.volume = isOn ? 1 : 0;
     }
 
-    private void OnApplicationFocus(bool hasFocus) =>
-        SetAudioOn(hasFocus);
+    private void OnApplicationFocus(bool hasFocus)
+    {
+        if(_adOpened)
+            return;
 
-    private void OnApplicationPause(bool isPaused) =>
-        SetAudioOn(!isPaused);
+        AudioListener.pause = (hasFocus == false);
+    }
+
+    private void OnApplicationPause(bool isPaused)
+    {
+        if(_adOpened)
+            return;
+        // Debug.Log("Paused" + isPaused);
+
+        AudioListener.pause = isPaused;
+    }
 
     #endregion
 
@@ -47,14 +61,18 @@ public class YaSDK : MonoBehaviour
 
     public void OnOpen()
     {
-        _isAd = true;
+        _adOpened = true;
+
+        // _isAd = true;
         SetAudioOn(false);
         _onOpenAdv?.Invoke();
     }
 
     public void OnClose()
     {
-        _isAd = false;
+        _adOpened = false;
+
+        // _isAd = false;
         SetAudioOn(true);
         _onCloseAdv?.Invoke();
     }
@@ -66,8 +84,10 @@ public class YaSDK : MonoBehaviour
 
     public void OnOffline()
     {
-        _isAd = false;
-        SetAudioOn(true);
+        // _adOpened = false;
+
+        // _isAd = false;
+        // SetAudioOn(true);
         _onOfflineAdv?.Invoke();
     }
 
@@ -99,27 +119,37 @@ public class YaSDK : MonoBehaviour
 
     public void OnOpenReward()
     {
-        _isAd = true;
+        _isRewarded = false;
+
+        _adOpened = true;
+        Time.timeScale = 0f;
+        // _isAd = true;
         SetAudioOn(false);
         _onOpenReward?.Invoke();
     }
 
+    public static bool _isRewarded;
     public void OnRewarded()
     {
+        _isRewarded = true;
         _onRewarded?.Invoke();
     }
 
     public void OnCloseReward()
     {
-        _isAd = false;
+        _adOpened = false;
+        Time.timeScale = 1f;
+        // _isAd = false;
         SetAudioOn(true);
         _onCloseReward?.Invoke();
     }
 
     public void OnErrorReward()
     {
-        _isAd = false;
-        SetAudioOn(true);
+        _isRewarded = false;
+        // _adOpened = false;
+        // _isAd = false;
+        // SetAudioOn(true);
         _onErrorReward?.Invoke();
     }
 

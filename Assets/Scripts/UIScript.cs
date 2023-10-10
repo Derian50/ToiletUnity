@@ -114,8 +114,9 @@ public class UIScript : Sounds
     }
     public void win()
     {
-        hideMainPanel();
         victoryPanel.SetActive(true);
+        Debug.Log(victoryPanel.ToString());
+        hideMainPanel();
     }
     public void lose()
     {

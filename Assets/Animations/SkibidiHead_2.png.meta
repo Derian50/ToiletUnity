@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 3/toilet
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1109
+        width: 656
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8a6e54d45562620800000000000000
+      internalID: 2748978412929853627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/toilet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367
+        width: 552
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031ede403abd45f50800000000000000
+      internalID: 6869356824855699760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/head
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 367
+        width: 344
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ec8a5b0bd28f4e0800000000000000
+      internalID: -1947756601852506538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/toilet
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 678
+        width: 529
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d404313b6fa207f50800000000000000
+      internalID: 6877043870049452109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 704
+        width: 528
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566badd8a95356810800000000000000
+      internalID: 1757870167479203429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/toilet
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 367
+        width: 529
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a393c61585eb29470800000000000000
+      internalID: 8399985541531842874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/toilet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 551
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4168a1def477c4d00800000000000000
+      internalID: 958272005887133204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/toilet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1485
+        width: 545
+        height: 563
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8d0d1a408152db0800000000000000
+      internalID: -4817417818229122872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/toilet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1011
+        width: 545
+        height: 472
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c46ac6419d4ce730800000000000000
+      internalID: 4029681052943017157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/toilet
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 367
+        width: 535
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7570c7296a1130950800000000000000
+      internalID: 6413989701425563479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/toilet
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1109
+        width: 542
+        height: 538
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb131c61c50fffd0800000000000000
+      internalID: -2306118155890385982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +376,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3/toilet: 2748978412929853627
+      4/toilet: 6869356824855699760
+      7/head: -1947756601852506538
+      8/toilet: 6877043870049452109
+      rocket: 1757870167479203429
+      skin 10/toilet: 8399985541531842874
+      skin 11/toilet: 958272005887133204
+      skin 12/toilet: -4817417818229122872
+      skin 13/toilet: 4029681052943017157
+      skin 14/toilet: 6413989701425563479
+      skin 15/toilet: -2306118155890385982
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

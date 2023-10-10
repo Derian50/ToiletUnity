@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,4396 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 1/head
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 997
+        width: 319
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45223bb5003112b80800000000000000
+      internalID: -8421428935946722732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/leye
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 272
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835ee447686e107f0800000000000000
+      internalID: -647983406213307080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/leye2
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 283
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6801ceab505edb00800000000000000
+      internalID: 855209333951105130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/liris
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 38
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a1853641e34eed0800000000000000
+      internalID: -2385713645312533993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/mouth
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 437
+        width: 145
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acda90ce544f0d7a0800000000000000
+      internalID: -6354310493069791798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 448
+        width: 129
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978f8c5317cdcbb70800000000000000
+      internalID: 8916243741078517881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/mouth3
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 375
+        width: 148
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52be73c1ab86ecc00800000000000000
+      internalID: 922790122204162853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/mouth4
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 272
+        width: 144
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0383c8a979f44a4a0800000000000000
+      internalID: -6583049242757285840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/mouth5
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 112
+        width: 121
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0fe6dc41285c5b0800000000000000
+      internalID: -5348725956575039246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 455
+        width: 141
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0410fbdfb273e4060800000000000000
+      internalID: 6939544737904787776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/neck
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 692
+        width: 193
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e652b5f6319657c50800000000000000
+      internalID: 6662346755958056302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/nose
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 64
+        width: 78
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e4dcd6f270a1530800000000000000
+      internalID: 3826378733691686559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/reye
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 276
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ddf80a8fd267240800000000000000
+      internalID: 4789065799624023301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/reye2
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 278
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532449df6ffab37b0800000000000000
+      internalID: -5243403865791643083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/riris
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 38
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54185e090441e1280800000000000000
+      internalID: -9070790331936177851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1/toilet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1289
+        width: 529
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ddbbe2cdd587870800000000000000
+      internalID: 8680791482014883168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/head
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1184
+        width: 321
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250a4b98837c0a810800000000000000
+      internalID: 1774637298826387538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/leye
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 201
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f69d0cf0773f64f0800000000000000
+      internalID: -833386447635638537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/leye2
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 108
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d869d55e656ec85e0800000000000000
+      internalID: -1905895281394870643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/mouth
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 104
+        width: 91
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bf1e73d2f984040800000000000000
+      internalID: 4632127233310456701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/mouth4
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 104
+        width: 91
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c26426bb6ac51e0800000000000000
+      internalID: -2207706393580524523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 163
+        width: 100
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc316b4ff41bebd0800000000000000
+      internalID: -2599961273162449740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/mouth3
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 72
+        width: 130
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697aa9ec184d604c0800000000000000
+      internalID: -4321533138433300586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/mouth5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 38
+        width: 93
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c7d414008ce09e0800000000000000
+      internalID: -1653164109777240944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/mouth6
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 156
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6abd2eaf46cd8ac0800000000000000
+      internalID: -3851204060804957589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/neck
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 194
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c59d58323261b980800000000000000
+      internalID: -8524924651802094144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/nose
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 220
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b31e7593ef9fcb0800000000000000
+      internalID: -4829549603137176796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/reye
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 205
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6eff4f9a6c6e5750800000000000000
+      internalID: 6295588534305685102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/reye2
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 108
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02c49c378a7546a0800000000000000
+      internalID: -6465626968764923378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2/toilet
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1340
+        width: 529
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbdf2e20a1591740800000000000000
+      internalID: 5123215799522155482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/head
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 850
+        width: 349
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d86410f00897fa20800000000000000
+      internalID: 3096110398635796691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/leye
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 76
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a785b9ebc9917bab0800000000000000
+      internalID: -4992493500913461126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/leye2
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 68
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5f5a525b09273f0800000000000000
+      internalID: -904501467452934679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/mouth
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 233
+        width: 124
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424c67c7547754eb0800000000000000
+      internalID: -4736248292785601500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/mouth2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 350
+        width: 114
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b4c2e24124a2500800000000000000
+      internalID: 372182573652921227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/mouth3
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 222
+        width: 136
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08770c3e04ebfa60800000000000000
+      internalID: 7709005936962533391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/mouth4
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 158
+        width: 121
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da92163f4f753c030800000000000000
+      internalID: 3513748843845986733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/mouth5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 38
+        width: 115
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce78059815542720800000000000000
+      internalID: 2820472830708711107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/mouth6
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 213
+        width: 80
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def27c7113740da20800000000000000
+      internalID: 3085044020926689261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/neck
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 525
+        width: 190
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e006d2d319e3480800000000000000
+      internalID: -8917530520206700936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/nose
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 204
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031f39c6761c52a00800000000000000
+      internalID: 731203164465000752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/reye
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 105
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7c72481042a9c00800000000000000
+      internalID: 908077863799343027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3/reye2
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 38
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75c89f0bf3c96d60800000000000000
+      internalID: 7884048105754641787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/head
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1090
+        width: 426
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637e117ab844e2080800000000000000
+      internalID: -9210348821331974346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/leye
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5564d52a2f24d60800000000000000
+      internalID: 7873121877760562641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/leye2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 153
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862ff5fabc6178700800000000000000
+      internalID: 542427344197907048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/liris
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 38
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446f187d383af3e50800000000000000
+      internalID: 6791326549749659204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/mouth
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 73
+        width: 74
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f768a9c1a85b3a410800000000000000
+      internalID: 1487231906752398975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/mouth4
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 73
+        width: 74
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e69b13d72083d30800000000000000
+      internalID: 4411278571737804368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/mouth2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 151
+        width: 83
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980616a9834250b60800000000000000
+      internalID: 7711609762468683913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/mouth3
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 106
+        width: 93
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5621e788183e51350800000000000000
+      internalID: 5986941425139192421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/mouth5
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 113
+        width: 84
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6c9797a34c72bd0800000000000000
+      internalID: -2654937699886446915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 213
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c266c166ac3549d50800000000000000
+      internalID: 6743106670842111532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/neck
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 649
+        width: 195
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dfeb8614ca6a910800000000000000
+      internalID: 1848354094012366239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/nose
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 148
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cfb09142f908c50800000000000000
+      internalID: 6665502425896188959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/reye
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 233
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9353a1eb6e512b0800000000000000
+      internalID: -5614327656289584715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/reye2
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 164
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3753da92fa5af90800000000000000
+      internalID: -6942950656987270169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4/riris
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 38
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4964a5b501e5ee9f0800000000000000
+      internalID: -437308689463228780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/head
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 798
+        width: 345
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5519f9e03d903fc40800000000000000
+      internalID: 5544786368311300437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/leye
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293219210d212ff00800000000000000
+      internalID: 1149001539806897042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/leye2
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 38
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760dadd8731756290800000000000000
+      internalID: -7897781888107229081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/liris
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818d3b13ef4ca52d0800000000000000
+      internalID: -3289099981806118888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/mouth
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 38
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9724c408bd5e9f30800000000000000
+      internalID: 4584204515645073306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/mouth4
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 38
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03bc227c8bd64700800000000000000
+      internalID: 524347802892677899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/mouth2
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 104
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9af86391064ae730800000000000000
+      internalID: 4029109789218372255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/mouth3
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 38
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08978cfd127a43f10800000000000000
+      internalID: 2248605877894936960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/mouth5
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbb9442eb9f66850800000000000000
+      internalID: 6370053318010059762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 72
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dcc974b3066d7a0800000000000000
+      internalID: -6352784416638710453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/neck
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 567
+        width: 193
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cda55e1c68f777c0800000000000000
+      internalID: -4073514194684236345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/nose
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 116
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f6fece751ae0f60800000000000000
+      internalID: 8002510986893291343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/reye
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 102
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d275b401392e830800000000000000
+      internalID: 4099000309053336991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/reye2
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 38
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bc288b712322b10800000000000000
+      internalID: 1955180265693432677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/riris
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 38
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83abd561a523fe0d0800000000000000
+      internalID: -3391436631883007432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5/toilet
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1452
+        width: 529
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d772ad4052e6303d0800000000000000
+      internalID: -3241626201502374019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/head
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 809
+        width: 321
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f8caedc91758640800000000000000
+      internalID: 5081592673122160534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/leye
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 448
+        width: 118
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a806bd43f2b3f0e10800000000000000
+      internalID: 2166015019724791946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/leye2
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 220
+        width: 100
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823de13a869efe7b0800000000000000
+      internalID: -5192675209712315608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/mouth
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 65
+        width: 100
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eda6e21f37a71100800000000000000
+      internalID: 78715407844158953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 161
+        width: 103
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1dd8facb7ccdb8c0800000000000000
+      internalID: -3981801663467299558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/mouth3
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 38
+        width: 103
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728281b3572b43320800000000000000
+      internalID: 2536848706688788519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/mouth4
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 65
+        width: 100
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f952986a982b97da0800000000000000
+      internalID: -5946525528691759713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/mouth5
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 38
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b5fe263309c3350800000000000000
+      internalID: 5997827354128243583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/mouth6
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 156
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195d598957c0a5a10800000000000000
+      internalID: 1898843892100748689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/neck
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 579
+        width: 190
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08222720580f8520800000000000000
+      internalID: 2706391041419913231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/reye
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 442
+        width: 118
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b9c97336733c3c0800000000000000
+      internalID: -4340564716580725884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/reye2
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 226
+        width: 100
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c841e2cc3e6df10800000000000000
+      internalID: 2294271526277778448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6/toilet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1588
+        width: 529
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86e4a442f2688980800000000000000
+      internalID: -8536464301007509873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/leye
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 102
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d0b8b34f4bd34a0800000000000000
+      internalID: -6611929716846031585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/leye2
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 65
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4946dd2ed157fef70800000000000000
+      internalID: 9218715733471356052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/liris
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 38
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42692748402db420800000000000000
+      internalID: 2647307650767348302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/mouth
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 296
+        width: 169
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f39bc097c8cdcba0800000000000000
+      internalID: -6066972363544882187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 482
+        width: 123
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de1d7b8ac84dbd20800000000000000
+      internalID: 3295870537065897684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/mouth3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 423
+        width: 172
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34517c0ef55d7d6e0800000000000000
+      internalID: -1812745717223582397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/mouth4
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 119
+        width: 169
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafb480137677e3e0800000000000000
+      internalID: -2024519270909296725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/mouth5
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 207
+        width: 144
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87dbb9f84920e940800000000000000
+      internalID: 5323300152956147595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 114
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81ff745cbc4168a0800000000000000
+      internalID: -6313680830841491057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/neck
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 542
+        width: 193
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca15e092384e0110800000000000000
+      internalID: 1228999130335222468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/nose
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 228
+        width: 93
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8f10afb42f38820800000000000000
+      internalID: 2919443391597115575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/reye
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 108
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51ac8b618dc78050800000000000000
+      internalID: 5802832600629027167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/reye2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceefa09c160ceeb10800000000000000
+      internalID: 2012757609698492140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/riris
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 38
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d9f5f71e4c8b900800000000000000
+      internalID: 700526214839770428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7/toilet
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1639
+        width: 529
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6053a07c6ed010eb0800000000000000
+      internalID: -4755504446693559034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/head
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 775
+        width: 338
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2ef06799d613ea0800000000000000
+      internalID: -5894809931373092184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/leye
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 148
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4f6cbeb6707aeb0800000000000000
+      internalID: -4708786725293984595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/leye2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 66
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b178368070002b230800000000000000
+      internalID: 3652982277956405019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/mouth
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 68
+        width: 74
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fe3c7caba3fbf80800000000000000
+      internalID: -8088681831844286715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 281
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2926fb323a3519140800000000000000
+      internalID: 4724649444232880786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/mouth3
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 122
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab89f214a0353bb0800000000000000
+      internalID: -4957002333600248927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/mouth4
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 38
+        width: 74
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37558b98143b44f70800000000000000
+      internalID: 9170651835297977715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/mouth5
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 74
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb3fe522e0639330800000000000000
+      internalID: 3716420641926101986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 114
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4844d6f265322e1e0800000000000000
+      internalID: -2170133217369308028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/neck
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 589
+        width: 192
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd80d64457165cc0800000000000000
+      internalID: -3722762391242371600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/nose
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 74
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831985f30d4fc4c30800000000000000
+      internalID: 4345116915758829880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/reye
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 148
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df3cb6a7e72a5810800000000000000
+      internalID: 1754758880702513109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8/reye2
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 66
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84de4496478ace340800000000000000
+      internalID: 4894472112980684104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/head
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 939
+        width: 334
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a50253717fe0dc90800000000000000
+      internalID: -7146949338091879005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/leye
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 115
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d0dc4c1e8ff37b0800000000000000
+      internalID: -5242197792682865386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/leye2
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 74
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78812a30c69893a0800000000000000
+      internalID: -6658406296714114949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/liris
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 38
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456e3f21153b0c720800000000000000
+      internalID: 2864486523799332436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/mouth
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 153
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d6385fe347440a0800000000000000
+      internalID: -6898260915468931756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 169
+        width: 95
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3a189a64946d780800000000000000
+      internalID: -8658652665732815962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/mouth3
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 70
+        width: 95
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2bca7a69ca56e30800000000000000
+      internalID: 4496189566057493177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/mouth4
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 65
+        width: 94
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3315348f8647610800000000000000
+      internalID: 1618033581623423912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/mouth5
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 68
+        width: 88
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d73212145901b820800000000000000
+      internalID: 2932135089079990232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 73
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ba632a0fc14ce10800000000000000
+      internalID: 2216928736412347142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/neck
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 666
+        width: 190
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4458935f65140ee30800000000000000
+      internalID: 4530693066871899460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/nose
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 57
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26344275ac54d100800000000000000
+      internalID: 131832154757019182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/reye
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 38
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db6878aa1b3222f0800000000000000
+      internalID: -999171181641176110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/reye2
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 38
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12547c9c5b01d7d40800000000000000
+      internalID: 5583637485969687841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/riris
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 38
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c86bb2d0b7295c80800000000000000
+      internalID: -8333585995069167421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9/toilet
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1751
+        width: 529
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693c82a9a5566a070800000000000000
+      internalID: 8117286818189722518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/head
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1037
+        width: 309
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b96dd19f6377d70800000000000000
+      internalID: 9040755220544920431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/leye
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 169
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98856d282be621b0800000000000000
+      internalID: -5681595322088453988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/leye2
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 173
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9a5084e93a5b7b0800000000000000
+      internalID: -5209077493775619627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/leye2
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 173
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630f6640290fb5eb0800000000000000
+      internalID: -4729922473692827594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/reye2
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 173
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5f20ada06e35d00800000000000000
+      internalID: 960364079841736190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/liris
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 38
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2365cb25527cc6710800000000000000
+      internalID: 1687942923472885298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/mouth
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 482
+        width: 216
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1fe5ba28593bfe0800000000000000
+      internalID: -1174430689360154186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 704
+        width: 231
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f185245c8245a40800000000000000
+      internalID: 5355950684537102137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/mouth3
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 390
+        width: 231
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122e886fd7c401490800000000000000
+      internalID: -7777632452578057695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/mouth4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 260
+        width: 216
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f8a8fbcaff2a4f0800000000000000
+      internalID: -818811064815022239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/mouth5
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 378
+        width: 210
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c017323758081530800000000000000
+      internalID: 3825817054048882882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 714
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa99c605e7492950800000000000000
+      internalID: 6424745392407681709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/neck
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 548
+        width: 186
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b985d6d63efecfe0800000000000000
+      internalID: -1166715741956372044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/reye
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81792dbd443c16730800000000000000
+      internalID: 3990685445340174104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/reye2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 192
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba5eb56526840440800000000000000
+      internalID: 4901189789664828086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 10/riris
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 38
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea22ef1278eefa10800000000000000
+      internalID: 1945247665929464544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/head
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1182
+        width: 274
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed5d84d5e881c7a0800000000000000
+      internalID: -6358650678175506962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/leye
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 216
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29247167b97989350800000000000000
+      internalID: 6023731195564999314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/liris
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 73
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec8e927b3d02a670800000000000000
+      internalID: 8548409591679847657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/mouth
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 423
+        width: 241
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7abb25205f2efe0800000000000000
+      internalID: -1161096363581397028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/mouth2
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 680
+        width: 238
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ab30bf645538bd0800000000000000
+      internalID: -2629163994106840480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/mouth3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 341
+        width: 238
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc59716604f7af40800000000000000
+      internalID: 5739824558349311226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/mouth4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 265
+        width: 171
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db485470ad6490090800000000000000
+      internalID: -8067839355218721603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/mouth5
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 38
+        width: 169
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badfa3082d77d0ec0800000000000000
+      internalID: -3599088781220971093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 367
+        width: 160
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ef325a1f98cb930800000000000000
+      internalID: 4160351826734218907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/neck
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 672
+        width: 192
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597b8defca0d55560800000000000000
+      internalID: 7301971812279695253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/reye
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 218
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e319bcbd8f0e9990800000000000000
+      internalID: -7377442038155242527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 11/riris
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 73
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429f213d4e311dcc0800000000000000
+      internalID: -3688144746325018332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/head
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 939
+        width: 326
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5361b4a2a6d8d4d0800000000000000
+      internalID: -3109499548663192742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/liris
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 336
+        width: 98
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62c4d8dbe83f3140800000000000000
+      internalID: 4701539121604379243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/liris2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 336
+        width: 98
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf1d7b85753d32a0800000000000000
+      internalID: -6756185087018197046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/mouth
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 200
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24107289413b2e110800000000000000
+      internalID: 1288789344414794050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 464
+        width: 211
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51749aaf801615840800000000000000
+      internalID: 5211052935037404949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/mouth3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 201
+        width: 211
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a89d04af8c84c20800000000000000
+      internalID: 3191021313147374202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/mouth4
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 71
+        width: 200
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e53ffebe0e8b1f0800000000000000
+      internalID: -1028825210906517932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/mouth5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 98
+        width: 166
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba4ebcef2682d740800000000000000
+      internalID: 5175346462195600052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 363
+        width: 222
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31dbdd0b96509470800000000000000
+      internalID: 8399308528998404410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/neck
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 605
+        width: 193
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f31eaf449c0d9130800000000000000
+      internalID: 3575027510333543408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/riris
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 345
+        width: 98
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd40db0155aeeb00800000000000000
+      internalID: 859806346383478215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 12/riris2
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 345
+        width: 98
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849246c473513c440800000000000000
+      internalID: 4954827342286694728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/head
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 730
+        width: 350
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7953b871f0ed70b0800000000000000
+      internalID: -5729175823228642947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/leye
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 162
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b812d380f59e7cf30800000000000000
+      internalID: 4595898539124269451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/leye2
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 220
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6170c211f6a131d0800000000000000
+      internalID: -3372731091591859862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/mouth
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 164
+        width: 154
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667b3daf170851f90800000000000000
+      internalID: -6983534420140247194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/mouth2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 157
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c43ad2fce3b059f0800000000000000
+      internalID: -481687329860602685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/mouth3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411
+        width: 157
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4029c163c526bd30800000000000000
+      internalID: 4446783203164364875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/mouth4
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 38
+        width: 154
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf33ab2ecb8abc70800000000000000
+      internalID: 8987649723982888877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/mouth5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 38
+        width: 131
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3f8cbd546ef3fa0800000000000000
+      internalID: -5818679005824879643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 287
+        width: 142
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2713d4d43496e80800000000000000
+      internalID: -8184936848482536755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/neck
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 556
+        width: 188
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2b6fc9c0468b8e0800000000000000
+      internalID: -1677480855859711301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/reye
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 148
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3061bcc84b5eb1510800000000000000
+      internalID: 1521061862786668035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/reye2
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 167
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbd67031422a50d0800000000000000
+      internalID: -3433394102535267370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/ueye
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 158
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40d4211692660e60800000000000000
+      internalID: 7928132590704578639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 13/ueye2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 151
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988bfadd11719d250800000000000000
+      internalID: 5969828146557466761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/head
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1053
+        width: 263
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7360369941143fe0800000000000000
+      internalID: -1210323392105782402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/mouth
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 269
+        width: 197
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2295299e693959b70800000000000000
+      internalID: 8905186114568083746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/mouth2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 331
+        width: 215
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f01a2ac094ed5f0800000000000000
+      internalID: -730065770970542300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/mouth3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 211
+        width: 214
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de746bbeda72e5d0800000000000000
+      internalID: -3034728101849039148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/mouth4
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 112
+        width: 197
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eddcc1882490b310800000000000000
+      internalID: 1418796784318995939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/mouth5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 38
+        width: 148
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d28527f3162439a0800000000000000
+      internalID: -6254332115318111536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 302
+        width: 102
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10f7836959d602e0800000000000000
+      internalID: -2159799993332404195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/neck
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 521
+        width: 190
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242b80cd9a32ba200800000000000000
+      internalID: 192286621541380674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/ueye
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 431
+        width: 113
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a675af1dc8f0df0800000000000000
+      internalID: -211795823987037649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/ueye2
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 468
+        width: 130
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a6d3fa4fb921a50800000000000000
+      internalID: 6490421488208669189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/uiris
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 71
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8485d24a00484490800000000000000
+      internalID: -7761883544957909873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 14/uiris2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 38
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69694f9fd5c7b22c0800000000000000
+      internalID: -4455330663285614954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/head
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1455
+        width: 367
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4c39dbb03b9efb0800000000000000
+      internalID: -4617963079885142791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/leye
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 308
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e8658ea347039e0800000000000000
+      internalID: -1643686067635319208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/leye2
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 356
+        width: 202
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90298749030818430800000000000000
+      internalID: 3783446108105642505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/mouth
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 104
+        width: 130
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dd218e93cca1c20800000000000000
+      internalID: 3178077036142058911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/mouth2
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 116
+        width: 164
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3274962cee691fea0800000000000000
+      internalID: -5840721289514760413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/mouth3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 61
+        width: 164
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e1f740069c17430800000000000000
+      internalID: 3779022976570039920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/mouth4
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 38
+        width: 130
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282fae6265e76c230800000000000000
+      internalID: 3658750655770325634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/mouth5
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 38
+        width: 111
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724665dbd5a007040800000000000000
+      internalID: 4643222613543773223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/mouth6
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 163
+        width: 101
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d8d02108f33a790800000000000000
+      internalID: -7520097133487354530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/neck
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 290
+        width: 188
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dc5aa915ebd5310800000000000000
+      internalID: 1395480717250907460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/reye
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 331
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11eda31ab47407390800000000000000
+      internalID: -7822674162589442543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skin 15/reye2
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 294
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca5f9ee707e16890800000000000000
+      internalID: -7466432685949363505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +4534,216 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1/head: -8421428935946722732
+      1/leye: -647983406213307080
+      1/leye2: 855209333951105130
+      1/liris: -2385713645312533993
+      1/mouth: -6354310493069791798
+      1/mouth2: 8916243741078517881
+      1/mouth3: 922790122204162853
+      1/mouth4: -6583049242757285840
+      1/mouth5: -5348725956575039246
+      1/mouth6: 6939544737904787776
+      1/neck: 6662346755958056302
+      1/nose: 3826378733691686559
+      1/reye: 4789065799624023301
+      1/reye2: -5243403865791643083
+      1/riris: -9070790331936177851
+      1/toilet: 8680791482014883168
+      2/head: 1774637298826387538
+      2/leye: -833386447635638537
+      2/leye2: -1905895281394870643
+      2/mouth: 4632127233310456701
+      2/mouth2: -2599961273162449740
+      2/mouth3: -4321533138433300586
+      2/mouth4: -2207706393580524523
+      2/mouth5: -1653164109777240944
+      2/mouth6: -3851204060804957589
+      2/neck: -8524924651802094144
+      2/nose: -4829549603137176796
+      2/reye: 6295588534305685102
+      2/reye2: -6465626968764923378
+      2/toilet: 5123215799522155482
+      3/head: 3096110398635796691
+      3/leye: -4992493500913461126
+      3/leye2: -904501467452934679
+      3/mouth: -4736248292785601500
+      3/mouth2: 372182573652921227
+      3/mouth3: 7709005936962533391
+      3/mouth4: 3513748843845986733
+      3/mouth5: 2820472830708711107
+      3/mouth6: 3085044020926689261
+      3/neck: -8917530520206700936
+      3/nose: 731203164465000752
+      3/reye: 908077863799343027
+      3/reye2: 7884048105754641787
+      4/head: -9210348821331974346
+      4/leye: 7873121877760562641
+      4/leye2: 542427344197907048
+      4/liris: 6791326549749659204
+      4/mouth: 1487231906752398975
+      4/mouth2: 7711609762468683913
+      4/mouth3: 5986941425139192421
+      4/mouth4: 4411278571737804368
+      4/mouth5: -2654937699886446915
+      4/mouth6: 6743106670842111532
+      4/neck: 1848354094012366239
+      4/nose: 6665502425896188959
+      4/reye: -5614327656289584715
+      4/reye2: -6942950656987270169
+      4/riris: -437308689463228780
+      5/head: 5544786368311300437
+      5/leye: 1149001539806897042
+      5/leye2: -7897781888107229081
+      5/liris: -3289099981806118888
+      5/mouth: 4584204515645073306
+      5/mouth2: 4029109789218372255
+      5/mouth3: 2248605877894936960
+      5/mouth4: 524347802892677899
+      5/mouth5: 6370053318010059762
+      5/mouth6: -6352784416638710453
+      5/neck: -4073514194684236345
+      5/nose: 8002510986893291343
+      5/reye: 4099000309053336991
+      5/reye2: 1955180265693432677
+      5/riris: -3391436631883007432
+      5/toilet: -3241626201502374019
+      6/head: 5081592673122160534
+      6/leye: 2166015019724791946
+      6/leye2: -5192675209712315608
+      6/mouth: 78715407844158953
+      6/mouth2: -3981801663467299558
+      6/mouth3: 2536848706688788519
+      6/mouth4: -5946525528691759713
+      6/mouth5: 5997827354128243583
+      6/mouth6: 1898843892100748689
+      6/neck: 2706391041419913231
+      6/reye: -4340564716580725884
+      6/reye2: 2294271526277778448
+      6/toilet: -8536464301007509873
+      7/leye: -6611929716846031585
+      7/leye2: 9218715733471356052
+      7/liris: 2647307650767348302
+      7/mouth: -6066972363544882187
+      7/mouth2: 3295870537065897684
+      7/mouth3: -1812745717223582397
+      7/mouth4: -2024519270909296725
+      7/mouth5: 5323300152956147595
+      7/mouth6: -6313680830841491057
+      7/neck: 1228999130335222468
+      7/nose: 2919443391597115575
+      7/reye: 5802832600629027167
+      7/reye2: 2012757609698492140
+      7/riris: 700526214839770428
+      7/toilet: -4755504446693559034
+      8/head: -5894809931373092184
+      8/leye: -4708786725293984595
+      8/leye2: 3652982277956405019
+      8/mouth: -8088681831844286715
+      8/mouth2: 4724649444232880786
+      8/mouth3: -4957002333600248927
+      8/mouth4: 9170651835297977715
+      8/mouth5: 3716420641926101986
+      8/mouth6: -2170133217369308028
+      8/neck: -3722762391242371600
+      8/nose: 4345116915758829880
+      8/reye: 1754758880702513109
+      8/reye2: 4894472112980684104
+      9/head: -7146949338091879005
+      9/leye: -5242197792682865386
+      9/leye2: -6658406296714114949
+      9/liris: 2864486523799332436
+      9/mouth: -6898260915468931756
+      9/mouth2: -8658652665732815962
+      9/mouth3: 4496189566057493177
+      9/mouth4: 1618033581623423912
+      9/mouth5: 2932135089079990232
+      9/mouth6: 2216928736412347142
+      9/neck: 4530693066871899460
+      9/nose: 131832154757019182
+      9/reye: -999171181641176110
+      9/reye2: 5583637485969687841
+      9/riris: -8333585995069167421
+      9/toilet: 8117286818189722518
+      skin 10/head: 9040755220544920431
+      skin 10/leye: -5681595322088453988
+      skin 10/leye2: -5209077493775619627
+      skin 10/liris: 1687942923472885298
+      skin 10/mouth: -1174430689360154186
+      skin 10/mouth2: 5355950684537102137
+      skin 10/mouth3: -7777632452578057695
+      skin 10/mouth4: -818811064815022239
+      skin 10/mouth5: 3825817054048882882
+      skin 10/mouth6: 6424745392407681709
+      skin 10/neck: -1166715741956372044
+      skin 10/reye: 3990685445340174104
+      skin 10/reye2: 4901189789664828086
+      skin 10/riris: 1945247665929464544
+      skin 11/head: -6358650678175506962
+      skin 11/leye: 6023731195564999314
+      skin 11/leye2: -4729922473692827594
+      skin 11/liris: 8548409591679847657
+      skin 11/mouth: -1161096363581397028
+      skin 11/mouth2: -2629163994106840480
+      skin 11/mouth3: 5739824558349311226
+      skin 11/mouth4: -8067839355218721603
+      skin 11/mouth5: -3599088781220971093
+      skin 11/mouth6: 4160351826734218907
+      skin 11/neck: 7301971812279695253
+      skin 11/reye: -7377442038155242527
+      skin 11/reye2: 960364079841736190
+      skin 11/riris: -3688144746325018332
+      skin 12/head: -3109499548663192742
+      skin 12/liris: 4701539121604379243
+      skin 12/liris2: -6756185087018197046
+      skin 12/mouth: 1288789344414794050
+      skin 12/mouth2: 5211052935037404949
+      skin 12/mouth3: 3191021313147374202
+      skin 12/mouth4: -1028825210906517932
+      skin 12/mouth5: 5175346462195600052
+      skin 12/mouth6: 8399308528998404410
+      skin 12/neck: 3575027510333543408
+      skin 12/riris: 859806346383478215
+      skin 12/riris2: 4954827342286694728
+      skin 13/head: -5729175823228642947
+      skin 13/leye: 4595898539124269451
+      skin 13/leye2: -3372731091591859862
+      skin 13/mouth: -6983534420140247194
+      skin 13/mouth2: -481687329860602685
+      skin 13/mouth3: 4446783203164364875
+      skin 13/mouth4: 8987649723982888877
+      skin 13/mouth5: -5818679005824879643
+      skin 13/mouth6: -8184936848482536755
+      skin 13/neck: -1677480855859711301
+      skin 13/reye: 1521061862786668035
+      skin 13/reye2: -3433394102535267370
+      skin 13/ueye: 7928132590704578639
+      skin 13/ueye2: 5969828146557466761
+      skin 14/head: -1210323392105782402
+      skin 14/mouth: 8905186114568083746
+      skin 14/mouth2: -730065770970542300
+      skin 14/mouth3: -3034728101849039148
+      skin 14/mouth4: 1418796784318995939
+      skin 14/mouth5: -6254332115318111536
+      skin 14/mouth6: -2159799993332404195
+      skin 14/neck: 192286621541380674
+      skin 14/ueye: -211795823987037649
+      skin 14/ueye2: 6490421488208669189
+      skin 14/uiris: -7761883544957909873
+      skin 14/uiris2: -4455330663285614954
+      skin 15/head: -4617963079885142791
+      skin 15/leye: -1643686067635319208
+      skin 15/leye2: 3783446108105642505
+      skin 15/mouth: 3178077036142058911
+      skin 15/mouth2: -5840721289514760413
+      skin 15/mouth3: 3779022976570039920
+      skin 15/mouth4: 3658750655770325634
+      skin 15/mouth5: 4643222613543773223
+      skin 15/mouth6: -7520097133487354530
+      skin 15/neck: 1395480717250907460
+      skin 15/reye: -7822674162589442543
+      skin 15/reye2: -7466432685949363505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

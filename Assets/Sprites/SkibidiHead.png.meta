@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -132,12 +139,12 @@ TextureImporter:
       name: SkibidiHead_0
       rect:
         serializedVersion: 2
-        x: 268
-        y: 1667
-        width: 361
-        height: 292
+        x: 264
+        y: 1668
+        width: 360
+        height: 280
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,10 +160,10 @@ TextureImporter:
       name: SkibidiHead_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 810
-        width: 184
-        height: 130
+        x: 574
+        y: 1945
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,6 +173,3702 @@ TextureImporter:
       bones: []
       spriteID: 5443f89cfd1d2b34b8edcf1140f45a99
       internalID: 457585389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1704
+        width: 902
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53581d18d45a050429fe5a6d7c6efa2e
+      internalID: 1909445505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1596
+        width: 276
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43753343f03f76488e6901d68bf1d55
+      internalID: 1543526834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1344
+        width: 308
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f506a81d444724c8a344fcf28794f3
+      internalID: -539833238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1426
+        width: 326
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e122727b57d05243a825a66cd4bf6e6
+      internalID: 430167629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_6
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1199
+        width: 1370
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c11ed3176fe624f82cb6d7c96039a2
+      internalID: 1645616493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_7
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1516
+        width: 427
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d211e254471954f9fcfe026d081e9e
+      internalID: -402805612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1123
+        width: 317
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9be9aa78d219e4daeaff20b85e2cf0
+      internalID: 1115639611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 268
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dab503c7d4c1648a9d53ae094fc9c1
+      internalID: -1871323915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 972
+        width: 564
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028404a66b211214bb2c84927e81fddf
+      internalID: 1391922694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_11
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1012
+        width: 328
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154131ca2da9a4e42872c65defde01d5
+      internalID: 1990560371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_12
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 637
+        width: 750
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b23b6a6ca51046894994f219ab04b
+      internalID: 1447986071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 231
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c863340c13142544dbcdcf25d5950fa0
+      internalID: 682983353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 960
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3df24b473e72242ba7eef083c40a21
+      internalID: -2044879546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 850
+        width: 192
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de588b94a032dad45a679dc653f5fcba
+      internalID: 2030416559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_16
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 864
+        width: 191
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd1306ee39afa942949cf87fa170bde
+      internalID: 1434279812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 872
+        width: 190
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a4faa6496a776439edf11f6c71dd53
+      internalID: -1702454485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_18
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 881
+        width: 196
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522c77ab699f9a7439a52fa8d667e74b
+      internalID: -526050091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 185
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43709ea075d1cc94b8b4c71a8f6e70d9
+      internalID: -1597210284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_20
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 708
+        width: 574
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524b1a24492fa4748b2c675f1e7b7217
+      internalID: -2034472236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_21
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 788
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47103eadd5274c84f9ff575fcc8bb453
+      internalID: -760606466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_22
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 738
+        width: 129
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c946405f7b318c5488a307a5ea4bd318
+      internalID: 842953605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_23
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 748
+        width: 419
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd052f089a529b418248034d23aaab7
+      internalID: 1450473052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_24
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 581
+        width: 169
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9af5de6e231dc4b8673f66dd9334f0
+      internalID: 969019850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 594
+        width: 212
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365485beaff83944881634462aee708c
+      internalID: 1253997119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_26
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 546
+        width: 336
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41e64b0e64850a4b87514f88bdc54e1
+      internalID: -1818487627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_27
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 616
+        width: 375
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bec7d47969c694cb9d51925e7f7917
+      internalID: 249687987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_28
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 625
+        width: 156
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be5720247c66054baa0bbb4ce30035c
+      internalID: -957399602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_29
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 442
+        width: 587
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36b46c21bc3c4246a21b2d7f2a75c67
+      internalID: 1959322246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 169
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0cf244f5c1a9c4a864dd1f38a4009e
+      internalID: 581537822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 482
+        width: 240
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4e80aa7b83136488857783cbf11a42
+      internalID: 1169090296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_32
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 496
+        width: 203
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a340db850a04394f94ba4ed380a8fe7
+      internalID: -157926270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_33
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 497
+        width: 155
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405348e9c69525d44a4d4a4936b7318b
+      internalID: 1503325263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_34
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 505
+        width: 129
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f56a4af4bcbc984fba6adab19a9b4a9
+      internalID: -1250674018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_35
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 542
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f742033e34cfc848a12b5f9f4a766bb
+      internalID: 1534690070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_36
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 510
+        width: 143
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b6b18984618cf48aa4107baae3cd0b
+      internalID: -350468244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_37
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 513
+        width: 112
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7683833d1c8b54348a8c208a336b21ae
+      internalID: 229171425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_38
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 516
+        width: 118
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332a40c33a3c9264590f7d54d2ef94c2
+      internalID: -1726523056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_39
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 519
+        width: 118
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aa8f257bebaa14f949f2baa66d01ba
+      internalID: -1277836631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 391
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e423ee7f565121140a0174ac29c35292
+      internalID: 1186181241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_41
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 396
+        width: 237
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fd4f8ba9f0ab247a3cff6c13e6f084
+      internalID: -1633666667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_42
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 331
+        width: 185
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc688aa6b788094b8dccc8c6fe22e53
+      internalID: 555546942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_43
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 410
+        width: 221
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80411ce10d6724a4ca781c1a7d2c4140
+      internalID: -923462477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_44
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 408
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab45361288bd584ca34d0ef82e64c5a
+      internalID: -445702068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_45
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 336
+        width: 122
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376dcded11837fd48a1b36e6ac0191ed
+      internalID: -777639132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_46
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 425
+        width: 231
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdc5443f1ec7ca42afd179656311cc9
+      internalID: 970299545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_47
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 430
+        width: 160
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fce4625fbe9a0443b3ecf08770d7ca3
+      internalID: -141764766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_48
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 439
+        width: 210
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7af9a9141995aa4099e0195b053f019
+      internalID: -2067613287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_49
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 361
+        width: 145
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4b178b7c286924daa461d0bc7a4b6b
+      internalID: 1168143925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 172
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639b3a585aaee9347944ceabdb77c13b
+      internalID: -629412587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_51
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 320
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c408dc56413944caff09071c3accd4
+      internalID: 502808193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 326
+        width: 199
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f23969dd40da04da2eb9dd2c02e39c
+      internalID: -1796815791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_53
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 331
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7380430c683eb3c4aa74a3dd145b22e4
+      internalID: 1686335142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_54
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 331
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c51472de0fdb6498030f1416d4326f
+      internalID: 57108162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_55
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 266
+        width: 83
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19595db742a83443824cea841c3e235
+      internalID: 2039373931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_56
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 279
+        width: 365
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45aef3d3e731c2419eea1765f348da0
+      internalID: 65223669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_57
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 346
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0495b4001ff74ef4e85326e34f0c3cc6
+      internalID: 224698403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_58
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 350
+        width: 155
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d611acce46180cf49a438ed97eda782e
+      internalID: 513131975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_59
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 292
+        width: 222
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29c36e833b9b294daf3c389d26fe013
+      internalID: 978792763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_60
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 360
+        width: 159
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee4bd2ee15670c488e30043a9899b3c
+      internalID: 1871346128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 80
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e22d9155cd5114abf79744077634e9
+      internalID: 377245619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_62
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 198
+        width: 192
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601d371b8cd0e01479065444a3dd0232
+      internalID: -642986689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_63
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 264
+        width: 166
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5b5c1adf647f14e88498c4d88405fb
+      internalID: 794092501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_64
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 264
+        width: 82
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9283bebfbc637fb4bbd5ba9055549546
+      internalID: -1226404468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_65
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 264
+        width: 220
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9105f4b147086cb43a3de41b8d926da2
+      internalID: -1600891234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_66
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 213
+        width: 377
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0549576b016ccfd4bbd2a25165408bf5
+      internalID: 2120707241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_67
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 277
+        width: 135
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a77a478117e0b40baf2191ceb0b238
+      internalID: -442434700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_68
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 288
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145eba5d9ff41974b861c8be3d9bedd2
+      internalID: 1469465904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_69
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 219
+        width: 117
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285e6b0ceded98848ab6153323370dd4
+      internalID: 383250462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_70
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 282
+        width: 122
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8970b54de7d3d764d8f3dd3e4528cbfd
+      internalID: 1149810291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_71
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 276
+        width: 77
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeb3fa6895a75c4f91f868be0c8cc82
+      internalID: -850181294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_72
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 290
+        width: 216
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cf9fd1aa9928447a73b9e33044e92e
+      internalID: 95800503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_73
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 196
+        width: 99
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a18a9b286e753499d5572f4c8ee3cc
+      internalID: -915217808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_74
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 146
+        width: 212
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d333f0d8f8870c45a10fdb0d422470f
+      internalID: 229212349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_75
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 207
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78873e11fd8e3924c8ee5c798b7a767a
+      internalID: -1407809952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_76
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 205
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdb224ae001e3d4e9602ab493c7ceef
+      internalID: -383845165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_77
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 205
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db611274640838a41bedbab5d513173c
+      internalID: 2044592935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_78
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 207
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9763e637f4908b44e981da26c0a1867a
+      internalID: -1970290624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_79
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 156
+        width: 341
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10aa33019084e74fad2110f56f19eda
+      internalID: 153923611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_80
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 218
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dd4881aafc0ee428537d3a4be0e213
+      internalID: -434561866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_81
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 216
+        width: 71
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0622a1c603fd9664c81ce5a3897dfb08
+      internalID: -1619417356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_82
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 222
+        width: 212
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87177e1ddffa3ae40a3cf6b0036a2d9b
+      internalID: 1485940285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_83
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 168
+        width: 209
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0515691d6d2aa941acf633bc596e684
+      internalID: 1008728589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_84
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 224
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a3a22f3beab8648aec34702f2d02ef
+      internalID: -177844805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_85
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 226
+        width: 91
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152e4679c2f961d4a8b8869aff6d38b6
+      internalID: -1777841420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_86
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 241
+        width: 139
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853285ea74846454eb465354f88acb55
+      internalID: 1941415078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_87
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 152
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2415ca816274f54a89f5bf83cdae2ac
+      internalID: 1221640078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_88
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 152
+        width: 114
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a3c2464f4602e43b0304650aab35c5
+      internalID: -230906233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_89
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 154
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c60dd091d10c846ac25131cd5fddfe
+      internalID: 156417948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_90
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 158
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436e7205754728243a22d5e13f27ffdf
+      internalID: 1141725463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_91
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 161
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e93e9bcab621de4f91b142db15a2756
+      internalID: -505122870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_92
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 160
+        width: 94
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768577c646a4a6a40b6a4f8dac0586a5
+      internalID: -1064276659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_93
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 160
+        width: 73
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b30099e6df8724d9f856d2b40e993a
+      internalID: 541295252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_94
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 163
+        width: 89
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb30cdcf68d488408c6d8410db67287
+      internalID: -1355153844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_95
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 198
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9389a82ef41f27847b8e481c87f29c97
+      internalID: 1490410089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_96
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 164
+        width: 118
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65cedbdf92ab864b91029bfc4229a80
+      internalID: -442895398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_97
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 164
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57340ad0b09f1a40b504f48fac9ec03
+      internalID: -2032912851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_98
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 168
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5584a6d1290bd438049303e19db36d
+      internalID: 1240638227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_99
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 171
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a195c10c48df9841845184ca13db969
+      internalID: -1431382354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_100
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 171
+        width: 138
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db78d5caaea177a4c9c281579eda7484
+      internalID: -986378330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_101
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 171
+        width: 98
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32248b4c315fa06498292b82fe5f55d4
+      internalID: -1740681466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69ca5b8102378b4fb85e24f73cae148
+      internalID: 44064546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_103
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 146
+        width: 97
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e0cbb4d8ba04e439ea14f3d2c324d8
+      internalID: 613746597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_104
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 102
+        width: 292
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad3db1477514694d8dc52a81b26185a
+      internalID: 1618956531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_105
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 106
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788c3f8dbfce6c641b465d2d32b2fe43
+      internalID: -499236098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_106
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 67
+        width: 244
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2b9a3069713014c9258c46a3b8784b
+      internalID: -584467661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_107
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 123
+        width: 82
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8110700614d334dbac87fc3b8ed6ab
+      internalID: -1988070549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_108
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 111
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a077025b913924c9ff56320e2cd68b
+      internalID: 98838021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_109
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 110
+        width: 120
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd9cfc4ef61b5841b9734dbdb42487e
+      internalID: 1515063796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_110
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 68
+        width: 118
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c727263745dfabb4d8bfda244f31eec4
+      internalID: -1440517051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_111
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 113
+        width: 102
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c2b824fa44bae4bb32b732ccddfbc4
+      internalID: 1118977032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_112
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 115
+        width: 228
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dfe767feafd54438f3479173cb8f1f
+      internalID: 925556421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_113
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 127
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0563d6fbc8b0c544b8b30d9d94273685
+      internalID: -1218673934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_114
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 72
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105efb65757727844a988f020f24a45b
+      internalID: -339738930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_115
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 74
+        width: 108
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77977f65c5f66434ba919932a2f098cc
+      internalID: 2073268458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_116
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 121
+        width: 201
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c50290f37f7fc54e90a491e1b203b6a
+      internalID: -261368016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42c90e62f9389447b1a008b5803b412
+      internalID: 1229826951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_118
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 98
+        width: 90
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e618f9f8577a2a4f88498ff134980b9
+      internalID: -481170925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_119
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 99
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13d20b82cdbaaf43936e4d8367c4f84
+      internalID: -1890863871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_120
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 100
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444d82539455abb48a9ef51ea011306b
+      internalID: 1459081207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_121
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 111
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d74bbfb3b541454886443ca64daeb87
+      internalID: -1219813411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_122
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 33
+        width: 166
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35aef2912ccc77c43b6672d4f6aecff5
+      internalID: -213360715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_123
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 72
+        width: 166
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1235fbba4f5381d4cb630e5eb9657e28
+      internalID: 191217662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_124
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 74
+        width: 130
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a5098c3e519724e8755698a7878331
+      internalID: 336354405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_125
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 34
+        width: 187
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ce8b41d70feac43a90767d75db20a0
+      internalID: 658564871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_126
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 33
+        width: 94
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2188b9280dab942b86f035af1790d1
+      internalID: 540860299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_127
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 54
+        width: 88
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb058616f40dd134798c192453b1360a
+      internalID: -819606642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_128
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 25
+        width: 156
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae87fe98de33df41a5b0882fbb9dc18
+      internalID: 1491460826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_129
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 58
+        width: 77
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ec52b8004b40d4fa2924a37a3d6d3e
+      internalID: 1459551197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_130
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 89
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed7ed3027a199942b58a2bee582b88f
+      internalID: 1664830028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_131
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 64
+        width: 95
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae58389840a3a6408bb70a38a18a1a0
+      internalID: 2023989332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_132
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 64
+        width: 129
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd023838a117c904d9b9c092bb969b7e
+      internalID: -416529001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_133
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 64
+        width: 86
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a571ee9eeda5dc49b3a805d5c2b0f80
+      internalID: -1917884297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_134
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 31
+        width: 143
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28179b1aab0784f4c813918070d65143
+      internalID: -1793677509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_135
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 66
+        width: 132
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5a06d73e646ff458af5e44121dbac8
+      internalID: 805095906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_136
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 68
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1554e170b43ecc94b8e27ed2eba444df
+      internalID: 1384722287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_137
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 67
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecd0d60628c6a046b84459044f7315a
+      internalID: 1173784080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_138
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 33
+        width: 99
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b534ba6106fdb094c9c9f4f43b454091
+      internalID: -1524982896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_139
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 3
+        width: 171
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79044c94355bd8a4b92728e60afc1608
+      internalID: -104484473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_140
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 34
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76190f9bd1a64c244b2fd75c055ead92
+      internalID: 62864962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_141
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 34
+        width: 92
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1914ea4ff95df9c4d90fa0058f9cbc81
+      internalID: 1624941411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc05f527cab66a54e97f442847f663e3
+      internalID: -170810393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_143
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 72
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de62c43ebae1fb40956283bba966478
+      internalID: -359672602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_144
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 22
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc23f24e7a236a4f8f633e175247b5c
+      internalID: -608379792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_145
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 26
+        width: 74
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3347b363883c94991c708cb8e2e514
+      internalID: -188371613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_146
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 3
+        width: 173
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db6de49c59b8f64dbaa4aa95558dba1
+      internalID: -2083828946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_147
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 28
+        width: 111
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968e95a2e9ad4a74aa1a0fb9d82afb48
+      internalID: -447789396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_148
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 29
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd752f694e9b2a4dbd4d88dd30c5f80
+      internalID: -666982028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_149
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 3
+        width: 125
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb1155346f5fe04abdcd9e270577d32
+      internalID: -559454227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_150
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 30
+        width: 85
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9927ccd5f4a035844bf47902f37b1dd0
+      internalID: 1966979457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_151
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 30
+        width: 77
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cd7b6cba5a67e438f13804a17a202a
+      internalID: 625029294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_152
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 31
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9a895d5b7ed3940bf51bf77e756f5c
+      internalID: 1639080975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_153
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2
+        width: 116
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab20e5763a8f9194ca55d997ad32ce59
+      internalID: -1528741209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_154
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 3
+        width: 76
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9622383aacd2c354dbd28c1968cd7098
+      internalID: -1032285872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_155
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dff3b62705bb8542b5867c029a1ca58
+      internalID: 540058340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_156
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 3
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2ea873eb7cf2c4abe19fffd0892ccb
+      internalID: -1616054802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_157
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 3
+        width: 129
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d996801b7d4541b41a1cf51e4307542f
+      internalID: -324214593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_158
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 2
+        width: 91
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df9b0d808c0ccf40b7780b843a1c5c2
+      internalID: -1386124076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_159
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 0
+        width: 82
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02825649bed9c74bab674068e257b43
+      internalID: -1467917011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70a6cda488db1c4bac82bd7b147fafd
+      internalID: -1834177093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_161
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be707003f2921840b2c252978c2b652
+      internalID: 254777644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_162
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f5cee7ccfb65546a5d53745b21c74d
+      internalID: 952817778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_163
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94329787af5c8f5459b2f753a3903390
+      internalID: 479128740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_164
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20f93a0cfe567e44a5e3f070e653fe6
+      internalID: -499582802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_165
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a80518bb590f449b1fe424d44cfb56
+      internalID: 586841686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_166
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d117bf434a45d54787e43809ef9be2e
+      internalID: 1252072746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_167
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4
+        width: 131
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f35042c7301ad419588f4f3fdeb678
+      internalID: 827871676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_168
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b6bf0c679fd664198a325e180b5b8e
+      internalID: -1942142996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_169
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 3
+        width: 93
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba5bc3caaa1e224aba440f86318dcbe
+      internalID: -872067471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_170
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 137
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd3e7e6a400f1743ac65cba145f9dba
+      internalID: 645082686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_171
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 3
+        width: 65
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bc1b2922511ad4ca80908c56fc72ac
+      internalID: 307280647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_172
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 3
+        width: 93
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab8f1fc4b7b2804f8ea748d7e54e3b2
+      internalID: 447244381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_173
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9630c62d6bc7f64eaf54cf60625183f
+      internalID: -963121214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_174
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 4
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356a850d3c4b97b45833bf327f337f24
+      internalID: -323639398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_175
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 148
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7c7b932d18f1b47aa2c29c2e4033ff
+      internalID: -1400687037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_176
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4f085b9924bb8459be74e7d9324d3f
+      internalID: 1573233263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkibidiHead_177
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 0
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0977449f84e9040a9cafa3293336ce
+      internalID: 1685181526
       vertices: []
       indices: 
       edges: []
@@ -181,11 +3884,186 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SkibidiHead_1: 457585389
       SkibidiHead_0: 1746578999
-  spritePackingTag: 
+      SkibidiHead_1: 457585389
+      SkibidiHead_10: 1391922694
+      SkibidiHead_100: -986378330
+      SkibidiHead_101: -1740681466
+      SkibidiHead_102: 44064546
+      SkibidiHead_103: 613746597
+      SkibidiHead_104: 1618956531
+      SkibidiHead_105: -499236098
+      SkibidiHead_106: -584467661
+      SkibidiHead_107: -1988070549
+      SkibidiHead_108: 98838021
+      SkibidiHead_109: 1515063796
+      SkibidiHead_11: 1990560371
+      SkibidiHead_110: -1440517051
+      SkibidiHead_111: 1118977032
+      SkibidiHead_112: 925556421
+      SkibidiHead_113: -1218673934
+      SkibidiHead_114: -339738930
+      SkibidiHead_115: 2073268458
+      SkibidiHead_116: -261368016
+      SkibidiHead_117: 1229826951
+      SkibidiHead_118: -481170925
+      SkibidiHead_119: -1890863871
+      SkibidiHead_12: 1447986071
+      SkibidiHead_120: 1459081207
+      SkibidiHead_121: -1219813411
+      SkibidiHead_122: -213360715
+      SkibidiHead_123: 191217662
+      SkibidiHead_124: 336354405
+      SkibidiHead_125: 658564871
+      SkibidiHead_126: 540860299
+      SkibidiHead_127: -819606642
+      SkibidiHead_128: 1491460826
+      SkibidiHead_129: 1459551197
+      SkibidiHead_13: 682983353
+      SkibidiHead_130: 1664830028
+      SkibidiHead_131: 2023989332
+      SkibidiHead_132: -416529001
+      SkibidiHead_133: -1917884297
+      SkibidiHead_134: -1793677509
+      SkibidiHead_135: 805095906
+      SkibidiHead_136: 1384722287
+      SkibidiHead_137: 1173784080
+      SkibidiHead_138: -1524982896
+      SkibidiHead_139: -104484473
+      SkibidiHead_14: -2044879546
+      SkibidiHead_140: 62864962
+      SkibidiHead_141: 1624941411
+      SkibidiHead_142: -170810393
+      SkibidiHead_143: -359672602
+      SkibidiHead_144: -608379792
+      SkibidiHead_145: -188371613
+      SkibidiHead_146: -2083828946
+      SkibidiHead_147: -447789396
+      SkibidiHead_148: -666982028
+      SkibidiHead_149: -559454227
+      SkibidiHead_15: 2030416559
+      SkibidiHead_150: 1966979457
+      SkibidiHead_151: 625029294
+      SkibidiHead_152: 1639080975
+      SkibidiHead_153: -1528741209
+      SkibidiHead_154: -1032285872
+      SkibidiHead_155: 540058340
+      SkibidiHead_156: -1616054802
+      SkibidiHead_157: -324214593
+      SkibidiHead_158: -1386124076
+      SkibidiHead_159: -1467917011
+      SkibidiHead_16: 1434279812
+      SkibidiHead_160: -1834177093
+      SkibidiHead_161: 254777644
+      SkibidiHead_162: 952817778
+      SkibidiHead_163: 479128740
+      SkibidiHead_164: -499582802
+      SkibidiHead_165: 586841686
+      SkibidiHead_166: 1252072746
+      SkibidiHead_167: 827871676
+      SkibidiHead_168: -1942142996
+      SkibidiHead_169: -872067471
+      SkibidiHead_17: -1702454485
+      SkibidiHead_170: 645082686
+      SkibidiHead_171: 307280647
+      SkibidiHead_172: 447244381
+      SkibidiHead_173: -963121214
+      SkibidiHead_174: -323639398
+      SkibidiHead_175: -1400687037
+      SkibidiHead_176: 1573233263
+      SkibidiHead_177: 1685181526
+      SkibidiHead_18: -526050091
+      SkibidiHead_19: -1597210284
+      SkibidiHead_2: 1909445505
+      SkibidiHead_20: -2034472236
+      SkibidiHead_21: -760606466
+      SkibidiHead_22: 842953605
+      SkibidiHead_23: 1450473052
+      SkibidiHead_24: 969019850
+      SkibidiHead_25: 1253997119
+      SkibidiHead_26: -1818487627
+      SkibidiHead_27: 249687987
+      SkibidiHead_28: -957399602
+      SkibidiHead_29: 1959322246
+      SkibidiHead_3: 1543526834
+      SkibidiHead_30: 581537822
+      SkibidiHead_31: 1169090296
+      SkibidiHead_32: -157926270
+      SkibidiHead_33: 1503325263
+      SkibidiHead_34: -1250674018
+      SkibidiHead_35: 1534690070
+      SkibidiHead_36: -350468244
+      SkibidiHead_37: 229171425
+      SkibidiHead_38: -1726523056
+      SkibidiHead_39: -1277836631
+      SkibidiHead_4: -539833238
+      SkibidiHead_40: 1186181241
+      SkibidiHead_41: -1633666667
+      SkibidiHead_42: 555546942
+      SkibidiHead_43: -923462477
+      SkibidiHead_44: -445702068
+      SkibidiHead_45: -777639132
+      SkibidiHead_46: 970299545
+      SkibidiHead_47: -141764766
+      SkibidiHead_48: -2067613287
+      SkibidiHead_49: 1168143925
+      SkibidiHead_5: 430167629
+      SkibidiHead_50: -629412587
+      SkibidiHead_51: 502808193
+      SkibidiHead_52: -1796815791
+      SkibidiHead_53: 1686335142
+      SkibidiHead_54: 57108162
+      SkibidiHead_55: 2039373931
+      SkibidiHead_56: 65223669
+      SkibidiHead_57: 224698403
+      SkibidiHead_58: 513131975
+      SkibidiHead_59: 978792763
+      SkibidiHead_6: 1645616493
+      SkibidiHead_60: 1871346128
+      SkibidiHead_61: 377245619
+      SkibidiHead_62: -642986689
+      SkibidiHead_63: 794092501
+      SkibidiHead_64: -1226404468
+      SkibidiHead_65: -1600891234
+      SkibidiHead_66: 2120707241
+      SkibidiHead_67: -442434700
+      SkibidiHead_68: 1469465904
+      SkibidiHead_69: 383250462
+      SkibidiHead_7: -402805612
+      SkibidiHead_70: 1149810291
+      SkibidiHead_71: -850181294
+      SkibidiHead_72: 95800503
+      SkibidiHead_73: -915217808
+      SkibidiHead_74: 229212349
+      SkibidiHead_75: -1407809952
+      SkibidiHead_76: -383845165
+      SkibidiHead_77: 2044592935
+      SkibidiHead_78: -1970290624
+      SkibidiHead_79: 153923611
+      SkibidiHead_8: 1115639611
+      SkibidiHead_80: -434561866
+      SkibidiHead_81: -1619417356
+      SkibidiHead_82: 1485940285
+      SkibidiHead_83: 1008728589
+      SkibidiHead_84: -177844805
+      SkibidiHead_85: -1777841420
+      SkibidiHead_86: 1941415078
+      SkibidiHead_87: 1221640078
+      SkibidiHead_88: -230906233
+      SkibidiHead_89: 156417948
+      SkibidiHead_9: -1871323915
+      SkibidiHead_90: 1141725463
+      SkibidiHead_91: -505122870
+      SkibidiHead_92: -1064276659
+      SkibidiHead_93: 541295252
+      SkibidiHead_94: -1355153844
+      SkibidiHead_95: 1490410089
+      SkibidiHead_96: -442895398
+      SkibidiHead_97: -2032912851
+      SkibidiHead_98: 1240638227
+      SkibidiHead_99: -1431382354
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

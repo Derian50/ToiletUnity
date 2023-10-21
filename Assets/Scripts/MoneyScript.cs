@@ -11,13 +11,9 @@ public class MoneyScript : MonoBehaviour
     void Start()
     {
         _moneyCount = Progress.Instance.PlayerInfo.Coins;
-        _moneyText = transform.Find("MoneyText").GetComponent<TextMeshProUGUI>();
+        _moneyText = transform?.Find("MoneyText").GetComponent<TextMeshProUGUI>();
         _moneyText.text = _moneyCount.ToString();
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
+    // Update is called once per frame
 }

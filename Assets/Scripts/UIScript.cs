@@ -25,8 +25,13 @@ public class UIScript : Sounds
     public Button skipFailButton;
     public Button soundButton;
 
+
+    [SerializeField] GameObject OW;
+    private OscillatingWheel _OWScript;
+
     private void Start()
     {
+        _OWScript = OW.GetComponent<OscillatingWheel>();
         isSoundOn = !AudioListener.pause;
         SoundButton();
         SoundButton();
@@ -94,6 +99,8 @@ public class UIScript : Sounds
 
     private void NextLevel()
     {
+        Progress.Instance.PlayerInfo.Coins += (200 * _OWScript.mult);
+        Progress.Instance.Save();
         SaveManager.SaveState();
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if(SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)

@@ -261,10 +261,14 @@ public class LineRenderScript : Sounds
         }
         
     }
-  
+    public void asd(int i)
+    {
+
+    }
     public void startReverseNeck(string gameEnd)
     {
-        Debug.Log("STARTREVERSENECK");
+        OscillatingWheel ow = new OscillatingWheel();
+        ow.OnWheelValueChanged += asd;
         PlaySound(sounds[3]);
         if(gameEnd == "lose")
         {

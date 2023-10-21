@@ -17,12 +17,12 @@ public abstract class AbstractMultiplierWheel : MonoBehaviour
     protected int _valueOffset;
     protected int _valueI;
     
-    public abstract event Action<int /*Wheel Value*/> OnWheelValueChanged; 
-    
+    public abstract event Action<int /*Wheel Value*/> OnWheelValueChanged;
+
     protected virtual void Awake()
     {
-        //_values = ConfigManager.Instance.StageEndScreenConfig.ProfitMultipliers;
-        //_period = ConfigManager.Instance.StageEndScreenConfig.SpinningWheelPeriod;
+        _values = new int[4] { 4, 3, 2, 1 };
+        _period = 1f;
         _angularVelocity = 360f / _period;
         // _b is defined in moment of starting to spin the wheel
     }

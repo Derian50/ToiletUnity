@@ -1,12 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class OscillatingWheel : AbstractMultiplierWheel
 {
-    private const float MinAngle = -85, MaxAngle = 85;
+    private const float MinAngle = -120, MaxAngle = 120;
     
     /// <summary>
     /// Coefficients in function transforming time to a Value on the wheel 
@@ -14,10 +15,17 @@ public class OscillatingWheel : AbstractMultiplierWheel
     protected float _angle;
     protected float _angleOffset;
     protected bool _dir;
-    
+    public int mult;
     public override event Action<int> OnWheelValueChanged;
 
-    
+    private void Stop()
+    {
+        _isSpinning = false;
+    }
+    private void Start()
+    {
+        StartSpinning();
+    }
     private void Update()
     {
         if (!_isSpinning) return;
@@ -48,6 +56,7 @@ public class OscillatingWheel : AbstractMultiplierWheel
             {
                 _valueI = I;
                 OnWheelValueChanged?.Invoke(_values[I]);
+                mult = _values[I];
             }
         }
     }
@@ -59,6 +68,7 @@ public class OscillatingWheel : AbstractMultiplierWheel
         _angle = Random.Range(MinAngle, MaxAngle);
         _valueI = CalculateI(_angle);
         OnWheelValueChanged?.Invoke(_values[_valueI]);
+        mult = _valueI;
     }
 
 
@@ -66,13 +76,13 @@ public class OscillatingWheel : AbstractMultiplierWheel
     {
         switch (angle)
         {
-            case > -90f and <= -60f:
+            case > -90f and <= -70f:
                 return 0;
-            case > -60f and <= -15f:
+            case > -70 and <= -25f:
                 return 1;
-            case > -15f and <= 35f:
+            case > -25f and <= 30:
                 return 2;
-            case > 35f and <= 90f:
+            case > 30f and <= 90f:
                 return 3;
         }
         return -1;

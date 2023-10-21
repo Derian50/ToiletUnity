@@ -27,12 +27,15 @@ public class HeroProgressScript : MonoBehaviour
 
         _HeadImage.sprite = SpriteArray[_skinNumber];
         _HeadImageBlack.sprite = SpriteArray[_skinNumber];
+
+        Debug.Log("skinPercent: " + _skinPercent);
         win();
     }
 
 
     private void win()
     {
+        Progress.Instance.PlayerInfo.NewSkinPercent = (int)_skinPercent + 20;
         _skinPercent += 2;
         anim = true;
     }
@@ -40,25 +43,21 @@ public class HeroProgressScript : MonoBehaviour
     // 
     void Update()
     {
-        Debug.Log(_skinPercent);
         if (!anim) return;
 
-        Progress.Instance.PlayerInfo.NewSkinPercent = (int)_skinPercent + 20;
-        if (Math.Round(_skinPercent + 20) == 100)
+        
+        if (Progress.Instance.PlayerInfo.NewSkinPercent == 100)
         {
             Progress.Instance.PlayerInfo.NewSkinPercent = 0;
             Progress.Instance.PlayerInfo.NewSkinNumber++;
             //giveSkin();
         }
         
-        //just for test
-        Progress.Instance.PlayerInfo.Coins += 200;
-        Progress.Instance.Save();
-        
+
 
         if (Math.Round(_skinPercent) % 20 != 0 )
         {
-            _skinPercent += 0.4f;
+            _skinPercent += 0.04f;
             _PercentText.text = Math.Round(_skinPercent).ToString() + "%";
             _HeadImage.fillAmount = _skinPercent/100;
         }

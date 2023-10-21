@@ -30,7 +30,6 @@ public class EnemyCamera : Sounds
     {
         if(typeOfCamera == "Jetpuck")
         {
-            Debug.Log("JUTPUCK");
             enemy_Rigidbody = GetComponent<Rigidbody2D>();
         }
         Explosion = transform.Find("Explosion").gameObject;
@@ -38,7 +37,6 @@ public class EnemyCamera : Sounds
         ScibidiHead = GameObject.Find("ScibidiHeadPivot");
        skeletonAnimation.AnimationName = "idle";
        an = go.GetComponent<Animator>();
-       Debug.Log(go.name);
         
         an.enabled = false;
     }
@@ -96,9 +94,7 @@ public class EnemyCamera : Sounds
         {
             Invoke("DestroyBody", 1);
         }
-        Debug.Log("ENEMY COLLISION " + other.gameObject.tag);
         if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Untagged" || other.gameObject.tag == "Platform") return;
-        Debug.Log("VELOCITY " + ScibidiHead.GetComponent<Player>().lastHeadVelocity);
         
         Explosion.SetActive(true);
         gameObject.tag = "EnemyDead";

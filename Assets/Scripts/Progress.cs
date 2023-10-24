@@ -13,6 +13,11 @@ public class PlayerInfo
     public int NewSkinPercent;
     public int NewSkinNumber;
     public int Level;
+    public bool[] OpenHeadSkin = new bool[17];
+    public bool[] OpenToiletSkin = new bool[17];
+    public int[] ToiletSkinCost = new int[17];
+    public int currentHeadIndex;
+    public int currentToiletIndex;
 }
 
 public class Progress : MonoBehaviour

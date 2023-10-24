@@ -48,8 +48,10 @@ public class HeroProgressScript : MonoBehaviour
         
         if (Progress.Instance.PlayerInfo.NewSkinPercent == 100)
         {
+            
             Progress.Instance.PlayerInfo.NewSkinPercent = 0;
             Progress.Instance.PlayerInfo.NewSkinNumber++;
+            
             //giveSkin();
         }
         

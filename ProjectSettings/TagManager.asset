@@ -33,6 +33,10 @@ TagManager:
   - Platform
   - border
   - attempts
+  - UnlockedToiletImage
+  - ButtonUSE
+  - ButtonWithCurrency
+  - ButtonWithVideo
   layers:
   - Default
   - TransparentFX

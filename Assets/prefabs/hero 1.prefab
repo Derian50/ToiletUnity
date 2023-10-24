@@ -151,7 +151,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds: []
   UI: {fileID: 0}
-  mat: {fileID: 2100000, guid: 4ad4f7167d4983147ad870f93ebc9416, type: 2}
   minDistance: 5
   ScibidiHead: {fileID: 3788650771703481730}
   lose: 0
@@ -186,11 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 380634852076115657, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.133
-      objectReference: {fileID: 0}
-    - target: {fileID: 830114971867044528, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
-      propertyPath: m_Mesh
-      value: 
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1469311982184044457, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
       propertyPath: m_LocalRotation.w

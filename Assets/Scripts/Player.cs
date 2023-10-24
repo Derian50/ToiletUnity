@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
     }
     void FixedUpdate(){
 
-
+       // if (playerSpeed == 0) return;
        if(_rb.velocity.x != 0 && _rb.velocity.y != 0) lastHeadVelocity = _rb.velocity;
         if (boomVector3 != Vector3.zero)
         {

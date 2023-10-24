@@ -18,8 +18,8 @@ public class LineRenderScript : Sounds
     GameObject Confetti;
     [SerializeField] GameObject UI;
     UIScript uiScript;
-    [SerializeField] Material mat;
-    [SerializeField] int minDistance = 2;
+    //public Material mat;
+    [SerializeField] int minDistance = 1;
     [SerializeField] GameObject ScibidiHead;
     public bool lose = false;
     public bool win = false;
@@ -45,13 +45,16 @@ public class LineRenderScript : Sounds
         PlaySound(sounds[0]);
         uiScript = UI.GetComponent<UIScript>();
         ScibidiAnimation = ScibidiHead.GetComponent<Player>().skeletonAnimation;
+        
+        Debug.Log(ScibidiAnimation.initialSkinName);
+        Debug.Log(ScibidiAnimation.initialSkinName);
         shX = ScibidiHead.transform.position.x;
         shY = ScibidiHead.transform.position.y;
         _startShX = shX;
         _startShY = shY;    
         lr = GetComponent<LineRenderer>();
         lr.positionCount = 3;
-        lr.material = mat;
+        //lr.material = mat;
         lr.numCornerVertices = 1;
         positions.Add(new Vector3(shX, shY - 0.4f, 0));
         positions.Add(new Vector3(shX, shY - 0.2f, 0));
@@ -141,7 +144,7 @@ public class LineRenderScript : Sounds
                 ScibidiHead.transform.position = positions[positions.Count - 1];
                 positions.RemoveAt(positions.Count - 1);
                 lr.positionCount--;
-                lr.SetPositions(positions.ToArray());
+            lr.SetPositions(positions.ToArray());
             }
             
             else if (lose)
@@ -191,10 +194,17 @@ public class LineRenderScript : Sounds
         shX = ScibidiHead.transform.position.x;
         shY = ScibidiHead.transform.position.y;
         counter++;
-        if(positions.Last().x == shX && positions.Last().y == shY)
+        try
         {
-            return;
+            if (positions.Last().x == shX && positions.Last().y == shY)
+            {
+                return;
+            }
         }
+        catch
+        {
+        }
+        
         if (counter < minDistance)
         {
             // Debug.Log("return");

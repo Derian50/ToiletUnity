@@ -73,13 +73,14 @@ public class UIScript : Sounds
 
     private void GiveSkinButton()
     {
-        Progress.Instance.PlayerInfo.currentHeadIndex = Progress.Instance.PlayerInfo.NewSkinNumber + 1;
+        Progress.Instance.PlayerInfo.currentHeadIndex = Progress.Instance.PlayerInfo.NewSkinNumber;
         Progress.Instance.PlayerInfo.OpenHeadSkin[Progress.Instance.PlayerInfo.currentHeadIndex] = true;
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)
                 NextLevelWithoutCash();
         });
+        //NextLevelWithoutCash();
     }
     private void unHideNoButton()
     {
@@ -127,7 +128,8 @@ public class UIScript : Sounds
             if (YaSDK._isRewarded)
                 NextLevel();
         });
-            
+        //NextLevel();
+
     }
     public void noThanksButton()
     {

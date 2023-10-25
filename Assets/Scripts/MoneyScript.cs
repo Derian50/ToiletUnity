@@ -10,10 +10,14 @@ public class MoneyScript : MonoBehaviour
     private TextMeshProUGUI _moneyText;
     void Start()
     {
+       UpdateInfo();
+
+    }
+    public void UpdateInfo()
+    {
         _moneyCount = Progress.Instance.PlayerInfo.Coins;
         _moneyText = transform?.Find("MoneyText").GetComponent<TextMeshProUGUI>();
         _moneyText.text = _moneyCount.ToString();
-
     }
     // Update is called once per frame
 }

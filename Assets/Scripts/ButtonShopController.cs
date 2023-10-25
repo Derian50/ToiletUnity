@@ -22,6 +22,8 @@ public class ButtonShopController : MonoBehaviour
     private GameObject[] _GOArrButtonVideo;
     private string _ActivePanel = "head";
 
+    public GameObject Money;
+    private MoneyScript _MoneyScript;
     public GameObject SkinController;
     private ShopController SCScript;
 
@@ -46,6 +48,7 @@ public class ButtonShopController : MonoBehaviour
     private void Start()
     {
         //SCScript = SkinController.GetComponent<ShopController>();
+        _MoneyScript = Money.GetComponent<MoneyScript>();
         MTSScript = MainToiletSkin.GetComponent<ShopController>();
         MHSScript = MainHeadSkin.GetComponent<ShopController>();
         MNSScript = MainNeckSkin.GetComponent<ShopController>();
@@ -130,6 +133,7 @@ public class ButtonShopController : MonoBehaviour
     }
     void ChangePanel()
     {
+        _MoneyScript.UpdateInfo();
         for (int i = 0; i < _GOArrUTI.Length; i++)
         {
             _GOArrUTI[i].SetActive(true);
@@ -213,7 +217,10 @@ public class ButtonShopController : MonoBehaviour
         {
             Progress.Instance.PlayerInfo.OpenHeadSkin[index] = true;
         }
-
+        if (index == Progress.Instance.PlayerInfo.NewSkinNumber)
+        {
+            Progress.Instance.PlayerInfo.NewSkinPercent = 0;
+        }
         _ActivePanel = "body";
         ChangePanel();
         _ActivePanel = "head";
@@ -226,7 +233,6 @@ public class ButtonShopController : MonoBehaviour
             if (YaSDK._isRewarded)
                 getVideoSkin();
         });
-        
 
     }
     public void clickCurrencyButton()

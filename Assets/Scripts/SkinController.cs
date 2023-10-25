@@ -25,7 +25,6 @@ void Start()
         BSCScript = ButtonShopController.GetComponent<ButtonShopController>();
 
         Progress.Instance.PlayerInfo.OpenHeadSkin[0] = true;
-        Progress.Instance.PlayerInfo.OpenHeadSkin[2] = true;
         Progress.Instance.PlayerInfo.OpenToiletSkin[0] = true;
         ChangeSkin(WhatChange, Progress.Instance.PlayerInfo.currentHeadIndex, Progress.Instance.PlayerInfo.currentToiletIndex);
        

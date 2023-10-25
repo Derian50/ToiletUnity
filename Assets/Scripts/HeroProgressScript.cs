@@ -19,6 +19,7 @@ public class HeroProgressScript : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("NewSkinNumber " + Progress.Instance.PlayerInfo.NewSkinNumber);
         checkNewSkin();
         _skinPercent = Progress.Instance.PlayerInfo.NewSkinPercent;
         _skinNumber = Progress.Instance.PlayerInfo.NewSkinNumber;
@@ -62,7 +63,6 @@ public class HeroProgressScript : MonoBehaviour
         {
             
             Progress.Instance.PlayerInfo.NewSkinPercent = 0;
-            Progress.Instance.PlayerInfo.NewSkinNumber++;
             
             //giveSkin();
         }

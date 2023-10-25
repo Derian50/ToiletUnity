@@ -92,7 +92,7 @@ public class ButtonShopController : MonoBehaviour
             {
                 if (Progress.Instance.PlayerInfo.OpenToiletSkin[i])
                 {
-                    //_GOArrUTI[i].SetActive(true);
+                    _GOArrUTI[i].SetActive(true);
                     _GOArrButtonUse[i].SetActive(true);
                     _GOArrButtonCurrency[i].SetActive(false);
                     
@@ -100,7 +100,7 @@ public class ButtonShopController : MonoBehaviour
                 }
                 else
                 {
-                    //_GOArrUTI[i].SetActive(false);
+                    _GOArrUTI[i].SetActive(true);
                     _GOArrButtonUse[i].SetActive(false);
                     _GOArrButtonCurrency[i].SetActive(true);
                     _GOArrButtonVideo[i].SetActive(false);
@@ -119,7 +119,7 @@ public class ButtonShopController : MonoBehaviour
                 }
                 else
                 {
-                    _GOArrUTI[i].SetActive(false);
+                    _GOArrUTI[i].SetActive(true);
                     _GOArrButtonUse[i].SetActive(false);
                     _GOArrButtonCurrency[i].SetActive(false);
                     _GOArrButtonVideo[i].SetActive(true);

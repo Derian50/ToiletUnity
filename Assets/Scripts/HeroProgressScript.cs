@@ -19,6 +19,7 @@ public class HeroProgressScript : MonoBehaviour
 
     void Start()
     {
+        checkNewSkin();
         _skinPercent = Progress.Instance.PlayerInfo.NewSkinPercent;
         _skinNumber = Progress.Instance.PlayerInfo.NewSkinNumber;
         _HeadImageBlack = transform.Find("HeadImageBlack").GetComponent<Image>();
@@ -32,7 +33,18 @@ public class HeroProgressScript : MonoBehaviour
         win();
     }
 
-
+    private void checkNewSkin()
+    {
+        if (Progress.Instance.PlayerInfo.OpenHeadSkin[Progress.Instance.PlayerInfo.NewSkinNumber])
+        {
+            Progress.Instance.PlayerInfo.NewSkinNumber++;
+            checkNewSkin();
+        }
+        else
+        {
+            return;
+        }
+    }
     private void win()
     {
         Progress.Instance.PlayerInfo.NewSkinPercent = (int)_skinPercent + 20;

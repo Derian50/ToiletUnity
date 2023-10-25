@@ -132,7 +132,7 @@ public class UIScript : Sounds
     public void noThanksButton()
     {
         // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-
+        Progress.Instance.PlayerInfo.Coins += 100;
         NextLevelWithoutCash();
 
     }

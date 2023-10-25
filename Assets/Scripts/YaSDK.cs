@@ -214,7 +214,7 @@ public class YaSDK : MonoBehaviour
     {
         if (string.IsNullOrEmpty(_language))
 #if UNITY_EDITOR || !UNITY_WEBGL
-            _language = "tr";
+            _language = "ru";
 #else
             _language = GetLang();
 #endif

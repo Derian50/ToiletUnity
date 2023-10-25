@@ -76,13 +76,13 @@ public class OscillatingWheel : AbstractMultiplierWheel
     {
         switch (angle)
         {
-            case > -90f and <= -70f:
+            case > -140f and <= -70f:
                 return 0;
             case > -70 and <= -25f:
                 return 1;
             case > -25f and <= 30:
                 return 2;
-            case > 30f and <= 90f:
+            case > 30f and <= 140:
                 return 3;
         }
         return -1;

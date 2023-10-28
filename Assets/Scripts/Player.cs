@@ -76,6 +76,11 @@ public class Player : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log("Collision player with: " + other.gameObject.tag);
+        if(other.gameObject.tag == "Rocket")
+        {
+            _lrScript._isRocket = true;
+        }
         if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "EnemyDead")
         {
             //boomVector3 = transform.position;
@@ -85,7 +90,7 @@ public class Player : MonoBehaviour
 
             //_lrScript.startReverseNeck("win");
         }
-        if (other.gameObject.tag == "spikes" || other.gameObject.tag == "Ray")
+        if (other.gameObject.tag == "spikes" || other.gameObject.tag == "Ray" || (other.gameObject.tag == "enemyRocket" && !_lrScript._isRocket))
         {
             inNeckReverse = true;
             _lose = true;
@@ -104,6 +109,10 @@ public class Player : MonoBehaviour
                 GameObject.Find("Rope").SetActive(false);
             }
             
+        }
+        if(other.gameObject.tag == "Ice")
+        {
+            _lrScript.startReverseNeck("nothing");
         }
         if (other.gameObject.tag == "TNT")
         {

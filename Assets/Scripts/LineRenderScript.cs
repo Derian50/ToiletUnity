@@ -39,13 +39,15 @@ public class LineRenderScript : Sounds
     private int _attemptsCount = -1;
     private bool _isMoveForward = false;
     private bool wait = false;
+    public bool _isRocket = false;
 
     void Start()
     {
+
+        Debug.Log("Start. _isRocket: " + _isRocket);
         PlaySound(sounds[0]);
         uiScript = UI.GetComponent<UIScript>();
         ScibidiAnimation = ScibidiHead.GetComponent<Player>().skeletonAnimation;
-        
         Debug.Log(ScibidiAnimation.initialSkinName);
         Debug.Log(ScibidiAnimation.initialSkinName);
         shX = ScibidiHead.transform.position.x;
@@ -224,8 +226,17 @@ public class LineRenderScript : Sounds
         positions.Add(new Vector3(shX, shY, 0));
         lr.positionCount++;
         lr.SetPositions(positions.ToArray());
-
-        ScibidiAnimation.AnimationName = "fly";
+        if(_isRocket)
+        {
+            ScibidiHead.transform.gameObject.tag = "playerRocket";
+            ScibidiAnimation.AnimationName = "fly_rocket";
+        }
+        else
+        {
+            ScibidiHead.transform.gameObject.tag = "Player";
+            ScibidiAnimation.AnimationName = "fly";
+        }
+        
         if (!_isMoveForward && _attempts != null)
         {
             _isMoveForward = true;
@@ -235,7 +246,8 @@ public class LineRenderScript : Sounds
     }
     private void areYouWinning()
     {
-        if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 0 && !win)
+        Debug.Log("Are you winning: " + (GameObject.FindGameObjectsWithTag("Enemy").Length + GameObject.FindGameObjectsWithTag("enemyRocket").Length));
+        if ((GameObject.FindGameObjectsWithTag("Enemy").Length + GameObject.FindGameObjectsWithTag("enemyRocket").Length) <= 0 && !win)
         {
             startReverseNeck("win");
         }
@@ -247,7 +259,7 @@ public class LineRenderScript : Sounds
     private void FixedUpdate()
     {
         if (pause) return;
-        if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 0 && !win)
+        if ((GameObject.FindGameObjectsWithTag("Enemy").Length + GameObject.FindGameObjectsWithTag("enemyRocket").Length) <= 0 && !win)
         {
             startReverseNeck("win");
             

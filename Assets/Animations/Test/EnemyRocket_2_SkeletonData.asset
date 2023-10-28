@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
   m_Name: EnemyRocket_2_SkeletonData
   m_EditorClassIdentifier: 
-  atlasAssets:
-  - {fileID: 11400000, guid: db9966406c39ab74291b1640f139ebf2, type: 2}
+  atlasAssets: []
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: b2784c4ee56e7b04ea332135733eec4c, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 2220c629db7f47b41a1ac94c574c4947, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 0

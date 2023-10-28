@@ -269,7 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - {fileID: 8300000, guid: 2fea265b262964573a9379af5a7f24bf, type: 3}
-  typeOfCamera: 
+  typeOfCamera: Enemy
 --- !u!82 &8498208039766399851
 AudioSource:
   m_ObjectHideFlags: 0

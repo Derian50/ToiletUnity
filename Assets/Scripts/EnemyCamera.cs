@@ -5,6 +5,7 @@ using Spine.Unity;
 using System.Diagnostics;
 using Debug = UnityEngine.Debug;
 using Spine;
+using System;
 //using System.Diagnostics;
 
 public class EnemyCamera : Sounds
@@ -17,8 +18,8 @@ public class EnemyCamera : Sounds
         private GameObject ScibidiHead;
         private AnimatorClipInfo[] clipInfo;
         private bool isPlayerLose = false;
-    Rigidbody2D enemy_Rigidbody;
-    private GameObject Explosion;
+        Rigidbody2D enemy_Rigidbody;
+        private GameObject Explosion;
 
     void Awake()
     {
@@ -96,26 +97,32 @@ public class EnemyCamera : Sounds
         }
         if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Untagged" || other.gameObject.tag == "Platform") return;
         
-        Explosion.SetActive(true);
-        gameObject.tag = "EnemyDead";
-        if(typeOfCamera == "Jetpuck")
+        
+        if(typeOfCamera == "Jetpuck" || typeOfCamera == "Enemy")
         {
             skeletonAnimation.AnimationName = "die_loop";
-        }
-        else
-        {
             skeletonAnimation.AnimationName = "dieloop";
-        }
-            transform.Find("EnemyCameraHead").gameObject.SetActive(true);
-            transform.Find("EnemyCameraHead").GetComponent<Rigidbody2D>().velocity = ScibidiHead.GetComponent<Player>().lastHeadVelocity*2;
+            Explosion.SetActive(true);
+            gameObject.tag = "EnemyDead";
             GetComponent<PolygonCollider2D>().enabled = true;
             GetComponent<BoxCollider2D>().enabled = false;
             die = true;
-            
-            an.enabled = true;
-        
-        
 
+            an.enabled = true;
+            transform.Find("EnemyCameraHead").gameObject.SetActive(true);
+            transform.Find("EnemyCameraHead").GetComponent<Rigidbody2D>().velocity = ScibidiHead.GetComponent<Player>().lastHeadVelocity * 2;
+        }
+        else if(typeOfCamera == "Rocket" && other.gameObject.tag == "playerRocket")
+        {
+            skeletonAnimation.AnimationName = "die_loop";
+            Explosion.SetActive(true);
+            gameObject.tag = "EnemyDead";
+            GetComponent<PolygonCollider2D>().enabled = true;
+            GetComponent<BoxCollider2D>().enabled = false;
+            die = true;
+
+            an.enabled = true;
+        }         
     }
     public void playerLose()
     {

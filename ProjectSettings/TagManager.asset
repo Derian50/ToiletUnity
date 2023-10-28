@@ -37,6 +37,9 @@ TagManager:
   - ButtonUSE
   - ButtonWithCurrency
   - ButtonWithVideo
+  - enemyRocket
+  - playerRocket
+  - Rocket
   layers:
   - Default
   - TransparentFX

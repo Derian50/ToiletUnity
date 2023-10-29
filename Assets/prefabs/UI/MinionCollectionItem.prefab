@@ -177,7 +177,6 @@ GameObject:
   - component: {fileID: 3394310804512275442}
   - component: {fileID: 2240432947845304925}
   - component: {fileID: 4041723979316731024}
-  - component: {fileID: 1117204402276124101}
   m_Layer: 5
   m_Name: CounterText (TMP)
   m_TagString: Untagged
@@ -301,22 +300,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &1117204402276124101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4379859676713354727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 146ac973153b4d35b7ee993e41fbbbe6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _localizeKey: '-'
-  _onLocalize:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &4382961738718846208
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,6 +875,7 @@ GameObject:
   - component: {fileID: 2951680316447346047}
   - component: {fileID: 5804403674842231111}
   - component: {fileID: 4094051352580877523}
+  - component: {fileID: 7847430697158977302}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -979,7 +963,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 53.4
-  m_fontStyle: 0
+  m_fontStyle: 8
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1015,6 +999,22 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7847430697158977302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5065642827967008419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 146ac973153b4d35b7ee993e41fbbbe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localizeKey: Shop/Use
+  _onLocalize:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5138347965506508457
 GameObject:
   m_ObjectHideFlags: 0

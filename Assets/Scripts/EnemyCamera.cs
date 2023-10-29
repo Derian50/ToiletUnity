@@ -95,7 +95,7 @@ public class EnemyCamera : Sounds
         {
             Invoke("DestroyBody", 1);
         }
-        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Untagged" || other.gameObject.tag == "Platform") return;
+        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "Untagged" || other.gameObject.tag == "Platform" || other.gameObject.tag == "Ice") return;
         
         
         if(typeOfCamera == "Jetpuck" || typeOfCamera == "Enemy")

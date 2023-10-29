@@ -159,6 +159,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3751810292185117616, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 897310730}
+    - target: {fileID: 3751810292185117616, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: clickCurrencyButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751810292239604003, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 897310730}
+    - target: {fileID: 3751810292239604003, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: clickVideoButton
+      objectReference: {fileID: 0}
     - target: {fileID: 4137216929763393183, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -252,6 +268,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+--- !u!114 &897310730 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8826732676392936582, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+  m_PrefabInstance: {fileID: 897310729}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 334a4e110a6409e4a8e0a722b929c59c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1230902308
 PrefabInstance:
   m_ObjectHideFlags: 0

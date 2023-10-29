@@ -40,6 +40,7 @@ TagManager:
   - enemyRocket
   - playerRocket
   - Rocket
+  - Ice
   layers:
   - Default
   - TransparentFX

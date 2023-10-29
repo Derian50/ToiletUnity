@@ -47,6 +47,7 @@ public class ButtonShopController : MonoBehaviour
     private ShopController GNSScript;
     private void Start()
     {
+
         //SCScript = SkinController.GetComponent<ShopController>();
         _MoneyScript = Money.GetComponent<MoneyScript>();
         MTSScript = MainToiletSkin.GetComponent<ShopController>();
@@ -160,12 +161,15 @@ public class ButtonShopController : MonoBehaviour
     }
     public void ClickHeadButton()
     {
+        _ActivePanel = "body";
+        ChangePanel();
         _ActivePanel = "head";
         ChangePanel();
-
     }
     public void ClickBodyButton()
     {
+        _ActivePanel = "head";
+        ChangePanel();
         _ActivePanel = "body";
         ChangePanel();
     }

@@ -75,6 +75,7 @@ public class UIScript : Sounds
     {
         Progress.Instance.PlayerInfo.currentHeadIndex = Progress.Instance.PlayerInfo.NewSkinNumber;
         Progress.Instance.PlayerInfo.OpenHeadSkin[Progress.Instance.PlayerInfo.currentHeadIndex] = true;
+        Progress.Instance.PlayerInfo.OpenToiletSkin[Progress.Instance.PlayerInfo.currentHeadIndex] = true;
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)

@@ -477,6 +477,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2667784484371083409}
+    - target: {fileID: 3931775348571496664, guid: daffbf5805fa4a546bb655567f356382, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -781
+      objectReference: {fileID: 0}
     - target: {fileID: 4161673438819653391, guid: daffbf5805fa4a546bb655567f356382, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -560,6 +564,14 @@ PrefabInstance:
     - target: {fileID: 4161673438819653391, guid: daffbf5805fa4a546bb655567f356382, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556000160039542893, guid: daffbf5805fa4a546bb655567f356382, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -781
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744602973331626904, guid: daffbf5805fa4a546bb655567f356382, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7994730493539393400, guid: daffbf5805fa4a546bb655567f356382, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4122,7 +4134,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4462010937123926825, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6209087189274331075}
+    - targetCorrespondingSourceObject: {fileID: 4462010937123926825, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 425861846192353332}
   m_SourcePrefab: {fileID: 100100000, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
 --- !u!1 &492455625308603089 stripped
 GameObject:
@@ -4144,3 +4162,80 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2776297181920107237, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
   m_PrefabInstance: {fileID: 7552984967647909443}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6142250743063192938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4462010937123926825, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+  m_PrefabInstance: {fileID: 7552984967647909443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &6209087189274331075
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6142250743063192938}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &425861846192353332
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6142250743063192938}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.4936415}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.6768718}
+  m_EdgeRadius: 0

@@ -37,8 +37,12 @@ public class laserScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        _isEnabled = !_isEnabled;
-        SetState();
+        if( collision.gameObject.tag == "Player")
+        {
+            _isEnabled = !_isEnabled;
+            SetState();
+        }
+        
     }
     private void Update()
     {

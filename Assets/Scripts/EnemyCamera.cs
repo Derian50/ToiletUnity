@@ -12,8 +12,8 @@ public class EnemyCamera : Sounds
     {
         [SerializeField] string typeOfCamera;
         private SkeletonAnimation skeletonAnimation;
-        private Transform go;
-        private Animator an;
+       // private Transform go;
+        //private Animator an;
         private bool die = false;
         private GameObject ScibidiHead;
         private AnimatorClipInfo[] clipInfo;
@@ -24,7 +24,7 @@ public class EnemyCamera : Sounds
     void Awake()
     {
         skeletonAnimation = GetComponent<SkeletonAnimation>();
-        go = transform.Find("Boom");
+        //go = transform.Find("Boom");
         
     }
     void Start()
@@ -37,9 +37,9 @@ public class EnemyCamera : Sounds
         Explosion.SetActive(false);
         ScibidiHead = GameObject.Find("ScibidiHeadPivot");
        skeletonAnimation.AnimationName = "idle";
-       an = go.GetComponent<Animator>();
+       //an = go.GetComponent<Animator>();
         
-        an.enabled = false;
+       // an.enabled = false;
     }
 
     // Update is called once per frame
@@ -108,11 +108,11 @@ public class EnemyCamera : Sounds
             GetComponent<BoxCollider2D>().enabled = false;
             die = true;
 
-            an.enabled = true;
+            //an.enabled = true;
             transform.Find("EnemyCameraHead").gameObject.SetActive(true);
             transform.Find("EnemyCameraHead").GetComponent<Rigidbody2D>().velocity = ScibidiHead.GetComponent<Player>().lastHeadVelocity * 2;
         }
-        else if(typeOfCamera == "Rocket" && other.gameObject.tag == "playerRocket")
+        else if(typeOfCamera == "Rocket" && (other.gameObject.tag == "playerRocket" || other.gameObject.tag == "TNT"))
         {
             skeletonAnimation.AnimationName = "die_loop";
             Explosion.SetActive(true);
@@ -121,7 +121,7 @@ public class EnemyCamera : Sounds
             GetComponent<BoxCollider2D>().enabled = false;
             die = true;
 
-            an.enabled = true;
+            //an.enabled = true;
         }         
     }
     public void playerLose()
@@ -146,6 +146,6 @@ public class EnemyCamera : Sounds
         GetComponent<BoxCollider2D>().enabled = false;
         die = true;
 
-        an.enabled = true;
+        //an.enabled = true;
     }
 }

@@ -17,6 +17,10 @@ public class RayScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "Toilet")
+        {
+            GameObject.Find("ScibidiHeadPivot").GetComponent<Player>().TNTLose();
+        }
         Debug.Log("RAY COLLLISION WITH " + collision.gameObject.tag);
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -24,6 +28,6 @@ public class RayScript : MonoBehaviour
         Debug.Log("RAY DON'T COLLLISION WITH " + collision.gameObject.tag);
         Debug.Log(gameObject.transform.localScale);
         gameObject.transform.Find("Sparks").gameObject.SetActive(false);
-        gameObject.transform.localScale = new Vector3(25, 1, 1);
+        gameObject.transform.localScale = new Vector3(70, 1, 1);
     }
 }

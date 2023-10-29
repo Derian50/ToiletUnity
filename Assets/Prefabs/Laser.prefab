@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 529431376639672141}
   - component: {fileID: 6415998060735122185}
   - component: {fileID: 6536873510849575027}
+  - component: {fileID: 2744964105267218357}
   m_Layer: 0
   m_Name: ray
   m_TagString: Ray
@@ -289,6 +290,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &2744964105267218357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445198441536113976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc676affa6a16b74c941323420e4172a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7468129198606929585
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,9 +402,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _btnOnSprite: {fileID: 21300000, guid: 0a174c7656299104c96079122198323b, type: 3}
   _btnOffSprite: {fileID: 21300000, guid: 1731c5bd40b6cb94b9fc2bd79f11c905, type: 3}
-  _isEnabled: 0
+  _isEnabled: 1
   _ray: {fileID: 6445198441536113976}
-  _mainLaser: {fileID: 0}
+  _mainLaser: {fileID: 3747440974240164535}
   _movingIntervalX: 0
 --- !u!61 &1548962833651627740
 BoxCollider2D:

@@ -41,6 +41,7 @@ TagManager:
   - playerRocket
   - Rocket
   - Ice
+  - Toilet
   layers:
   - Default
   - TransparentFX

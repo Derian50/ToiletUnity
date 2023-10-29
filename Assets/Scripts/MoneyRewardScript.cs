@@ -16,7 +16,7 @@ public class MoneyRewardScript : MonoBehaviour
         _moneyRewardText = transform.Find("MoneyRewardText").GetComponent<TextMeshProUGUI>();
         Debug.Log("multiplier " + _OWScript.mult);
         _moneyRewardText.text = (_moneyRewardCount * _OWScript.mult).ToString();
-
+        Debug.Log(this.GetType().Name + " is started " + this.name);
     }
     private void newReward(int multiplier)
     {

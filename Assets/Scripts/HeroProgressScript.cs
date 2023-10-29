@@ -19,10 +19,10 @@ public class HeroProgressScript : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("NewSkinNumber " + Progress.Instance.PlayerInfo.NewSkinNumber);
+        Debug.Log("NewSkinNumber " + SaveManager.Instance.SavedData.NewSkinNumber);
         checkNewSkin();
-        _skinPercent = Progress.Instance.PlayerInfo.NewSkinPercent;
-        _skinNumber = Progress.Instance.PlayerInfo.NewSkinNumber;
+        _skinPercent = SaveManager.Instance.SavedData.NewSkinPercent;
+        _skinNumber = SaveManager.Instance.SavedData.NewSkinNumber;
         _HeadImageBlack = transform.Find("HeadImageBlack").GetComponent<Image>();
         _HeadImage = transform.Find("HeadImage").GetComponent<Image>();
         _PercentText = transform.Find("PercentText").GetComponent<TextMeshProUGUI>();
@@ -32,13 +32,14 @@ public class HeroProgressScript : MonoBehaviour
 
         Debug.Log("skinPercent: " + _skinPercent);
         win();
+        Debug.Log(this.GetType().Name + " is started " + this.name);
     }
 
     private void checkNewSkin()
     {
-        if (Progress.Instance.PlayerInfo.OpenHeadSkin[Progress.Instance.PlayerInfo.NewSkinNumber])
+        if (SaveManager.Instance.SavedData.OpenHeadSkin[SaveManager.Instance.SavedData.NewSkinNumber])
         {
-            Progress.Instance.PlayerInfo.NewSkinNumber++;
+            SaveManager.Instance.SavedData.NewSkinNumber++;
             checkNewSkin();
         }
         else
@@ -48,7 +49,7 @@ public class HeroProgressScript : MonoBehaviour
     }
     private void win()
     {
-        Progress.Instance.PlayerInfo.NewSkinPercent = (int)_skinPercent + 20;
+        SaveManager.Instance.SavedData.NewSkinPercent = (int)_skinPercent + 20;
         _skinPercent += 2;
         anim = true;
     }
@@ -59,10 +60,10 @@ public class HeroProgressScript : MonoBehaviour
         if (!anim) return;
 
         
-        if (Progress.Instance.PlayerInfo.NewSkinPercent == 100)
+        if (SaveManager.Instance.SavedData.NewSkinPercent == 100)
         {
             
-            Progress.Instance.PlayerInfo.NewSkinPercent = 0;
+            SaveManager.Instance.SavedData.NewSkinPercent = 0;
             
             //giveSkin();
         }

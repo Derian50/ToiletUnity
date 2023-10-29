@@ -155,6 +155,7 @@ MonoBehaviour:
   ScibidiHead: {fileID: 117655748177384570}
   lose: 0
   win: 0
+  _isRocket: 0
 --- !u!1001 &8645485868826452524
 PrefabInstance:
   m_ObjectHideFlags: 0

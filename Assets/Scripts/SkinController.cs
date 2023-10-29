@@ -20,15 +20,27 @@ public class ShopController : MonoBehaviour
 
 
 // Start is called before the first frame update
-void Start() 
-        { 
-        BSCScript = ButtonShopController.GetComponent<ButtonShopController>();
-
-        Progress.Instance.PlayerInfo.OpenHeadSkin[0] = true;
-        Progress.Instance.PlayerInfo.OpenToiletSkin[0] = true;
-        ChangeSkin(WhatChange, Progress.Instance.PlayerInfo.currentHeadIndex, Progress.Instance.PlayerInfo.currentToiletIndex);
-       
-        
+void Start()
+    {
+        Debug.Log("SHOP CONTROLLER STARTED TO LOAD");
+        try
+        {
+            Debug.Log(1);
+            BSCScript = ButtonShopController.GetComponent<ButtonShopController>();
+        }
+        catch 
+        {
+            Debug.Log(2);
+            BSCScript = null;
+        }
+        Debug.Log(3);
+        SaveManager.Instance.SavedData.OpenHeadSkin[0] = true;
+        Debug.Log(4);
+        SaveManager.Instance.SavedData.OpenToiletSkin[0] = true;
+        Debug.Log(5);
+        ChangeSkin(WhatChange, SaveManager.Instance.SavedData.currentHeadIndex, SaveManager.Instance.SavedData.currentToiletIndex);
+        Debug.Log(this.GetType().Name + " is started " + this.name);
+        Debug.Log("SHOP CONTROLLER FINISHED TO LOAD");
     }
     public void ChangeSkin(string subjectName, int currentHeadIndex, int currentToiletIndex)
     {

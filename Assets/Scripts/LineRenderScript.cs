@@ -82,7 +82,7 @@ public class LineRenderScript : Sounds
         {
             YaSDK.ShowFullscreenAdv();
         }
-
+        Debug.Log(this.GetType().Name + " is started " + this.name);
     }
     private void winUIScript()
     {

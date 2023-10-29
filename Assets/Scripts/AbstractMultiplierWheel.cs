@@ -25,6 +25,7 @@ public abstract class AbstractMultiplierWheel : MonoBehaviour
         _period = 1f;
         _angularVelocity = 360f / _period;
         // _b is defined in moment of starting to spin the wheel
+
     }
     
     private void Start()
@@ -34,6 +35,7 @@ public abstract class AbstractMultiplierWheel : MonoBehaviour
 
         for (int i = 0; i < _values.Length; i++)
             _valueTexts[i].text = $"x{_values[i]}";
+        Debug.Log(this.GetType().Name + " is started " + this.name);
     }
 
     public virtual void StartSpinning()

@@ -25,6 +25,7 @@ public class OscillatingWheel : AbstractMultiplierWheel
     private void Start()
     {
         StartSpinning();
+        Debug.Log(this.GetType().Name + " is started " + this.name);
     }
     private void Update()
     {

@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
         Firework.SetActive(false);
         _lrScript = lr.GetComponent<LineRenderScript>();
         _rb = GetComponent<Rigidbody2D>();  
+        Debug.Log(this.GetType().Name + " is started " + this.name);
     }
     void FixedUpdate(){
 

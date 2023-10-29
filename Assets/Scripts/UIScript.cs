@@ -14,7 +14,6 @@ public class UIScript : Sounds
     private GameObject mainPanel;
     private GameObject victoryPanel;
     private GameObject failPanel;
-    private GameObject shopPanel;
     private bool isSoundOn = true;
 
     public TextMeshProUGUI levelNumber;
@@ -37,17 +36,27 @@ public class UIScript : Sounds
     [SerializeField] GameObject OW;
     private OscillatingWheel _OWScript;
 
+    public GameObject shopPanel;
     private void Start()
     {
+
+        Debug.Log("try load UIScript");
         _OWScript = OW.GetComponent<OscillatingWheel>();
+        Debug.Log(1);
         isSoundOn = !AudioListener.pause;
+        Debug.Log(2);
         SoundButton();
+        Debug.Log(3);
         SoundButton();
+        Debug.Log(4);
         //Find лучше не юзать, очень производительно затратная 
         mainPanel = transform.Find("MainPanel").gameObject;
+        Debug.Log(5);
         victoryPanel = transform.Find("FinishPanel").Find("VictoryPanel").gameObject;
+        Debug.Log(6);
         failPanel = transform.Find("FinishPanel").Find("FailPanel").gameObject;
-        shopPanel = transform.Find("ShopScreen").gameObject;
+        Debug.Log(7);
+        Debug.Log(8);
         mainPanel.SetActive(true);
         
         skipButton.onClick.AddListener(SkipLevelButton);
@@ -58,24 +67,24 @@ public class UIScript : Sounds
         closeShopButton.onClick.AddListener(CloseShopButton);
         noButton.onClick.AddListener(noThanksButton);
         giveSkinButton.onClick.AddListener(GiveSkinButton);
-
+        Debug.Log(9);
         levelNumber.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
         levelNumberFail.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
         levelNumberVictory.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
-
+        Debug.Log(10);
         noButton.gameObject.SetActive(false);
         giveSkinButton.gameObject.SetActive(false);
 
-
+        Debug.Log(this.GetType().Name + " is started " + this.name);
 
 
     }
 
     private void GiveSkinButton()
     {
-        Progress.Instance.PlayerInfo.currentHeadIndex = Progress.Instance.PlayerInfo.NewSkinNumber;
-        Progress.Instance.PlayerInfo.OpenHeadSkin[Progress.Instance.PlayerInfo.currentHeadIndex] = true;
-        Progress.Instance.PlayerInfo.OpenToiletSkin[Progress.Instance.PlayerInfo.currentHeadIndex] = true;
+        SaveManager.Instance.SavedData.currentHeadIndex = SaveManager.Instance.SavedData.NewSkinNumber;
+        SaveManager.Instance.SavedData.OpenHeadSkin[SaveManager.Instance.SavedData.currentHeadIndex] = true;
+        SaveManager.Instance.SavedData.OpenToiletSkin[SaveManager.Instance.SavedData.currentHeadIndex] = true;
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)
@@ -135,14 +144,26 @@ public class UIScript : Sounds
     public void noThanksButton()
     {
         // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        Progress.Instance.PlayerInfo.Coins += 100;
+        SaveManager.Instance.SavedData.Coins += 100;
         NextLevelWithoutCash();
 
     }
     public void OpenShopButton()
     {
         // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        
+        Debug.Log("OPEN SHOP BUTTON ____________________________________-");
+        if (shopPanel)
+        {
+            Debug.Log(shopPanel.name);
+        }
+        else
+        {
+            Debug.Log("No game object called wibble found");
+        }
+        Debug.Log("Shop panel " + shopPanel.gameObject.name);
         shopPanel.SetActive(true);
+        Debug.Log("Shop panel " + shopPanel.gameObject.tag);
         mainPanel.SetActive(false);
 
     }
@@ -155,8 +176,7 @@ public class UIScript : Sounds
     }
     private void NextLevel()
     {
-        Progress.Instance.PlayerInfo.Coins += (200 * _OWScript.mult);
-        Progress.Instance.Save();
+        SaveManager.Instance.SavedData.Coins += (200 * _OWScript.mult);
         SaveManager.SaveState();
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if(SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)
@@ -171,7 +191,6 @@ public class UIScript : Sounds
     private void NextLevelWithoutCash()
     {
         
-        Progress.Instance.Save();
         SaveManager.SaveState();
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if (SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)
@@ -192,7 +211,7 @@ public class UIScript : Sounds
 
         victoryPanel.SetActive(true);
         hideMainPanel();
-        if(Progress.Instance.PlayerInfo.NewSkinPercent >= 80)
+        if(SaveManager.Instance.SavedData.NewSkinPercent >= 80)
         {
             moneyReward.gameObject.SetActive(false);
             nextButton.gameObject.SetActive(false);

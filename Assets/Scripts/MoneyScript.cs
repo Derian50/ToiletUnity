@@ -11,11 +11,11 @@ public class MoneyScript : MonoBehaviour
     void Start()
     {
        UpdateInfo();
-
+        Debug.Log(this.GetType().Name + " is started " + this.name);
     }
     public void UpdateInfo()
     {
-        _moneyCount = Progress.Instance.PlayerInfo.Coins;
+        _moneyCount = SaveManager.Instance.SavedData.Coins;
         _moneyText = transform?.Find("MoneyText").GetComponent<TextMeshProUGUI>();
         _moneyText.text = _moneyCount.ToString();
     }

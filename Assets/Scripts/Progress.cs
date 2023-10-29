@@ -39,7 +39,6 @@ public class Progress : MonoBehaviour
 #if  !UNITY_EDITOR && UNITY_WEBGL____
             LoadExtern();
 #endif
-
         }
         else
         {

@@ -165,6 +165,7 @@ MonoBehaviour:
   ScibidiHead: {fileID: 3566202341286652112}
   lose: 0
   win: 0
+  _isRocket: 0
 --- !u!82 &1745717778593297336
 AudioSource:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2873117373760383587}
   m_Layer: 5
   m_Name: ShopScreen
-  m_TagString: EditorOnly
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8117,12 +8117,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823036840445856506, guid: 8aa4db6fcf7c55348b07e3c7a9cdfb6b, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6823036840445856506, guid: 8aa4db6fcf7c55348b07e3c7a9cdfb6b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
     - target: {fileID: 6823036840445856506, guid: 8aa4db6fcf7c55348b07e3c7a9cdfb6b, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -10926,12 +10926,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6823036840445856506, guid: 8aa4db6fcf7c55348b07e3c7a9cdfb6b, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6823036840445856506, guid: 8aa4db6fcf7c55348b07e3c7a9cdfb6b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
     - target: {fileID: 6823036840445856506, guid: 8aa4db6fcf7c55348b07e3c7a9cdfb6b, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 

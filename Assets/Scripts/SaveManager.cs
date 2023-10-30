@@ -45,7 +45,7 @@ public class SaveManager: MonoBehaviour
         {
             CurrentState = data ??= new SavedData
             {
-                CurrentLevelNumber = 1,
+                CurrentLevelNumber = 0,
                 Coins = 0,
                 NewSkinPercent = 0,
                 NewSkinNumber = 0,
@@ -58,7 +58,7 @@ public class SaveManager: MonoBehaviour
             // scoreText.text = _generalScore.ToString();
             onLoadCompleted();
             // if(CurrentState.CurrentLevelNumber != 0)
-            SceneManager.LoadScene(CurrentState.CurrentLevelNumber);
+            SceneManager.LoadScene(CurrentState.CurrentLevelNumber + 1);
     
 
         });

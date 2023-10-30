@@ -68,9 +68,9 @@ public class UIScript : Sounds
         noButton.onClick.AddListener(noThanksButton);
         giveSkinButton.onClick.AddListener(GiveSkinButton);
         Debug.Log(9);
-        levelNumber.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
-        levelNumberFail.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
-        levelNumberVictory.text = (SceneManager.GetActiveScene().buildIndex + 1).ToString();
+        levelNumber.text = (SceneManager.GetActiveScene().buildIndex).ToString();
+        levelNumberFail.text = (SceneManager.GetActiveScene().buildIndex).ToString();
+        levelNumberVictory.text = (SceneManager.GetActiveScene().buildIndex).ToString();
         Debug.Log(10);
         noButton.gameObject.SetActive(false);
         giveSkinButton.gameObject.SetActive(false);

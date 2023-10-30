@@ -325,7 +325,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: NeckMaterial
-  ButtonShopController: {fileID: 0}
 --- !u!1001 &4120194295537195495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -699,7 +698,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: Head
-  ButtonShopController: {fileID: 0}
 --- !u!1 &3445241967201492046 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1648928452969350569, guid: 74403a9f80d2b33478571b2a39c93eb7, type: 3}
@@ -768,7 +766,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: Toilet
-  ButtonShopController: {fileID: 0}
 --- !u!212 &1647383093864816271
 SpriteRenderer:
   m_ObjectHideFlags: 0

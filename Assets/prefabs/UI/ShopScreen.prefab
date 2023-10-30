@@ -169,7 +169,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: 
-  ButtonShopController: {fileID: 69283020927630513}
 --- !u!114 &2873117373760383587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +231,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: 
-  ButtonShopController: {fileID: 69283020927630513}
 --- !u!1 &69283020981327739
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,7 +964,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: NeckSprite
-  ButtonShopController: {fileID: 69283020927630513}
 --- !u!114 &5102225439660276533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1029,7 +1026,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: NeckSprite
-  ButtonShopController: {fileID: 69283020927630513}
 --- !u!1 &3727634970601713507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,7 +1739,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: Toilet
-  ButtonShopController: {fileID: 69283020927630513}
 --- !u!114 &5272472813617777525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1807,7 +1802,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: Toilet
-  ButtonShopController: {fileID: 69283020927630513}
 --- !u!1 &4963102268514386223
 GameObject:
   m_ObjectHideFlags: 0
@@ -8274,7 +8268,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: Head
-  ButtonShopController: {fileID: 69283020927630513}
 --- !u!4 &5543093013540083949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8635566334558942467, guid: 8aa4db6fcf7c55348b07e3c7a9cdfb6b, type: 3}
@@ -11088,7 +11081,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
   - {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
   WhatChange: Head
-  ButtonShopController: {fileID: 69283020927630513}
 --- !u!1001 &6645982221247076676
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -155,7 +155,7 @@ public class UIScript : Sounds
         Debug.Log("OPEN SHOP BUTTON ____________________________________-");
         if (shopPanel)
         {
-            Debug.Log(shopPanel.name);
+            Debug.Log("shop panel opened");
         }
         else
         {

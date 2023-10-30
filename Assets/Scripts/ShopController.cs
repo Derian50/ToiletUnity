@@ -12,10 +12,10 @@ public class ShopController : MonoBehaviour
     public string WhatChange;
 
 
-    private SkeletonAnimation _ScibidiAnimation;
-    private UnityEngine.LineRenderer _LineRenderer;
+    // private SkeletonAnimation _ScibidiAnimation;
+    private LineRenderer _LineRenderer;
 
-    public GameObject ButtonShopController;
+    // public GameObject ButtonShopController;
     private ButtonShopController BSCScript;
 
 
@@ -23,16 +23,16 @@ public class ShopController : MonoBehaviour
 void Start()
     {
         Debug.Log("SHOP CONTROLLER STARTED TO LOAD");
-        try
-        {
-            Debug.Log(1);
-            BSCScript = ButtonShopController.GetComponent<ButtonShopController>();
-        }
-        catch 
-        {
-            Debug.Log(2);
-            BSCScript = null;
-        }
+        // try
+        // {
+        //     Debug.Log(1);
+        //     // BSCScript = ButtonShopController.GetComponent<ButtonShopController>();
+        // }
+        // catch 
+        // {
+        //     Debug.Log(2);
+        //     BSCScript = null;
+        // }
         Debug.Log(3);
         SaveManager.CurrentState.OpenHeadSkin[0] = true;
         Debug.Log(4);
@@ -47,10 +47,10 @@ void Start()
         switch (subjectName)
         {
             case "Head":
-                _ScibidiAnimation = GetComponent<Player>().skeletonAnimation;
+                // _ScibidiAnimation = GetComponent<Player>().skeletonAnimation;
                 if (currentHeadIndex > 5) currentHeadIndex++;
-                _ScibidiAnimation.initialSkinName = "skin " + (currentHeadIndex + 1);
-                _ScibidiAnimation.Initialize(true);
+                // _ScibidiAnimation.initialSkinName = "skin " + (currentHeadIndex + 1);
+                // _ScibidiAnimation.Initialize(true);
                 break;
             case "Toilet":
                 Debug.Log("I try to change TOILET SKIN");

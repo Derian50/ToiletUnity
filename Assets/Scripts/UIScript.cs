@@ -21,7 +21,7 @@ public class UIScript : Sounds
     public TextMeshProUGUI levelNumberVictory;
 
     public Button skipButton;
-    public Button nextButton;
+    // public Button nextButton;
     public Button skipFailButton;
     public Button soundButton;
     public Button shopButton;
@@ -61,7 +61,7 @@ public class UIScript : Sounds
         
         skipButton.onClick.AddListener(SkipLevelButton);
         skipFailButton.onClick.AddListener(SkipLevelButton);
-        nextButton.onClick.AddListener(NextLevelButton);
+        // nextButton.onClick.AddListener(NextLevelButton);
         soundButton.onClick.AddListener(SoundButton);
         shopButton.onClick.AddListener(OpenShopButton);
         closeShopButton.onClick.AddListener(CloseShopButton);
@@ -214,7 +214,7 @@ public class UIScript : Sounds
         if(SaveManager.Instance.SavedData.NewSkinPercent >= 80)
         {
             moneyReward.gameObject.SetActive(false);
-            nextButton.gameObject.SetActive(false);
+            // nextButton.gameObject.SetActive(false);
             giveSkinButton.gameObject.SetActive(true);
             OW.SetActive(false);
         }

@@ -15,7 +15,7 @@ public class MoneyScript : MonoBehaviour
     }
     public void UpdateInfo()
     {
-        _moneyCount = SaveManager.Instance.SavedData.Coins;
+        _moneyCount = SaveManager.CurrentState.Coins;
         _moneyText = transform?.Find("MoneyText").GetComponent<TextMeshProUGUI>();
         _moneyText.text = _moneyCount.ToString();
     }

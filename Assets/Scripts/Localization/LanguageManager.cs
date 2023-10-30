@@ -8,9 +8,13 @@ public class LanguageManager : MonoBehaviour
 
     private void Awake()
     {
+        DontDestroyOnLoad(this);
+
         DataManager.LocalizationData.Init();
 
         _currentLocale = System.Enum.Parse<Locales>(YaSDK.GetLanguage());
         CurrentLocale = _currentLocale;
+        
+        
     }
 }

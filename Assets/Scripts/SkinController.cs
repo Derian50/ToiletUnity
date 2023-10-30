@@ -34,11 +34,11 @@ void Start()
             BSCScript = null;
         }
         Debug.Log(3);
-        SaveManager.Instance.SavedData.OpenHeadSkin[0] = true;
+        SaveManager.CurrentState.OpenHeadSkin[0] = true;
         Debug.Log(4);
-        SaveManager.Instance.SavedData.OpenToiletSkin[0] = true;
+        SaveManager.CurrentState.OpenToiletSkin[0] = true;
         Debug.Log(5);
-        ChangeSkin(WhatChange, SaveManager.Instance.SavedData.currentHeadIndex, SaveManager.Instance.SavedData.currentToiletIndex);
+        ChangeSkin(WhatChange, SaveManager.CurrentState.currentHeadIndex, SaveManager.CurrentState.currentToiletIndex);
         Debug.Log(this.GetType().Name + " is started " + this.name);
         Debug.Log("SHOP CONTROLLER FINISHED TO LOAD");
     }

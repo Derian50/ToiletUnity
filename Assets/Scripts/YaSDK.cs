@@ -23,6 +23,10 @@ public class YaSDK : MonoBehaviour
     
     private static bool _adOpened = false;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
 
     #region AUDIO
 

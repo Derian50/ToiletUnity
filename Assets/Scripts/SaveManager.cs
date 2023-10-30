@@ -22,19 +22,19 @@ public class SavedData
 
 public class SaveManager: MonoBehaviour
 {
-    public SavedData SavedData;
-    public static SaveManager Instance;
+    // public SavedData SavedData;
+    // public static SaveManager Instance;
     private void Awake()
     {
         LoadState(() => { });
         DontDestroyOnLoad(this);
-        Instance = this;
+        // Instance = this;
         Debug.Log("--------LOAD STATE DATA----------------");
-        Debug.Log(SaveManager.Instance.SavedData.CurrentLevelNumber);
-        Debug.Log(SaveManager.Instance.SavedData.Coins);
-        Debug.Log(SaveManager.Instance.SavedData.currentHeadIndex);
-        Debug.Log(SaveManager.Instance.SavedData.OpenHeadSkin[0]);
-        Debug.Log(SaveManager.Instance.SavedData.OpenHeadSkin[7]);
+        // Debug.Log(SaveManager.Instance.SavedData.CurrentLevelNumber);
+        // Debug.Log(SaveManager.Instance.SavedData.Coins);
+        // Debug.Log(SaveManager.Instance.SavedData.currentHeadIndex);
+        // Debug.Log(SaveManager.Instance.SavedData.OpenHeadSkin[0]);
+        // Debug.Log(SaveManager.Instance.SavedData.OpenHeadSkin[7]);
         Debug.Log("--------STATE DATA LOADED----------------");
     }
     
@@ -45,7 +45,7 @@ public class SaveManager: MonoBehaviour
         {
             CurrentState = data ??= new SavedData
             {
-                CurrentLevelNumber = 0,
+                CurrentLevelNumber = 1,
                 Coins = 0,
                 NewSkinPercent = 0,
                 NewSkinNumber = 0,
@@ -57,24 +57,14 @@ public class SaveManager: MonoBehaviour
             // _generalScore = PlayerInfo.score;
             // scoreText.text = _generalScore.ToString();
             onLoadCompleted();
-            if(CurrentState.CurrentLevelNumber != 0)
+            // if(CurrentState.CurrentLevelNumber != 0)
                 SceneManager.LoadScene(CurrentState.CurrentLevelNumber);
+    
 
         });
 
     }
-    public void MakeInitialState()
-    {
-        YaSDK.SetData("0");
-        // _runtimeState = _initialState;
-    }
-    
-    // public static void SetState(SavedData savedData)
-    // {
-    //     YaSDK.SetData(savedData);
-    //
-    // }
-    
+
     public static void SaveState()
     {
         if (Application.isEditor) return;
@@ -86,37 +76,5 @@ public class SaveManager: MonoBehaviour
         YaSDK.SetData(CurrentState);
         // YaSDK.SetToLeaderboard(PlayerInfo.score);
     }
-
-
-    // public void LoadState(Action onLoadCompleted)
-    // {
-    //     Debug.Log("Entered YaSaveManager.LoadState");
-    //     YaSDK.GetData<SavedState<SerializableRuntimeSavedInt, SerializableRuntimeSavedFloat>>(
-    //         state =>
-    //         {
-    //             Debug.Log($"Load competed. Listing some savestate params. Has state: {state.HasSave}, Stage number: {state.StageNumber}");
-    //             // _runtimeState = state;
-    //             // BoughtTimes = new Dictionary<MinionType, ISavedInt>
-    //             // {
-    //             //     { MinionType.Melee, _runtimeState.MeleeBoughtTimes },
-    //             //     { MinionType.Ranged, _runtimeState.RangedBoughTimes }
-    //             // };
-    //             onLoadCompleted();
-    //         });
-    // }
-    
-
-    
-
-    // public static void GetData(Action<SavedData> onGetData)
-    // {
-    //     YaSDK.GetData<SavedData>(data =>
-    //     {
-    //         CurrentState = data ??= new SavedData();
-    //         onGetData?.Invoke(data);
-    //     });
-    // }
-
-
 }
 

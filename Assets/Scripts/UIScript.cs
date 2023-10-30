@@ -82,9 +82,9 @@ public class UIScript : Sounds
 
     private void GiveSkinButton()
     {
-        SaveManager.Instance.SavedData.currentHeadIndex = SaveManager.Instance.SavedData.NewSkinNumber;
-        SaveManager.Instance.SavedData.OpenHeadSkin[SaveManager.Instance.SavedData.currentHeadIndex] = true;
-        SaveManager.Instance.SavedData.OpenToiletSkin[SaveManager.Instance.SavedData.currentHeadIndex] = true;
+        SaveManager.CurrentState.currentHeadIndex = SaveManager.CurrentState.NewSkinNumber;
+        SaveManager.CurrentState.OpenHeadSkin[SaveManager.CurrentState.currentHeadIndex] = true;
+        SaveManager.CurrentState.OpenToiletSkin[SaveManager.CurrentState.currentHeadIndex] = true;
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)
@@ -144,7 +144,7 @@ public class UIScript : Sounds
     public void noThanksButton()
     {
         // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SaveManager.Instance.SavedData.Coins += 100;
+        // SaveManager.Instance.SavedData.Coins += 100;
         NextLevelWithoutCash();
 
     }
@@ -176,7 +176,7 @@ public class UIScript : Sounds
     }
     private void NextLevel()
     {
-        SaveManager.Instance.SavedData.Coins += (200 * _OWScript.mult);
+        // SaveManager.Instance.SavedData.Coins += (200 * _OWScript.mult);
         SaveManager.SaveState();
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if(SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)
@@ -211,7 +211,7 @@ public class UIScript : Sounds
 
         victoryPanel.SetActive(true);
         hideMainPanel();
-        if(SaveManager.Instance.SavedData.NewSkinPercent >= 80)
+        if(SaveManager.CurrentState.NewSkinPercent >= 80)
         {
             moneyReward.gameObject.SetActive(false);
             // nextButton.gameObject.SetActive(false);

@@ -85,17 +85,17 @@ public class ButtonShopController : MonoBehaviour
         Debug.Log("LETGTH _GOArrButtonUse " + _GOArrButtonUse.Length);
         Debug.Log("LETGTH _GOArrButtonCurrency " + _GOArrButtonCurrency.Length);
         Debug.Log("LETGTH  _GOArrButtonVideo " + _GOArrButtonVideo.Length);
-        Debug.Log("LETGTH PROGRESS " + SaveManager.Instance.SavedData.OpenHeadSkin.Length);
-        for(int i = 0; i < SaveManager.Instance.SavedData.OpenHeadSkin.Length; i++)
+        Debug.Log("LETGTH PROGRESS " + SaveManager.CurrentState.OpenHeadSkin.Length);
+        for(int i = 0; i < SaveManager.CurrentState.OpenHeadSkin.Length; i++)
         {
-            Debug.Log(i + " " + SaveManager.Instance.SavedData.OpenHeadSkin[i]);
+            Debug.Log(i + " " + SaveManager.CurrentState.OpenHeadSkin[i]);
         }
         TextMeshPro TMP;
         for (int i = 0; i < _GOArrUTI.Length; i++)
         {
             if(_ActivePanel == "body")
             {
-                if (SaveManager.Instance.SavedData.OpenToiletSkin[i])
+                if (SaveManager.CurrentState.OpenToiletSkin[i])
                 {
                     _GOArrUTI[i].SetActive(true);
                     _GOArrButtonUse[i].SetActive(true);
@@ -115,7 +115,7 @@ public class ButtonShopController : MonoBehaviour
             }
             else if(_ActivePanel == "head")
             {
-                if (SaveManager.Instance.SavedData.OpenHeadSkin[i])
+                if (SaveManager.CurrentState.OpenHeadSkin[i])
                 {
                     _GOArrUTI[i].SetActive(true);
                     _GOArrButtonUse[i].SetActive(true);
@@ -187,18 +187,18 @@ public class ButtonShopController : MonoBehaviour
         Debug.Log("INDEX " + index); 
         if(_ActivePanel == "body")
         {
-            SaveManager.Instance.SavedData.currentToiletIndex = index;
-            MTSScript.ChangeSkin("Toilet", SaveManager.Instance.SavedData.currentHeadIndex, index);
-            GTSScript.ChangeSkin("Toilet", SaveManager.Instance.SavedData.currentHeadIndex, index);
+            SaveManager.CurrentState.currentToiletIndex = index;
+            MTSScript.ChangeSkin("Toilet", SaveManager.CurrentState.currentHeadIndex, index);
+            GTSScript.ChangeSkin("Toilet", SaveManager.CurrentState.currentHeadIndex, index);
         }
         else
 
         {
-            SaveManager.Instance.SavedData.currentHeadIndex = index;
-            MHSScript.ChangeSkin("Head", index, SaveManager.Instance.SavedData.currentToiletIndex);
-            MNSScript.ChangeSkin("NeckSprite", index, SaveManager.Instance.SavedData.currentToiletIndex);
-            GHSScript.ChangeSkin("Head", index, SaveManager.Instance.SavedData.currentToiletIndex);
-            GNSScript.ChangeSkin("NeckMaterial", index, SaveManager.Instance.SavedData.currentToiletIndex);
+            SaveManager.CurrentState.currentHeadIndex = index;
+            MHSScript.ChangeSkin("Head", index, SaveManager.CurrentState.currentToiletIndex);
+            MNSScript.ChangeSkin("NeckSprite", index, SaveManager.CurrentState.currentToiletIndex);
+            GHSScript.ChangeSkin("Head", index, SaveManager.CurrentState.currentToiletIndex);
+            GNSScript.ChangeSkin("NeckMaterial", index, SaveManager.CurrentState.currentToiletIndex);
         }
         
         
@@ -215,16 +215,16 @@ public class ButtonShopController : MonoBehaviour
         }
         if (_ActivePanel == "body")
         {
-            SaveManager.Instance.SavedData.OpenToiletSkin[index] = true;
+            SaveManager.CurrentState.OpenToiletSkin[index] = true;
 
         }
         else
         {
-            SaveManager.Instance.SavedData.OpenHeadSkin[index] = true;
+            SaveManager.CurrentState.OpenHeadSkin[index] = true;
         }
-        if (index == SaveManager.Instance.SavedData.NewSkinNumber)
+        if (index == SaveManager.CurrentState.NewSkinNumber)
         {
-            SaveManager.Instance.SavedData.NewSkinPercent = 0;
+            SaveManager.CurrentState.NewSkinPercent = 0;
         }
         _ActivePanel = "body";
         ChangePanel();
@@ -250,15 +250,15 @@ public class ButtonShopController : MonoBehaviour
                 index = i;
             }
         }
-        if (SaveManager.Instance.SavedData.Coins < SaveManager.Instance.SavedData.ToiletSkinCost[index]) return;
-        SaveManager.Instance.SavedData.Coins -= SaveManager.Instance.SavedData.ToiletSkinCost[index];
+        if (SaveManager.CurrentState.Coins < SaveManager.CurrentState.ToiletSkinCost[index]) return;
+        SaveManager.CurrentState.Coins -= SaveManager.CurrentState.ToiletSkinCost[index];
         if (_ActivePanel == "body")
         {
-            SaveManager.Instance.SavedData.OpenToiletSkin[index] = true;
+            SaveManager.CurrentState.OpenToiletSkin[index] = true;
         }
         else
         {
-            SaveManager.Instance.SavedData.OpenHeadSkin[index] = true;
+            SaveManager.CurrentState.OpenHeadSkin[index] = true;
         }
        
         _ActivePanel = "head";

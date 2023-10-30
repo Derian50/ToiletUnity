@@ -19,10 +19,10 @@ public class HeroProgressScript : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("NewSkinNumber " + SaveManager.Instance.SavedData.NewSkinNumber);
+        // Debug.Log("NewSkinNumber " + SaveManager.Instance.SavedData.NewSkinNumber);
         checkNewSkin();
-        _skinPercent = SaveManager.Instance.SavedData.NewSkinPercent;
-        _skinNumber = SaveManager.Instance.SavedData.NewSkinNumber;
+        _skinPercent = SaveManager.CurrentState.NewSkinPercent;
+        _skinNumber = SaveManager.CurrentState.NewSkinNumber;
         _HeadImageBlack = transform.Find("HeadImageBlack").GetComponent<Image>();
         _HeadImage = transform.Find("HeadImage").GetComponent<Image>();
         _PercentText = transform.Find("PercentText").GetComponent<TextMeshProUGUI>();
@@ -37,9 +37,9 @@ public class HeroProgressScript : MonoBehaviour
 
     private void checkNewSkin()
     {
-        if (SaveManager.Instance.SavedData.OpenHeadSkin[SaveManager.Instance.SavedData.NewSkinNumber])
+        if (SaveManager.CurrentState.OpenHeadSkin[SaveManager.CurrentState.NewSkinNumber])
         {
-            SaveManager.Instance.SavedData.NewSkinNumber++;
+            SaveManager.CurrentState.NewSkinNumber++;
             checkNewSkin();
         }
         else
@@ -49,7 +49,7 @@ public class HeroProgressScript : MonoBehaviour
     }
     private void win()
     {
-        SaveManager.Instance.SavedData.NewSkinPercent = (int)_skinPercent + 20;
+        SaveManager.CurrentState.NewSkinPercent = (int)_skinPercent + 20;
         _skinPercent += 2;
         anim = true;
     }
@@ -60,10 +60,10 @@ public class HeroProgressScript : MonoBehaviour
         if (!anim) return;
 
         
-        if (SaveManager.Instance.SavedData.NewSkinPercent == 100)
+        if (SaveManager.CurrentState.NewSkinPercent == 100)
         {
             
-            SaveManager.Instance.SavedData.NewSkinPercent = 0;
+            SaveManager.CurrentState.NewSkinPercent = 0;
             
             //giveSkin();
         }

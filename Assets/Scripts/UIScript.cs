@@ -146,7 +146,7 @@ public class UIScript : Sounds
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)
-                NextLevelAfterClaim(200 * _OWScript.mult);
+                NextLevel(200 * _OWScript.mult);
         });
 #endif
         //NextLevel();

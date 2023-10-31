@@ -3272,6 +3272,7 @@ MonoBehaviour:
   claimButton: {fileID: 903219540352088874}
   moneyReward: {fileID: 8721677906861468085}
   OW: {fileID: 5146426808231800007}
+  coins: 0
   shopPanel: {fileID: 133546546987428829}
 --- !u!1 &8999822135926123882
 GameObject:
@@ -3749,12 +3750,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428788103387572577, guid: d2581d7e05794477390b3a9727b441a6, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 428788103387572577, guid: d2581d7e05794477390b3a9727b441a6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
     - target: {fileID: 428788103387572577, guid: d2581d7e05794477390b3a9727b441a6, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -5841,12 +5842,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7316941688555530004, guid: d2581d7e05794477390b3a9727b441a6, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7316941688555530004, guid: d2581d7e05794477390b3a9727b441a6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
     - target: {fileID: 7316941688555530004, guid: d2581d7e05794477390b3a9727b441a6, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 

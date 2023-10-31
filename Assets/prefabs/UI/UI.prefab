@@ -576,8 +576,10 @@ MonoBehaviour:
   closeShopButton: {fileID: 0}
   giveSkinButton: {fileID: 0}
   noButton: {fileID: 0}
+  claimButton: {fileID: 0}
   moneyReward: {fileID: 0}
   OW: {fileID: 0}
+  coins: 0
   shopPanel: {fileID: 0}
 --- !u!1 &1099832205260496664
 GameObject:

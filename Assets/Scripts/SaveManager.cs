@@ -1,11 +1,12 @@
 using UnityEngine;
 
+using System.Runtime.InteropServices;
 using System;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 
-[System.Serializable]
+[System.Serializable] 
 public class SavedData
 {
     public int CurrentLevelNumber;
@@ -18,17 +19,20 @@ public class SavedData
     public int[] ToiletSkinCost = new int[17];
     public int currentHeadIndex;
     public int currentToiletIndex;
+    public int TEST;
 }
 
 public class SaveManager: MonoBehaviour
 {
-    // public SavedData SavedData;
-    // public static SaveManager Instance;
+    [SerializeField] private int[] _TOILETSKINCOST = new int[17];
+    
+    //public SavedData SavedData;
+    //public static SaveManager Instance;
     private void Awake()
     {
         LoadState(() => { });
         DontDestroyOnLoad(this);
-        // Instance = this;
+        //Instance = this;
         Debug.Log("--------LOAD STATE DATA----------------");
         // Debug.Log(SaveManager.Instance.SavedData.CurrentLevelNumber);
         // Debug.Log(SaveManager.Instance.SavedData.Coins);

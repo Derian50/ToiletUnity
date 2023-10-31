@@ -88,7 +88,7 @@ public class UIScript : Sounds
 
     private void GiveSkinButton()
     {
-        SaveManager.CurrentState.currentHeadIndex = SaveManager.CurrentState.NewSkinNumber;
+        SaveManager.CurrentState.currentHeadIndex = SaveManager.CurrentState.NewSkinNumber - 1;
         SaveManager.CurrentState.OpenHeadSkin[SaveManager.CurrentState.currentHeadIndex] = true;
         SaveManager.CurrentState.OpenToiletSkin[SaveManager.CurrentState.currentHeadIndex] = true;
         YaSDK.ShowRewardedVideo(onClose: () =>

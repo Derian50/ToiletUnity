@@ -12,7 +12,7 @@ public class ShopController : MonoBehaviour
     public string WhatChange;
 
 
-    // private SkeletonAnimation _ScibidiAnimation;
+    private SkeletonAnimation _ScibidiAnimation;
     private LineRenderer _LineRenderer;
 
     // public GameObject ButtonShopController;
@@ -34,6 +34,7 @@ void Start()
         //     BSCScript = null;
         // }
         Debug.Log(3);
+        Debug.Log(SaveManager.CurrentState.Coins);
         SaveManager.CurrentState.OpenHeadSkin[0] = true;
         Debug.Log(4);
         SaveManager.CurrentState.OpenToiletSkin[0] = true;
@@ -47,10 +48,10 @@ void Start()
         switch (subjectName)
         {
             case "Head":
-                // _ScibidiAnimation = GetComponent<Player>().skeletonAnimation;
+                 _ScibidiAnimation = GetComponent<Player>().skeletonAnimation;
                 if (currentHeadIndex > 5) currentHeadIndex++;
-                // _ScibidiAnimation.initialSkinName = "skin " + (currentHeadIndex + 1);
-                // _ScibidiAnimation.Initialize(true);
+                 _ScibidiAnimation.initialSkinName = "skin " + (currentHeadIndex + 1);
+                 _ScibidiAnimation.Initialize(true);
                 break;
             case "Toilet":
                 Debug.Log("I try to change TOILET SKIN");

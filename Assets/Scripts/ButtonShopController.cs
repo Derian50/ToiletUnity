@@ -10,6 +10,8 @@ using UnityEngine.UI;
 
 public class ButtonShopController : MonoBehaviour
 {
+
+    [SerializeField] public int[] ToiletSkinCost = new int[17];
     [SerializeField] private GameObject _ScrollAreaBody;
     [SerializeField] private GameObject _ScrollAreaHead;
     [SerializeField] private Sprite _ActiveButton;
@@ -176,6 +178,7 @@ public class ButtonShopController : MonoBehaviour
     }
     public void clickUseButton()
     {
+        Debug.Log(SaveManager.CurrentState.currentHeadIndex);
         int index = 0;
         for(int i = 0; i < _GOArrButtonUse.Length; i++)
         {
@@ -186,7 +189,9 @@ public class ButtonShopController : MonoBehaviour
         }
         Debug.Log("INDEX " + index); 
         if(_ActivePanel == "body")
+
         {
+            
             SaveManager.CurrentState.currentToiletIndex = index;
             MTSScript.ChangeSkin("Toilet", SaveManager.CurrentState.currentHeadIndex, index);
             GTSScript.ChangeSkin("Toilet", SaveManager.CurrentState.currentHeadIndex, index);
@@ -200,8 +205,8 @@ public class ButtonShopController : MonoBehaviour
             GHSScript.ChangeSkin("Head", index, SaveManager.CurrentState.currentToiletIndex);
             GNSScript.ChangeSkin("NeckMaterial", index, SaveManager.CurrentState.currentToiletIndex);
         }
-        
-        
+        SaveManager.SaveState();
+
     }
     public void getVideoSkin()
     {
@@ -238,6 +243,7 @@ public class ButtonShopController : MonoBehaviour
             if (YaSDK._isRewarded)
                 getVideoSkin();
         });
+        SaveManager.SaveState();
 
     }
     public void clickCurrencyButton()
@@ -250,8 +256,9 @@ public class ButtonShopController : MonoBehaviour
                 index = i;
             }
         }
-        if (SaveManager.CurrentState.Coins < SaveManager.CurrentState.ToiletSkinCost[index]) return;
-        SaveManager.CurrentState.Coins -= SaveManager.CurrentState.ToiletSkinCost[index];
+        Debug.Log("COST: " + ToiletSkinCost[index]);
+        if (SaveManager.CurrentState.Coins < ToiletSkinCost[index]) return;
+        SaveManager.CurrentState.Coins -= ToiletSkinCost[index];
         if (_ActivePanel == "body")
         {
             SaveManager.CurrentState.OpenToiletSkin[index] = true;
@@ -265,5 +272,6 @@ public class ButtonShopController : MonoBehaviour
         ChangePanel();
         _ActivePanel = "body";
         ChangePanel();
+        SaveManager.SaveState();
     }
 }

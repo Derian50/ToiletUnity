@@ -123,6 +123,27 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!223 &54945797 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4495111989995116286, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+  m_PrefabInstance: {fileID: 8816358174060234371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1154249670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 492455625308603089, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+  m_PrefabInstance: {fileID: 8816358174060234371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1332395014 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4620527179897365870, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+  m_PrefabInstance: {fileID: 8816358174060234371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70210382a86d83f44ac1cadb882aa8a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2627402463959784110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -214,7 +235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9087245648178820917, guid: 6e3c9072897698b49838602f9a5644f2, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9087245648178820917, guid: 6e3c9072897698b49838602f9a5644f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -271,7 +292,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 958071412036740882, guid: 2af8820631a659e4fba91184925918cb, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 958071412036740882, guid: 2af8820631a659e4fba91184925918cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1435,17 +1456,29 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -24.8995
       objectReference: {fileID: 0}
+    - target: {fileID: 6480955478480703282, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: lr
+      value: 
+      objectReference: {fileID: 1154249670}
+    - target: {fileID: 6480955478480703282, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 54945797}
+    - target: {fileID: 6480955478480703282, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: movementJoystick
+      value: 
+      objectReference: {fileID: 1332395014}
     - target: {fileID: 6519347512288957716, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6550477899791415273, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1370.9999
+      value: -1371
       objectReference: {fileID: 0}
     - target: {fileID: 6656656812099099183, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6656656812099099183, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1674,6 +1707,10 @@ PrefabInstance:
     - target: {fileID: 7786974716852449451, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -19.2585
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958916251117338935, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8001260350483576149, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1914,7 +1951,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3309576962956754984, guid: 26ae7efd2debcad47a2d0acec6acc322, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3309576962956754984, guid: 26ae7efd2debcad47a2d0acec6acc322, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1965,13 +2002,3 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26ae7efd2debcad47a2d0acec6acc322, type: 3}
---- !u!1660057539 &9223372036854775807
-SceneRoots:
-  m_ObjectHideFlags: 0
-  m_Roots:
-  - {fileID: 2627402463959784110}
-  - {fileID: 6369164656923173442}
-  - {fileID: 9191870765445458873}
-  - {fileID: 4422018201595194235}
-  - {fileID: 5542774831948363683}
-  - {fileID: 8816358174060234371}

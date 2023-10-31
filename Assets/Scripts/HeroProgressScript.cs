@@ -51,6 +51,7 @@ public class HeroProgressScript : MonoBehaviour
     {
         SaveManager.CurrentState.NewSkinPercent = (int)_skinPercent + 20;
         _skinPercent += 2;
+
         anim = true;
     }
     // Update is called once per

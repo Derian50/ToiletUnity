@@ -30,11 +30,15 @@ public class UIScript : Sounds
     public Button giveSkinButton;
 
     public Button noButton;
+    public Button claimButton;
 
     public GameObject moneyReward;
 
     [SerializeField] GameObject OW;
     private OscillatingWheel _OWScript;
+
+
+    public int coins;
 
     public GameObject shopPanel;
     private void Start()
@@ -67,6 +71,8 @@ public class UIScript : Sounds
         closeShopButton.onClick.AddListener(CloseShopButton);
         noButton.onClick.AddListener(noThanksButton);
         giveSkinButton.onClick.AddListener(GiveSkinButton);
+        claimButton.onClick.AddListener(ClaimButton);
+
         Debug.Log(9);
         levelNumber.text = (SceneManager.GetActiveScene().buildIndex).ToString();
         levelNumberFail.text = (SceneManager.GetActiveScene().buildIndex).ToString();
@@ -88,7 +94,7 @@ public class UIScript : Sounds
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)
-                NextLevelWithoutCash();
+                NextLevel(0);
         });
         //NextLevelWithoutCash();
     }
@@ -130,14 +136,19 @@ public class UIScript : Sounds
         SceneManager.LoadScene(SceneIndex);
     }
 
-    public void NextLevelButton()
+    public void ClaimButton()
     {
         // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+#if UNITY_EDITOR
+        NextLevel(200 * _OWScript.mult);
+#else
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)
-                NextLevel();
+                NextLevelAfterClaim(200 * _OWScript.mult);
         });
+#endif
         //NextLevel();
 
     }
@@ -145,7 +156,7 @@ public class UIScript : Sounds
     {
         // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         // SaveManager.Instance.SavedData.Coins += 100;
-        NextLevelWithoutCash();
+        NextLevel(100);
 
     }
     public void OpenShopButton()
@@ -174,26 +185,12 @@ public class UIScript : Sounds
         mainPanel.SetActive(true);
 
     }
-    private void NextLevel()
+    private void NextLevel(int moneyReward)
     {
-        // SaveManager.Instance.SavedData.Coins += (200 * _OWScript.mult);
+        SaveManager.CurrentState.Coins += moneyReward;
         SaveManager.SaveState();
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if(SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)
-        {
-            SceneManager.LoadScene(0);
-        }
-        else
-        {
-            SceneManager.LoadScene(sceneIndex + 1);
-        }
-    }
-    private void NextLevelWithoutCash()
-    {
-        
-        SaveManager.SaveState();
-        var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if (SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)
         {
             SceneManager.LoadScene(0);
         }
@@ -208,7 +205,7 @@ public class UIScript : Sounds
     }
     public void win()
     {
-
+        
         victoryPanel.SetActive(true);
         hideMainPanel();
         if(SaveManager.CurrentState.NewSkinPercent >= 80)
@@ -229,11 +226,16 @@ public class UIScript : Sounds
 
     public void SkipLevelButton()
     {
+#if UNITY_EDITOR
+        NextLevel(0);
+#else
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded) 
-                NextLevelWithoutCash();
+                NextLevel(0);
         });
+#endif
+
     }
     
         

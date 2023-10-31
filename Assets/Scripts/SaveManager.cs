@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 
-[Serializable]
+[System.Serializable]
 public class SavedData
 {
     public int CurrentLevelNumber;
@@ -69,6 +69,7 @@ public class SaveManager: MonoBehaviour
     {
         if (Application.isEditor) return;
             Debug.Log("SaveManager: request to save state has been sent");
+
 
         // string jsonString = JsonUtility.ToJson(PlayerInfo);
         CurrentState.CurrentLevelNumber = SceneManager.GetActiveScene().buildIndex;

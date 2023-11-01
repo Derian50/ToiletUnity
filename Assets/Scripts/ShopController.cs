@@ -50,7 +50,15 @@ void Start()
             case "Head":
                  _ScibidiAnimation = GetComponent<Player>().skeletonAnimation;
                 if (currentHeadIndex > 5) currentHeadIndex++;
-                 _ScibidiAnimation.initialSkinName = "skin " + (currentHeadIndex + 1);
+                if (currentHeadIndex == 8)
+                {
+                    this.transform.rotation = Quaternion.Euler(0f, 0f, 270f);
+                }
+                else
+                {
+                    this.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+                }
+                _ScibidiAnimation.initialSkinName = "skin " + (currentHeadIndex + 1);
                  _ScibidiAnimation.Initialize(true);
                 break;
             case "Toilet":
@@ -92,6 +100,7 @@ void Start()
             case "NeckSprite":
                 if (currentHeadIndex > 5) currentHeadIndex++;
                 GetComponent<Image>().sprite = NeckSprites[currentHeadIndex];
+                
                 break;
             case "NeckMaterial":
                 if (currentHeadIndex > 5) currentHeadIndex++;

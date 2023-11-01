@@ -62,10 +62,8 @@ public class ButtonShopController : MonoBehaviour
 
 
         refresh();
-        _ActivePanel = "body";
-        ChangePanel();
-        _ActivePanel = "head";
-        ChangePanel();
+        ClickBodyButton();
+        ClickHeadButton();
         Debug.Log(this.GetType().Name + " is started " + this.name);
     }
     void refresh()

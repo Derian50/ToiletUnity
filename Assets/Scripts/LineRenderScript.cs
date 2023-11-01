@@ -251,6 +251,10 @@ public class LineRenderScript : Sounds
         {
             startReverseNeck("win");
         }
+        else if (win)
+        {
+            startReverseNeck("win");
+        }
         else
         {
             startReverseNeck("lose");

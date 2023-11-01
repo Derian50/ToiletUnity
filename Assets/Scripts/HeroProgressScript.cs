@@ -19,16 +19,23 @@ public class HeroProgressScript : MonoBehaviour
 
     void Start()
     {
+        //SaveManager.CurrentState.NewSkinNumber = 8;
         // Debug.Log("NewSkinNumber " + SaveManager.Instance.SavedData.NewSkinNumber);
         checkNewSkin();
         _skinPercent = SaveManager.CurrentState.NewSkinPercent;
         _skinNumber = SaveManager.CurrentState.NewSkinNumber;
         _HeadImageBlack = transform.Find("HeadImageBlack").GetComponent<Image>();
         _HeadImage = transform.Find("HeadImage").GetComponent<Image>();
+
         _PercentText = transform.Find("PercentText").GetComponent<TextMeshProUGUI>();
 
         _HeadImage.sprite = SpriteArray[_skinNumber];
         _HeadImageBlack.sprite = SpriteArray[_skinNumber];
+        if (_skinNumber == 8)
+        {
+            _HeadImage.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 0f, 0f);
+            _HeadImageBlack.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 0f, 0f);
+        }
 
         Debug.Log("skinPercent: " + _skinPercent);
         win();

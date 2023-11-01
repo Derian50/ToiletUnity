@@ -72,7 +72,7 @@
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
           myGameInstance = unityInstance;
-          ysdk.features.LoadingAPI?.ready();
+          setTimeout(function () {ysdk.features.LoadingAPI?.ready();}, 2200);
 
         }).catch((message) => {
           alert(message);

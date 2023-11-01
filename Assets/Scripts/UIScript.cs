@@ -192,7 +192,7 @@ public class UIScript : Sounds
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if(SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
         else
         {

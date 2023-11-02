@@ -78,7 +78,7 @@ public class LineRenderScript : Sounds
         ScibidiAnimation.AnimationName = "idle";
         
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        if ((sceneIndex + 1) % 4 == 0)
+        if ((sceneIndex + 1) % 2 == 0)
         {
             YaSDK.ShowFullscreenAdv();
         }
@@ -251,10 +251,10 @@ public class LineRenderScript : Sounds
         {
             startReverseNeck("win");
         }
-        else if (win)
-        {
-            startReverseNeck("win");
-        }
+        // else if (win)
+        // {
+        //     startReverseNeck("win");
+        // }
         else
         {
             startReverseNeck("lose");

@@ -183,6 +183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemyCamera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8580105853075573186, guid: 74ba481c621c799438f3fc0e0a563de8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8f52b4a5f6800044a972249ee861108, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8910,6 +8914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemyCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 8580105853075573186, guid: 74ba481c621c799438f3fc0e0a563de8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8f52b4a5f6800044a972249ee861108, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9052,6 +9060,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 318551073269916097, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 318551073269916097, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
+    - target: {fileID: 318551073269916097, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: d71d11dca5ec08e4bbadfc59ca4a8db5, type: 2}
     - target: {fileID: 3246042599089921592, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.46
@@ -9160,6 +9180,10 @@ PrefabInstance:
       propertyPath: isEnabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7267770570618887593, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+      propertyPath: countAttempts
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7658063109349814351, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -9185,3 +9209,13 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3312c7d1978484a4b8da155075ca92a2, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 239169339}
+  - {fileID: 1241903032}
+  - {fileID: 469297864}
+  - {fileID: 11919959}
+  - {fileID: 16875216}
+  - {fileID: 1183629579}

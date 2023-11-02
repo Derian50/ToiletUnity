@@ -89,13 +89,21 @@ public class UIScript : Sounds
     private void GiveSkinButton()
     {
         SaveManager.CurrentState.currentHeadIndex = SaveManager.CurrentState.NewSkinNumber - 1;
+        // SaveManager.CurrentState.currentToiletIndex = SaveManager.CurrentState.currentHeadIndex;
+
         SaveManager.CurrentState.OpenHeadSkin[SaveManager.CurrentState.currentHeadIndex] = true;
-        SaveManager.CurrentState.OpenToiletSkin[SaveManager.CurrentState.currentHeadIndex] = true;
+        // SaveManager.CurrentState.OpenToiletSkin[SaveManager.CurrentState.currentHeadIndex] = true;
+        
+#if UNITY_EDITOR
+        NextLevel(0);
+#else
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)
                 NextLevel(0);
         });
+#endif
+
         //NextLevelWithoutCash();
     }
     private void unHideNoButton()

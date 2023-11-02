@@ -52,7 +52,7 @@ void Start()
                 if (currentHeadIndex > 5) currentHeadIndex++;
                 if (currentHeadIndex == 8)
                 {
-                    this.transform.rotation = Quaternion.Euler(0f, 0f, 270f);
+                    // this.transform.rotation = Quaternion.Euler(0f, 0f, 270f);
                 }
                 else
                 {

@@ -63,9 +63,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 18 true.unity
     guid: 4e80669adbe7da5489f5742dbb4b6ca3
   - enabled: 1
-    path: Assets/Scenes/Level 19 true.unity
-    guid: 22af190cfb3426e499ae3dff5843196a
-  - enabled: 1
     path: Assets/Scenes/Level 20 true.unity
     guid: acc24cbdbb331f6439b0d430643e7385
   - enabled: 1
@@ -95,6 +92,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 29 true.unity
     guid: 6bfdf1bbd1c4a6c4485696f163e693bb
+  - enabled: 1
+    path: Assets/Scenes/Level 19 true.unity
+    guid: 22af190cfb3426e499ae3dff5843196a
   - enabled: 1
     path: Assets/Scenes/Level 30 true.unity
     guid: ce8cc4dab53c0f84b98e4046080021e2

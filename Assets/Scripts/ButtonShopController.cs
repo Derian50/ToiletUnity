@@ -236,11 +236,16 @@ public class ButtonShopController : MonoBehaviour
     }
     public void clickVideoButton()
     {
+        
+#if UNITY_EDITOR
+        getVideoSkin();
+#else
         YaSDK.ShowRewardedVideo(onClose: () =>
         {
             if (YaSDK._isRewarded)
                 getVideoSkin();
         });
+#endif
         SaveManager.SaveState();
 
     }

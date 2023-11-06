@@ -110,7 +110,7 @@ public class EnemyCamera : Sounds
 
             //an.enabled = true;
             transform.Find("EnemyCameraHead").gameObject.SetActive(true);
-            transform.Find("EnemyCameraHead").GetComponent<Rigidbody2D>().velocity = ScibidiHead.GetComponent<Player>().lastHeadVelocity * 2;
+            transform.Find("EnemyCameraHead").GetComponent<Rigidbody2D>().velocity = ScibidiHead.GetComponent<Player>().lastHeadVelocity * 1.5f;
         }
         else if(typeOfCamera == "Rocket" && (other.gameObject.tag == "playerRocket" || other.gameObject.tag == "TNT"))
         {

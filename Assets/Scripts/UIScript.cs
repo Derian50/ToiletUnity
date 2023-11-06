@@ -189,9 +189,9 @@ public class UIScript : Sounds
     public void CloseShopButton()
     {
         // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        shopPanel.SetActive(false);
-        mainPanel.SetActive(true);
-
+        restartLevel();
+       // shopPanel.SetActive(false);
+       // mainPanel.SetActive(true);
     }
     private void NextLevel(int moneyReward)
     {

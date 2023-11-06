@@ -29,14 +29,14 @@ public class TNT : MonoBehaviour
         if (other.gameObject.tag == "Player" || other.gameObject.tag == "Toilet" || other.gameObject.tag == "Enemy" || other.gameObject.tag == "enemyRocket" || other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "Explosion" || other.gameObject.tag == "EnemyDead")
         {
             
-            if (Vector3.Distance(this.transform.position, GameObject.Find("toilet").transform.position) < 2.4f)
+            if (Vector3.Distance(this.transform.position, GameObject.Find("toilet").transform.position) < 2.9f)
             {
                 Debug.Log("PLAYER MUST DIE");
                 GameObject.Find("ScibidiHeadPivot").GetComponent<Player>().TNTLose();
             }
             foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
                 {
-                    if (Vector3.Distance(this.transform.position, enemy.transform.position) < 2.4f)
+                    if (Vector3.Distance(this.transform.position, enemy.transform.position) < 2.9f)
                     {
                         Debug.Log("PLAYER MUST DIE");
                         enemy.GetComponent<EnemyCamera>().TNTLose();

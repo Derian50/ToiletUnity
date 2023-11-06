@@ -44,6 +44,8 @@ public class HeroProgressScript : MonoBehaviour
 
     private void checkNewSkin()
     {
+        Debug.Log("SaveManager.CurrentState.NewSkinNumber " + SaveManager.CurrentState.NewSkinNumber);
+        if (SaveManager.CurrentState.NewSkinNumber == 3) SaveManager.CurrentState.NewSkinNumber += 3;
         if (SaveManager.CurrentState.OpenHeadSkin[SaveManager.CurrentState.NewSkinNumber])
         {
             SaveManager.CurrentState.NewSkinNumber++;

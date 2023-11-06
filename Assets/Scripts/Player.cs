@@ -82,7 +82,7 @@ public class Player : MonoBehaviour
         {
             _lrScript._isRocket = true;
         }
-        if (other.gameObject.tag == "Enemy") //|| other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "EnemyDead")
+        if (other.gameObject.tag == "Enemy" || other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "EnemyDead") //|| other.gameObject.tag == "EnemyHead" || other.gameObject.tag == "EnemyDead")
         {
             //boomVector3 = transform.position;
             // Explosion.SetActive(true);

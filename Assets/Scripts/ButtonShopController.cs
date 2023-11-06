@@ -64,6 +64,7 @@ public class ButtonShopController : MonoBehaviour
         refresh();
         ClickBodyButton();
         ClickHeadButton();
+
         Debug.Log(this.GetType().Name + " is started " + this.name);
     }
     void refresh()
@@ -115,7 +116,7 @@ public class ButtonShopController : MonoBehaviour
             }
             else if(_ActivePanel == "head")
             {
-                if (SaveManager.CurrentState.OpenHeadSkin[i])
+                if (SaveManager.CurrentState.OpenHeadSkin.Length > i && SaveManager.CurrentState.OpenHeadSkin[i])
                 {
                     _GOArrUTI[i].SetActive(true);
                     _GOArrButtonUse[i].SetActive(true);
@@ -162,6 +163,7 @@ public class ButtonShopController : MonoBehaviour
     }
     public void ClickHeadButton()
     {
+        Debug.Log("CLICK HEAD BUTTON");
         _ActivePanel = "body";
         ChangePanel();
         _ActivePanel = "head";
@@ -169,6 +171,7 @@ public class ButtonShopController : MonoBehaviour
     }
     public void ClickBodyButton()
     {
+        Debug.Log("CLICK BODY BUTTON");
         _ActivePanel = "head";
         ChangePanel();
         _ActivePanel = "body";

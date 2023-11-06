@@ -221,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7994730493539393400, guid: daffbf5805fa4a546bb655567f356382, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1370.9999
+      value: -1371
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -527,12 +527,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 351012388077927949, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 351012388077927949, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
     - target: {fileID: 351012388077927949, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -2137,6 +2137,102 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 1228999130335222468, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -3722762391242371600, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 4530693066871899460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1166715741956372044, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 7301971812279695253, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 3575027510333543408, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: -1677480855859711301, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 192286621541380674, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1395480717250907460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa319a8662af0e142a99d1c9d4d81581, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 648cd42d673844b41a720589c893b422, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6361fbfe88a94ad428fdb529b1b08536, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71edb2e379c9bd64c8459d854f8c5f9c, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e986e85f45201e48b8c59e02c8edad7, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed897875c65909419d46b6a974b1e01, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d628ce5249324f47bda782cc3b2bf37, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: -4755504446693559034, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 4886107093749568387, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 8117286818189722518, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
     - target: {fileID: 4954109472114596859, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2313,6 +2409,98 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -19.2585
       objectReference: {fileID: 0}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: -3722762391242371600, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 4530693066871899460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1166715741956372044, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 7301971812279695253, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 3575027510333543408, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: -1677480855859711301, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 192286621541380674, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1395480717250907460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa319a8662af0e142a99d1c9d4d81581, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 648cd42d673844b41a720589c893b422, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6361fbfe88a94ad428fdb529b1b08536, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71edb2e379c9bd64c8459d854f8c5f9c, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e986e85f45201e48b8c59e02c8edad7, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed897875c65909419d46b6a974b1e01, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d628ce5249324f47bda782cc3b2bf37, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: -4755504446693559034, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5179958067883175001, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 8117286818189722518, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
     - target: {fileID: 5186748884849390544, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2329,6 +2517,102 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 1228999130335222468, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -3722762391242371600, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 4530693066871899460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1166715741956372044, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 7301971812279695253, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 3575027510333543408, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: -1677480855859711301, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 192286621541380674, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1395480717250907460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa319a8662af0e142a99d1c9d4d81581, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 648cd42d673844b41a720589c893b422, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6361fbfe88a94ad428fdb529b1b08536, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71edb2e379c9bd64c8459d854f8c5f9c, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e986e85f45201e48b8c59e02c8edad7, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed897875c65909419d46b6a974b1e01, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d628ce5249324f47bda782cc3b2bf37, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: -4755504446693559034, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5190329837963090969, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 8117286818189722518, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
     - target: {fileID: 5266093580835037639, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2533,6 +2817,102 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 25.564898
       objectReference: {fileID: 0}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 1228999130335222468, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -3722762391242371600, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 4530693066871899460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1166715741956372044, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 7301971812279695253, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 3575027510333543408, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: -1677480855859711301, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 192286621541380674, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1395480717250907460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa319a8662af0e142a99d1c9d4d81581, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 648cd42d673844b41a720589c893b422, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6361fbfe88a94ad428fdb529b1b08536, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71edb2e379c9bd64c8459d854f8c5f9c, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e986e85f45201e48b8c59e02c8edad7, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed897875c65909419d46b6a974b1e01, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d628ce5249324f47bda782cc3b2bf37, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: -4755504446693559034, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5753261709433627650, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 8117286818189722518, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
     - target: {fileID: 5801684197254936622, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2971,12 +3351,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7252669898980618360, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7252669898980618360, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
     - target: {fileID: 7252669898980618360, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -3497,6 +3877,102 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -19.2585
       objectReference: {fileID: 0}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 1228999130335222468, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -3722762391242371600, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 4530693066871899460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1166715741956372044, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 7301971812279695253, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 3575027510333543408, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: -1677480855859711301, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 192286621541380674, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1395480717250907460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa319a8662af0e142a99d1c9d4d81581, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 648cd42d673844b41a720589c893b422, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6361fbfe88a94ad428fdb529b1b08536, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71edb2e379c9bd64c8459d854f8c5f9c, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e986e85f45201e48b8c59e02c8edad7, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed897875c65909419d46b6a974b1e01, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d628ce5249324f47bda782cc3b2bf37, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: NeckMaterials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: -4755504446693559034, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 8919301377163490016, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 8117286818189722518, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
     - target: {fileID: 8999822135926123882, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3633,8 +4109,13 @@ PrefabInstance:
     - {fileID: 8273587690320497000, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
     - {fileID: 7355980208701378594, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
     - {fileID: 2806598457283624207, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+    - {fileID: 871019574591776040, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+    - {fileID: 2706653872915358582, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
     m_RemovedGameObjects:
     - {fileID: 8898694535450306499, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+    - {fileID: 5161071826301019870, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+    - {fileID: 7496081082425589718, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+    - {fileID: 5341800695370655013, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 133546546987428828, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       insertIndex: 3
@@ -3695,6 +4176,98 @@ PrefabInstance:
       propertyPath: ButtonShopController
       value: 
       objectReference: {fileID: 6133273321651908167}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 1228999130335222468, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -3722762391242371600, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 4530693066871899460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1166715741956372044, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 7301971812279695253, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 3575027510333543408, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: -1677480855859711301, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 192286621541380674, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1395480717250907460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 648cd42d673844b41a720589c893b422, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6361fbfe88a94ad428fdb529b1b08536, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71edb2e379c9bd64c8459d854f8c5f9c, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e986e85f45201e48b8c59e02c8edad7, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed897875c65909419d46b6a974b1e01, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d628ce5249324f47bda782cc3b2bf37, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: -4755504446693559034, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 646079655174917570, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 8117286818189722518, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
     - target: {fileID: 833202352491347128, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
       propertyPath: _animationName
       value: idle
@@ -3755,6 +4328,102 @@ PrefabInstance:
       propertyPath: ButtonShopController
       value: 
       objectReference: {fileID: 6133273321651908167}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 1228999130335222468, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -3722762391242371600, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 4530693066871899460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1166715741956372044, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 7301971812279695253, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 3575027510333543408, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: -1677480855859711301, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 192286621541380674, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1395480717250907460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa319a8662af0e142a99d1c9d4d81581, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 648cd42d673844b41a720589c893b422, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6361fbfe88a94ad428fdb529b1b08536, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71edb2e379c9bd64c8459d854f8c5f9c, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e986e85f45201e48b8c59e02c8edad7, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed897875c65909419d46b6a974b1e01, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d628ce5249324f47bda782cc3b2bf37, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: -4755504446693559034, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 5400361624612778879, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 8117286818189722518, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
     - target: {fileID: 6657897218138594861, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
       propertyPath: canvas
       value: 
@@ -3769,12 +4438,12 @@ PrefabInstance:
       objectReference: {fileID: 3174471727390947867}
     - target: {fileID: 7834626509180925826, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7834626509180925826, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
     - target: {fileID: 7834626509180925826, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -3799,6 +4468,102 @@ PrefabInstance:
       propertyPath: ButtonShopController
       value: 
       objectReference: {fileID: 6133273321651908167}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 1228999130335222468, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -3722762391242371600, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 4530693066871899460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[7]
+      value: 
+      objectReference: {fileID: -1166715741956372044, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[8]
+      value: 
+      objectReference: {fileID: 7301971812279695253, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[9]
+      value: 
+      objectReference: {fileID: 3575027510333543408, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[10]
+      value: 
+      objectReference: {fileID: -1677480855859711301, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: 192286621541380674, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 1395480717250907460, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa319a8662af0e142a99d1c9d4d81581, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 648cd42d673844b41a720589c893b422, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6361fbfe88a94ad428fdb529b1b08536, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71edb2e379c9bd64c8459d854f8c5f9c, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e986e85f45201e48b8c59e02c8edad7, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ed897875c65909419d46b6a974b1e01, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[10]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d628ce5249324f47bda782cc3b2bf37, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[11]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51e31a3d51e2e40439d2c3cc2f5b7777, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[12]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b640cb6d29985b4dbfc9ccffe020de6, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: NeckMaterials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7263c1842914b8c4a923ceb3149c35b6, type: 2}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.data[11]
+      value: 
+      objectReference: {fileID: -4755504446693559034, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
+    - target: {fileID: 9031471964530108497, guid: a76ba660cad782a47b512a4e6fb4e125, type: 3}
+      propertyPath: ToiletSprites.Array.data[12]
+      value: 
+      objectReference: {fileID: 8117286818189722518, guid: 6e8ca8f39ff2df247a21707923f9ae23, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3894,7 +4659,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.4936415}
+  m_Offset: {x: -0.024154052, y: -0.4936415}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3905,5 +4670,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.6768718}
+  m_Size: {x: 0.53009284, y: 0.6768718}
   m_EdgeRadius: 0

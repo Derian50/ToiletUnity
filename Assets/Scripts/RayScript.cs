@@ -25,6 +25,7 @@ public class RayScript : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
+        if (collision.transform.tag == "Player") return;
         Debug.Log("RAY DON'T COLLLISION WITH " + collision.gameObject.tag);
         Debug.Log(gameObject.transform.localScale);
         gameObject.transform.Find("Sparks").gameObject.SetActive(false);

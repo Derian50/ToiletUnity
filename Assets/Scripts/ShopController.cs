@@ -33,6 +33,19 @@ void Start()
         //     Debug.Log(2);
         //     BSCScript = null;
         // }
+        /*for(int i = 0; i < SaveManager.CurrentState.OpenToiletSkin.Length; i++)
+        {
+            SaveManager.CurrentState.OpenToiletSkin[i] = true;
+        }
+        for (int i = 0; i < SaveManager.CurrentState.OpenHeadSkin.Length; i++)
+        {
+            SaveManager.CurrentState.OpenHeadSkin[i] = true;
+        }*/
+        /*SaveManager.CurrentState.OpenHeadSkin[0] = true;
+        SaveManager.CurrentState.OpenHeadSkin[1] = true;
+        SaveManager.CurrentState.OpenHeadSkin[2] = true;
+        SaveManager.CurrentState.OpenHeadSkin[3] = true;
+        SaveManager.CurrentState.OpenHeadSkin[9] = true;*/
         Debug.Log(3);
         Debug.Log(SaveManager.CurrentState.Coins);
         SaveManager.CurrentState.OpenHeadSkin[0] = true;
@@ -45,11 +58,13 @@ void Start()
     }
     public void ChangeSkin(string subjectName, int currentHeadIndex, int currentToiletIndex)
     {
+        
         switch (subjectName)
         {
             case "Head":
+                //skin 5 6 7 - delete
                  _ScibidiAnimation = GetComponent<Player>().skeletonAnimation;
-                if (currentHeadIndex > 5) currentHeadIndex++;
+                if (currentHeadIndex > 3) currentHeadIndex += 3;
                 if (currentHeadIndex == 8)
                 {
                     // this.transform.rotation = Quaternion.Euler(0f, 0f, 270f);
@@ -58,8 +73,12 @@ void Start()
                 {
                     this.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                 }
-                _ScibidiAnimation.initialSkinName = "skin " + (currentHeadIndex + 1);
-                 _ScibidiAnimation.Initialize(true);
+                
+                {
+
+                    _ScibidiAnimation.initialSkinName = "skin " + (currentHeadIndex + 1);
+                    _ScibidiAnimation.Initialize(true);
+                }
                 break;
             case "Toilet":
                 Debug.Log("I try to change TOILET SKIN");

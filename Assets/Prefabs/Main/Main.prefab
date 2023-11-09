@@ -221,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7994730493539393400, guid: daffbf5805fa4a546bb655567f356382, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1371
+      value: -1370.9999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1669,6 +1669,10 @@ PrefabInstance:
       propertyPath: GameToiletSkin
       value: 
       objectReference: {fileID: 5124641862154766861}
+    - target: {fileID: 3366839763496640796, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
+      propertyPath: ToiletSkinCost.Array.data[11]
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 3381801958624149830, guid: cb16a118a9943fe4687c3560776bf1f9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

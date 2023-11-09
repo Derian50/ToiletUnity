@@ -36,6 +36,13 @@ public class HeroProgressScript : MonoBehaviour
             _HeadImageBlack.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 0f, 0f);
         }
 
+        if (_skinNumber >= 12)
+        {
+            _HeadImage.gameObject.SetActive(false);
+            _HeadImageBlack.gameObject.SetActive(false);
+            _PercentText.gameObject.SetActive(false);
+        }
+        
         _HeadImage.sprite = SpriteArray[_skinNumber];
         _HeadImageBlack.sprite = SpriteArray[_skinNumber];
         Debug.Log("skinPercent: " + _skinPercent);

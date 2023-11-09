@@ -29,23 +29,28 @@ public class HeroProgressScript : MonoBehaviour
 
         _PercentText = transform.Find("PercentText").GetComponent<TextMeshProUGUI>();
 
-        _HeadImage.sprite = SpriteArray[_skinNumber];
-        _HeadImageBlack.sprite = SpriteArray[_skinNumber];
-        if (_skinNumber == 8)
+        
+        if (_skinNumber == 6 || _skinNumber == 10 || _skinNumber == 11)
         {
             _HeadImage.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 0f, 0f);
             _HeadImageBlack.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 0f, 0f);
         }
 
+        _HeadImage.sprite = SpriteArray[_skinNumber];
+        _HeadImageBlack.sprite = SpriteArray[_skinNumber];
         Debug.Log("skinPercent: " + _skinPercent);
         win();
         Debug.Log(this.GetType().Name + " is started " + this.name);
+        Debug.Log("HERO PROGRESS ____________________________________");
+        Debug.Log(_skinNumber);
+        Debug.Log(SaveManager.CurrentState.NewSkinNumber);
+
     }
 
     private void checkNewSkin()
     {
         Debug.Log("SaveManager.CurrentState.NewSkinNumber " + SaveManager.CurrentState.NewSkinNumber);
-        if (SaveManager.CurrentState.NewSkinNumber == 3) SaveManager.CurrentState.NewSkinNumber += 3;
+        //if (SaveManager.CurrentState.NewSkinNumber == 3) SaveManager.CurrentState.NewSkinNumber += 3;
         if (SaveManager.CurrentState.OpenHeadSkin[SaveManager.CurrentState.NewSkinNumber])
         {
             SaveManager.CurrentState.NewSkinNumber++;

@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Runtime.InteropServices;
 using System;
 using System.Collections.Generic;
+using GameAnalyticsSDK;
 using UnityEngine.SceneManagement;
 
 
@@ -41,7 +42,14 @@ public class SaveManager: MonoBehaviour
         // Debug.Log(SaveManager.Instance.SavedData.OpenHeadSkin[7]);
         Debug.Log("--------STATE DATA LOADED----------------");
     }
-    
+
+    private void Start()
+    {
+        //Analytics
+        GameAnalytics.Initialize();
+
+    }
+
     public static SavedData CurrentState { get; private set; }
     private void LoadState(Action onLoadCompleted)
     {

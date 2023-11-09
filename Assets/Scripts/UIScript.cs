@@ -1,6 +1,7 @@
     using System.Collections;
 using System.Collections.Generic;
-using TMPro;
+    using GameAnalyticsSDK;
+    using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -83,6 +84,7 @@ public class UIScript : Sounds
 
         Debug.Log(this.GetType().Name + " is started " + this.name);
 
+        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Level " +  SceneManager.GetActiveScene().buildIndex);
 
     }
 
@@ -213,7 +215,8 @@ public class UIScript : Sounds
     }
     public void win()
     {
-        
+        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, "Level " + SceneManager.GetActiveScene().buildIndex);
+
         victoryPanel.SetActive(true);
         hideMainPanel();
         if(SaveManager.CurrentState.NewSkinPercent >= 80)
@@ -228,6 +231,7 @@ public class UIScript : Sounds
     }
     public void lose()
     {
+        GameAnalytics.NewProgressionEvent(GAProgressionStatus.Fail, "Level " + SceneManager.GetActiveScene().buildIndex);
         hideMainPanel();
         failPanel.SetActive(true);
     }

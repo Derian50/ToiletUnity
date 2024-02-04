@@ -156,8 +156,35 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 49 true.unity
     guid: a67dc93b4457f1d4fb5c2a612ee572cf
   - enabled: 1
-    path: Assets/Scenes/Level BeforeLast true.unity
+    path: Assets/Scenes/Level 50 true.unity
     guid: 6b2a34a5947fb2943be542c81b3d1f5f
+  - enabled: 1
+    path: Assets/Scenes/Level 51 true.unity
+    guid: 45130857c0f1e36459bfc894956cc850
+  - enabled: 1
+    path: Assets/Scenes/Level 52 true.unity
+    guid: ee8a5c95e110dd14fbebb3043cbdddfe
+  - enabled: 1
+    path: Assets/Scenes/Level 53 true.unity
+    guid: c1658871e3498bf449e0ee94034b2799
+  - enabled: 1
+    path: Assets/Scenes/Level 54 true.unity
+    guid: 8b0bb649c46192344aba23133749c741
+  - enabled: 1
+    path: Assets/Scenes/Level 55 true.unity
+    guid: 304fc463fbe00c94d8c20b07442f40dd
+  - enabled: 1
+    path: Assets/Scenes/Level 56 true.unity
+    guid: 2ec61fc962b778c41b61806fcbfd4ec6
+  - enabled: 1
+    path: Assets/Scenes/Level 57 true.unity
+    guid: fc0f61c2ceba0964496ce2811a782d4b
+  - enabled: 1
+    path: Assets/Scenes/Level 58 true.unity
+    guid: 2d720367aa4d69b47b47e2a19bbcd5ac
+  - enabled: 1
+    path: Assets/Scenes/Level 59 true.unity
+    guid: 372f07e0452fcd943b919b5421004d4b
   - enabled: 1
     path: Assets/Scenes/Level Last.unity
     guid: 0159ec1ffb487b44f8f7a49062236f66

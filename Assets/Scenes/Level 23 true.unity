@@ -1666,7 +1666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7490221832806871547, guid: ae7c766bef634ef408f72817032af5f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.72
+      value: -1.32
       objectReference: {fileID: 0}
     - target: {fileID: 7490221832806871547, guid: ae7c766bef634ef408f72817032af5f9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1973,7 +1973,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7225757733796809907, guid: 0a1e74e34d3d7e744a0188dfd7dcd408, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.36
+      value: -0.77
       objectReference: {fileID: 0}
     - target: {fileID: 7225757733796809907, guid: 0a1e74e34d3d7e744a0188dfd7dcd408, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2016,3 +2016,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a1e74e34d3d7e744a0188dfd7dcd408, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 239169339}
+  - {fileID: 624053772198061856}
+  - {fileID: 404961578}
+  - {fileID: 1927488546}
+  - {fileID: 1663425236}

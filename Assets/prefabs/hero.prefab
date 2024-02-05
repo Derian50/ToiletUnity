@@ -203,15 +203,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1090614256827580151, guid: 3fee6a126a21f5045b62ad5e0830b292, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1090614256827580151, guid: 3fee6a126a21f5045b62ad5e0830b292, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: a2a4e9437613db04d93411f9f13f82d2, type: 2}
     - target: {fileID: 3237598429979256516, guid: 3fee6a126a21f5045b62ad5e0830b292, type: 3}
       propertyPath: m_Name
       value: ScibidiHead
+      objectReference: {fileID: 0}
+    - target: {fileID: 5850311591646644770, guid: 3fee6a126a21f5045b62ad5e0830b292, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6916714495055087195, guid: 3fee6a126a21f5045b62ad5e0830b292, type: 3}
       propertyPath: m_RootOrder

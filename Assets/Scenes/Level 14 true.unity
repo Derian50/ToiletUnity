@@ -2142,6 +2142,14 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7490221832806871547, guid: ae7c766bef634ef408f72817032af5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7490221832806871547, guid: ae7c766bef634ef408f72817032af5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7490221832806871547, guid: ae7c766bef634ef408f72817032af5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.052
       objectReference: {fileID: 0}
@@ -2255,3 +2263,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74ba481c621c799438f3fc0e0a563de8, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 6128621465441275660}
+  - {fileID: 1762191721}
+  - {fileID: 5598913525574321514}
+  - {fileID: 763512102}

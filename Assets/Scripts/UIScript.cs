@@ -142,8 +142,11 @@ public class UIScript : Sounds
     public void restartLevel()
     {
         //PlaySound(sounds[0]);
-        var SceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(SceneIndex);
+        YaSDK.ShowFullscreenAdv(onClose: () =>
+        {
+            var SceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(SceneIndex);
+        });
     }
 
     public void ClaimButton()

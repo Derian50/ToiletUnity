@@ -220,6 +220,7 @@ public class UIScript : Sounds
     {
         GameAnalytics.NewProgressionEvent(GAProgressionStatus.Complete, "Level " + SceneManager.GetActiveScene().buildIndex);
 
+        SaveManager.CurrentState.Coins += 100;
         victoryPanel.SetActive(true);
         hideMainPanel();
         if(SaveManager.CurrentState.NewSkinPercent >= 80)
@@ -230,7 +231,6 @@ public class UIScript : Sounds
             OW.SetActive(false);
         }
         Invoke("unHideNoButton", 4);
-        SaveManager.CurrentState.Coins += 100;
 
 
     }

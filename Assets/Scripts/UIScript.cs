@@ -169,7 +169,7 @@ public class UIScript : Sounds
     {
         // var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         // SaveManager.Instance.SavedData.Coins += 100;
-        NextLevel(100);
+        NextLevel(0);
 
     }
     public void OpenShopButton()
@@ -200,7 +200,7 @@ public class UIScript : Sounds
     }
     private void NextLevel(int moneyReward)
     {
-        SaveManager.CurrentState.Coins += moneyReward;
+        SaveManager.CurrentState.Coins += moneyReward - 100;
         SaveManager.SaveState();
         var sceneIndex = SceneManager.GetActiveScene().buildIndex;
         if(SceneManager.sceneCountInBuildSettings - 1 == sceneIndex)
@@ -230,7 +230,9 @@ public class UIScript : Sounds
             OW.SetActive(false);
         }
         Invoke("unHideNoButton", 4);
-        
+        SaveManager.CurrentState.Coins += 100;
+
+
     }
     public void lose()
     {
